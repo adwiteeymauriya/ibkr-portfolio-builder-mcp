@@ -1,0 +1,6205 @@
+{
+  "_info": {
+    "description": "IB Scanner Reference - Complete guide to scanners and filters",
+    "usage": "Use 'code' in screeners.yaml. Filters narrow results. Check 'filters_by_instrument' for compatibility."
+  },
+  "scanners_by_category": {
+    "Bonds": [
+      {
+        "code": "FAR_MATURITY_DATE",
+        "name": "Maturity (Far-Near)",
+        "description": "Bonds with furthest maturity date",
+        "instruments": [
+          "Corporate Bonds",
+          "CDs",
+          "Agency Bonds",
+          "Treasuries",
+          "Municipal Bonds",
+          "Non-US Govt Bonds"
+        ]
+      },
+      {
+        "code": "NEAR_MATURITY_DATE",
+        "name": "Maturity (Near-Far)",
+        "description": "Bonds with nearest maturity date",
+        "instruments": [
+          "Corporate Bonds",
+          "CDs",
+          "Agency Bonds",
+          "Treasuries",
+          "Municipal Bonds",
+          "Non-US Govt Bonds"
+        ]
+      },
+      {
+        "code": "HIGH_COUPON_RATE",
+        "name": "Coupon Rate (High-Low)",
+        "description": "Bonds with highest coupon rate",
+        "instruments": [
+          "Corporate Bonds",
+          "CDs",
+          "Agency Bonds",
+          "Treasuries",
+          "Municipal Bonds",
+          "Non-US Govt Bonds"
+        ]
+      },
+      {
+        "code": "LOW_COUPON_RATE",
+        "name": "Coupon Rate (Low-High)",
+        "description": "Bonds with lowest coupon rate",
+        "instruments": [
+          "Corporate Bonds",
+          "CDs",
+          "Agency Bonds",
+          "Treasuries",
+          "Municipal Bonds",
+          "Non-US Govt Bonds"
+        ]
+      },
+      {
+        "code": "LOW_BOND_BID_YIELD_ALL",
+        "name": "Lowest Bid Yield",
+        "description": "Bonds with lowest bid yield",
+        "instruments": [
+          "Corporate Bonds",
+          "CDs",
+          "Agency Bonds",
+          "Treasuries",
+          "Municipal Bonds",
+          "Non-US Govt Bonds"
+        ]
+      },
+      {
+        "code": "HIGH_BOND_ASK_YIELD_ALL",
+        "name": "Highest Ask Yield",
+        "description": "Bonds with highest ask yield",
+        "instruments": [
+          "Corporate Bonds",
+          "CDs",
+          "Agency Bonds",
+          "Treasuries",
+          "Municipal Bonds",
+          "Non-US Govt Bonds"
+        ]
+      },
+      {
+        "code": "HIGH_BOND_SPREAD_ALL",
+        "name": "Highest Spread",
+        "description": "Bonds with highest spread",
+        "instruments": [
+          "Corporate Bonds",
+          "Agency Bonds",
+          "Treasuries",
+          "Municipal Bonds",
+          "Non-US Govt Bonds"
+        ]
+      },
+      {
+        "code": "LOW_BOND_SPREAD_ALL",
+        "name": "Lowest Spread",
+        "description": "Bonds with lowest spread",
+        "instruments": [
+          "Corporate Bonds",
+          "Agency Bonds",
+          "Treasuries",
+          "Municipal Bonds",
+          "Non-US Govt Bonds"
+        ]
+      },
+      {
+        "code": "BOND_CUSIP_AZ",
+        "name": "CUSIP (A-Z)",
+        "description": "CUSIP (A-Z)",
+        "instruments": [
+          "Corporate Bonds",
+          "CDs",
+          "Agency Bonds",
+          "Treasuries",
+          "Municipal Bonds",
+          "Non-US Govt Bonds"
+        ]
+      },
+      {
+        "code": "BOND_CUSIP_ZA",
+        "name": "CUSIP (Z-A)",
+        "description": "CUSIP (Z-A)",
+        "instruments": [
+          "Corporate Bonds",
+          "CDs",
+          "Agency Bonds",
+          "Treasuries",
+          "Municipal Bonds",
+          "Non-US Govt Bonds"
+        ]
+      },
+      {
+        "code": "HIGH_BOND_DEBT_2_EQUITY_RATIO",
+        "name": "High Debt/Equity",
+        "description": "Bonds from issuers with highest debt/equity",
+        "instruments": [
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "LOW_BOND_DEBT_2_EQUITY_RATIO",
+        "name": "Low Debt/Equity",
+        "description": "Bonds from issuers with lowest debt/equity",
+        "instruments": [
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "HIGH_BOND_DEBT_2_BOOK_RATIO",
+        "name": "High Debt/Book (Refinitiv)",
+        "description": "High Debt/Book (Refinitiv)",
+        "instruments": [
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "LOW_BOND_DEBT_2_BOOK_RATIO",
+        "name": "Low Debt/Book (Refinitiv)",
+        "description": "Low Debt/Book (Refinitiv)",
+        "instruments": [
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "HIGH_BOND_DEBT_2_TAN_BOOK_RATIO",
+        "name": "High Debt/Tang. Book (Refinitiv)",
+        "description": "High Debt/Tang. Book (Refinitiv)",
+        "instruments": [
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "LOW_BOND_DEBT_2_TAN_BOOK_RATIO",
+        "name": "Low Debt/Tang. Book (Refinitiv)",
+        "description": "Low Debt/Tang. Book (Refinitiv)",
+        "instruments": [
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "HIGH_BOND_EQUITY_2_BOOK_RATIO",
+        "name": "High Equity/Book (Refinitiv)",
+        "description": "High Equity/Book (Refinitiv)",
+        "instruments": [
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "LOW_BOND_EQUITY_2_BOOK_RATIO",
+        "name": "Low Equity/Book (Refinitiv)",
+        "description": "Low Equity/Book (Refinitiv)",
+        "instruments": [
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "HIGH_BOND_EQUITY_2_TAN_BOOK_RATIO",
+        "name": "High Equity/Tang. Book (Refinitiv)",
+        "description": "High Equity/Tang. Book (Refinitiv)",
+        "instruments": [
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "LOW_BOND_EQUITY_2_TAN_BOOK_RATIO",
+        "name": "Low Equity/Tang. Book (Refinitiv)",
+        "description": "Low Equity/Tang. Book (Refinitiv)",
+        "instruments": [
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperYieldToMaturity_DESC",
+        "name": "Yield to Maturity Desc",
+        "description": "Yield to Maturity Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperYieldToMaturity_ASC",
+        "name": "Yield to Maturity Asc",
+        "description": "Yield to Maturity Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperNominalMaturity_DESC",
+        "name": "Nominal Maturity Desc",
+        "description": "Nominal Maturity Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperNominalMaturity_ASC",
+        "name": "Nominal Maturity Asc",
+        "description": "Nominal Maturity Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperEffectiveMaturity_DESC",
+        "name": "Effective Maturity Desc",
+        "description": "Effective Maturity Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperEffectiveMaturity_ASC",
+        "name": "Effective Maturity Asc",
+        "description": "Effective Maturity Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAverageCoupon_DESC",
+        "name": "Average Coupon Desc",
+        "description": "Average Coupon Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAverageCoupon_ASC",
+        "name": "Average Coupon Asc",
+        "description": "Average Coupon Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      }
+    ],
+    "Other": [
+      {
+        "code": "HIGH_MOODY_RATING_ALL",
+        "name": "Moody Rating (High-Low)",
+        "description": "Bonds with highest Moody's rating",
+        "instruments": [
+          "Corporate Bonds",
+          "Municipal Bonds"
+        ]
+      },
+      {
+        "code": "LOW_MOODY_RATING_ALL",
+        "name": "Moody Rating (Low-High)",
+        "description": "Bonds with lowest Moody's rating",
+        "instruments": [
+          "Corporate Bonds",
+          "Municipal Bonds"
+        ]
+      },
+      {
+        "code": "HIGH_SP_RATING_ALL",
+        "name": "S&P Rating (High-Low)",
+        "description": "Bonds with highest S&P rating",
+        "instruments": [
+          "Corporate Bonds",
+          "Municipal Bonds"
+        ]
+      },
+      {
+        "code": "LOW_SP_RATING_ALL",
+        "name": "S&P Rating (Low-High)",
+        "description": "Bonds with lowest S&P rating",
+        "instruments": [
+          "Corporate Bonds",
+          "Municipal Bonds"
+        ]
+      },
+      {
+        "code": "TOP_PRICE_RANGE",
+        "name": "Top Price Range",
+        "description": "Stocks with the widest intraday price range",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Futures"
+        ]
+      },
+      {
+        "code": "SCAN_price2CashTTM_ASC",
+        "name": "Price To Cash Per Share (Refinitiv) Asc",
+        "description": "Price To Cash Per Share (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_price2CashTTM_DESC",
+        "name": "Price To Cash Per Share (Refinitiv) Desc",
+        "description": "Price To Cash Per Share (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_returnOnInvestmentTTM_ASC",
+        "name": "Return On Investment (Refinitiv) Asc",
+        "description": "Return On Investment (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_returnOnInvestmentTTM_DESC",
+        "name": "Return On Investment (Refinitiv) Desc",
+        "description": "Return On Investment (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_sharesAvailableNorm_ASC",
+        "name": "Shortable shares (Low-High)",
+        "description": "Shortable shares (Low-High)",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_sharesAvailableNorm_DESC",
+        "name": "Shortable shares (High-Low)",
+        "description": "Shortable shares (High-Low)",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_feeRate_ASC",
+        "name": "Fee Rate (Low-High)",
+        "description": "Fee Rate (Low-High)",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_feeRate_DESC",
+        "name": "Fee Rate (High-Low)",
+        "description": "Fee Rate (High-Low)",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_utilization_ASC",
+        "name": "Utilization (Low-High)",
+        "description": "Utilization (Low-High)",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_utilization_DESC",
+        "name": "Utilization (High-Low)",
+        "description": "Utilization (High-Low)",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_avgRating_ASC",
+        "name": "Avg Analyst Rating (Refinitiv) Asc",
+        "description": "Avg Analyst Rating (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_avgRating_DESC",
+        "name": "Avg Analyst Rating (Refinitiv) Desc",
+        "description": "Avg Analyst Rating (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_numRatings_ASC",
+        "name": "# of Analyst Ratings (Refinitiv) Asc",
+        "description": "# of Analyst Ratings (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_numRatings_DESC",
+        "name": "# of Analyst Ratings (Refinitiv) Desc",
+        "description": "# of Analyst Ratings (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_avgPriceTarget_ASC",
+        "name": "Avg Analyst Price Target (Refinitiv) Asc",
+        "description": "Avg Analyst Price Target (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_avgPriceTarget_DESC",
+        "name": "Avg Analyst Price Target (Refinitiv) Desc",
+        "description": "Avg Analyst Price Target (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_numPriceTargets_ASC",
+        "name": "# of Analyst Price Targets (Refinitiv) Asc",
+        "description": "# of Analyst Price Targets (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_numPriceTargets_DESC",
+        "name": "# of Analyst Price Targets (Refinitiv) Desc",
+        "description": "# of Analyst Price Targets (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_ihNumSharesInsider_ASC",
+        "name": "# Shares Held By Insider Asc",
+        "description": "# Shares Held By Insider Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_ihNumSharesInsider_DESC",
+        "name": "# Shares Held By Insider Desc",
+        "description": "# Shares Held By Insider Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_iiNumSharesInstitutional_ASC",
+        "name": "# Shares Held By Institutions Asc",
+        "description": "# Shares Held By Institutions Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_iiNumSharesInstitutional_DESC",
+        "name": "# Shares Held By Institutions Desc",
+        "description": "# Shares Held By Institutions Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "HIGH_LAST_VS_EMA20",
+        "name": "Price vs EMA(20) Change(%) (High-Low)",
+        "description": "Price vs EMA(20) Change(%) (High-Low)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "LOW_LAST_VS_EMA20",
+        "name": "Price vs EMA(20) Change(%) (Low-High)",
+        "description": "Price vs EMA(20) Change(%) (Low-High)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "HIGH_LAST_VS_EMA50",
+        "name": "Price vs EMA(50) Change(%) (High-Low)",
+        "description": "Price vs EMA(50) Change(%) (High-Low)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "LOW_LAST_VS_EMA50",
+        "name": "Price vs EMA(50) Change(%) (Low-High)",
+        "description": "Price vs EMA(50) Change(%) (Low-High)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "HIGH_LAST_VS_EMA100",
+        "name": "Price vs EMA(100) Change(%) (High-Low)",
+        "description": "Price vs EMA(100) Change(%) (High-Low)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "LOW_LAST_VS_EMA100",
+        "name": "Price vs EMA(100) Change(%) (Low-High)",
+        "description": "Price vs EMA(100) Change(%) (Low-High)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "HIGH_LAST_VS_EMA200",
+        "name": "Price vs EMA(200) Change(%) (High-Low)",
+        "description": "Price vs EMA(200) Change(%) (High-Low)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "LOW_LAST_VS_EMA200",
+        "name": "Price vs EMA(200) Change(%) (Low-High)",
+        "description": "Price vs EMA(200) Change(%) (Low-High)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "BULLISH_LAST_VS_EMA20",
+        "name": "Bullish Price vs EMA(20)",
+        "description": "Bullish Price vs EMA(20)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "BEARISH_LAST_VS_EMA20",
+        "name": "Bearish Price vs EMA(20)",
+        "description": "Bearish Price vs EMA(20)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "BULLISH_LAST_VS_EMA50",
+        "name": "Bullish Price vs EMA(50)",
+        "description": "Bullish Price vs EMA(50)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "BEARISH_LAST_VS_EMA50",
+        "name": "Bearish Price vs EMA(50)",
+        "description": "Bearish Price vs EMA(50)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "BULLISH_LAST_VS_EMA100",
+        "name": "Bullish Price vs EMA(100)",
+        "description": "Bullish Price vs EMA(100)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "BEARISH_LAST_VS_EMA100",
+        "name": "Bearish Price vs EMA(100)",
+        "description": "Bearish Price vs EMA(100)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "BULLISH_LAST_VS_EMA200",
+        "name": "Bullish Price vs EMA(200)",
+        "description": "Bullish Price vs EMA(200)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "BEARISH_LAST_VS_EMA200",
+        "name": "Bearish Price vs EMA(200)",
+        "description": "Bearish Price vs EMA(200)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "BULLISH_EMA_DIFF_VS_LAST",
+        "name": "Bullish EMA(20) vs EMA(200)",
+        "description": "Bullish EMA(20) vs EMA(200)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "BEARISH_EMA_DIFF_VS_LAST",
+        "name": "Bearish EMA(20) vs EMA(200)",
+        "description": "Bearish EMA(20) vs EMA(200)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "BULLISH_MACD_DIST_VS_LAST",
+        "name": "Bullish MACD Histogram",
+        "description": "Bullish MACD Histogram",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "BEARISH_MACD_DIST_VS_LAST",
+        "name": "Bearish MACD Histogram",
+        "description": "Bearish MACD Histogram",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "BULLISH_PPO_DIST",
+        "name": "Bullish PPO Histogram",
+        "description": "Bullish PPO Histogram",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "BEARISH_PPO_DIST",
+        "name": "Bearish PPO Histogram",
+        "description": "Bearish PPO Histogram",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_mfTotalReturnScoreOverall_DESC",
+        "name": "Total Return Score - Overall Desc",
+        "description": "Total Return Score - Overall Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfTotalReturnScoreOverall_ASC",
+        "name": "Total Return Score - Overall Asc",
+        "description": "Total Return Score - Overall Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfConsistentReturnScoreOverall_DESC",
+        "name": "Consistent Return Score - Overall Desc",
+        "description": "Consistent Return Score - Overall Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfConsistentReturnScoreOverall_ASC",
+        "name": "Consistent Return Score - Overall Asc",
+        "description": "Consistent Return Score - Overall Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfPreservationScoreOverall_DESC",
+        "name": "Preservation Score - Overall Desc",
+        "description": "Preservation Score - Overall Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfPreservationScoreOverall_ASC",
+        "name": "Preservation Score - Overall Asc",
+        "description": "Preservation Score - Overall Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfTaxEfficiencyScoreOverall_DESC",
+        "name": "Tax Efficiency Score - Overall Desc",
+        "description": "Tax Efficiency Score - Overall Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfTaxEfficiencyScoreOverall_ASC",
+        "name": "Tax Efficiency Score - Overall Asc",
+        "description": "Tax Efficiency Score - Overall Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfExpenseScoreOverall_DESC",
+        "name": "Expense Score - Overall Desc",
+        "description": "Expense Score - Overall Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfExpenseScoreOverall_ASC",
+        "name": "Expense Score - Overall Asc",
+        "description": "Expense Score - Overall Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfTotalReturnScore3yr_DESC",
+        "name": "Total Return Score - 3yr Desc",
+        "description": "Total Return Score - 3yr Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfTotalReturnScore3yr_ASC",
+        "name": "Total Return Score - 3yr Asc",
+        "description": "Total Return Score - 3yr Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfConsistentReturnScore3yr_DESC",
+        "name": "Consistent Return Score - 3yr Desc",
+        "description": "Consistent Return Score - 3yr Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfConsistentReturnScore3yr_ASC",
+        "name": "Consistent Return Score - 3yr Asc",
+        "description": "Consistent Return Score - 3yr Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfPreservationScore3yr_DESC",
+        "name": "Preservation Score - 3yr Desc",
+        "description": "Preservation Score - 3yr Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfPreservationScore3yr_ASC",
+        "name": "Preservation Score - 3yr Asc",
+        "description": "Preservation Score - 3yr Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfTaxEfficiencyScore3yr_DESC",
+        "name": "Tax Efficiency Score - 3yr Desc",
+        "description": "Tax Efficiency Score - 3yr Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfTaxEfficiencyScore3yr_ASC",
+        "name": "Tax Efficiency Score - 3yr Asc",
+        "description": "Tax Efficiency Score - 3yr Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfExpenseScore3yr_DESC",
+        "name": "Expense Score - 3yr Desc",
+        "description": "Expense Score - 3yr Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfExpenseScore3yr_ASC",
+        "name": "Expense Score - 3yr Asc",
+        "description": "Expense Score - 3yr Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfTotalReturnScore5yr_DESC",
+        "name": "Total Return Score - 5yr Desc",
+        "description": "Total Return Score - 5yr Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfTotalReturnScore5yr_ASC",
+        "name": "Total Return Score - 5yr Asc",
+        "description": "Total Return Score - 5yr Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfConsistentReturnScore5yr_DESC",
+        "name": "Consistent Return Score - 5yr Desc",
+        "description": "Consistent Return Score - 5yr Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfConsistentReturnScore5yr_ASC",
+        "name": "Consistent Return Score - 5yr Asc",
+        "description": "Consistent Return Score - 5yr Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfPreservationScore5yr_DESC",
+        "name": "Preservation Score - 5yr Desc",
+        "description": "Preservation Score - 5yr Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfPreservationScore5yr_ASC",
+        "name": "Preservation Score - 5yr Asc",
+        "description": "Preservation Score - 5yr Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfTaxEfficiencyScore5yr_DESC",
+        "name": "Tax Efficiency Score - 5yr Desc",
+        "description": "Tax Efficiency Score - 5yr Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfTaxEfficiencyScore5yr_ASC",
+        "name": "Tax Efficiency Score - 5yr Asc",
+        "description": "Tax Efficiency Score - 5yr Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfExpenseScore5yr_DESC",
+        "name": "Expense Score - 5yr Desc",
+        "description": "Expense Score - 5yr Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfExpenseScore5yr_ASC",
+        "name": "Expense Score - 5yr Asc",
+        "description": "Expense Score - 5yr Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfTotalReturnScore10yr_DESC",
+        "name": "Total Return Score - 10yr Desc",
+        "description": "Total Return Score - 10yr Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfTotalReturnScore10yr_ASC",
+        "name": "Total Return Score - 10yr Asc",
+        "description": "Total Return Score - 10yr Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfConsistentReturnScore10yr_DESC",
+        "name": "Consistent Return Score - 10yr Desc",
+        "description": "Consistent Return Score - 10yr Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfConsistentReturnScore10yr_ASC",
+        "name": "Consistent Return Score - 10yr Asc",
+        "description": "Consistent Return Score - 10yr Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfPreservationScore10yr_DESC",
+        "name": "Preservation Score - 10yr Desc",
+        "description": "Preservation Score - 10yr Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfPreservationScore10yr_ASC",
+        "name": "Preservation Score - 10yr Asc",
+        "description": "Preservation Score - 10yr Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfTaxEfficiencyScore10yr_DESC",
+        "name": "Tax Efficiency Score - 10yr Desc",
+        "description": "Tax Efficiency Score - 10yr Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfTaxEfficiencyScore10yr_ASC",
+        "name": "Tax Efficiency Score - 10yr Asc",
+        "description": "Tax Efficiency Score - 10yr Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfExpenseScore10yr_DESC",
+        "name": "Expense Score - 10yr Desc",
+        "description": "Expense Score - 10yr Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfExpenseScore10yr_ASC",
+        "name": "Expense Score - 10yr Asc",
+        "description": "Expense Score - 10yr Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfPriceChangeValue_DESC",
+        "name": "Price Change Value Desc",
+        "description": "Price Change Value Desc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_mfPriceChangeValue_ASC",
+        "name": "Price Change Value Asc",
+        "description": "Price Change Value Asc",
+        "instruments": [
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperTotalNetAssets_DESC",
+        "name": "Total Net Assets Desc",
+        "description": "Total Net Assets Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperTotalNetAssets_ASC",
+        "name": "Total Net Assets Asc",
+        "description": "Total Net Assets Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAnnualizedPerformance3yrValue_DESC",
+        "name": "Annualized Performance 3Yr Desc",
+        "description": "Annualized Performance 3Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAnnualizedPerformance3yrValue_ASC",
+        "name": "Annualized Performance 3Yr Asc",
+        "description": "Annualized Performance 3Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAnnualizedPerformance5yrValue_DESC",
+        "name": "Annualized Performance 5Yr Desc",
+        "description": "Annualized Performance 5Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAnnualizedPerformance5yrValue_ASC",
+        "name": "Annualized Performance 5Yr Asc",
+        "description": "Annualized Performance 5Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAnnualizedPerformance10yrValue_DESC",
+        "name": "Annualized Performance 10Yr Desc",
+        "description": "Annualized Performance 10Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAnnualizedPerformance10yrValue_ASC",
+        "name": "Annualized Performance 10Yr Asc",
+        "description": "Annualized Performance 10Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperPctChange_DESC",
+        "name": "Pct Change Desc",
+        "description": "Pct Change Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperPctChange_ASC",
+        "name": "Pct Change Asc",
+        "description": "Pct Change Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAdjustedRSquared1yr_DESC",
+        "name": "R-Squared Adjusted 1Yr Desc",
+        "description": "R-Squared Adjusted 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAdjustedRSquared1yr_ASC",
+        "name": "R-Squared Adjusted 1Yr Asc",
+        "description": "R-Squared Adjusted 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAlpha1yr_DESC",
+        "name": "Alpha 1Yr Desc",
+        "description": "Alpha 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAlpha1yr_ASC",
+        "name": "Alpha 1Yr Asc",
+        "description": "Alpha 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAverageLoss1yr_DESC",
+        "name": "Average Loss 1Yr Desc",
+        "description": "Average Loss 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAverageLoss1yr_ASC",
+        "name": "Average Loss 1Yr Asc",
+        "description": "Average Loss 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAverageReturn1yr_DESC",
+        "name": "Average Return 1Yr Desc",
+        "description": "Average Return 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAverageReturn1yr_ASC",
+        "name": "Average Return 1Yr Asc",
+        "description": "Average Return 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperBearBeta1yr_DESC",
+        "name": "Bear Beta 1Yr Desc",
+        "description": "Bear Beta 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperBearBeta1yr_ASC",
+        "name": "Bear Beta 1Yr Asc",
+        "description": "Bear Beta 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperBeta1yr_DESC",
+        "name": "Beta 1Yr Desc",
+        "description": "Beta 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperBeta1yr_ASC",
+        "name": "Beta 1Yr Asc",
+        "description": "Beta 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperBullBeta1yr_DESC",
+        "name": "Bull Beta 1Yr Desc",
+        "description": "Bull Beta 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperBullBeta1yr_ASC",
+        "name": "Bull Beta 1Yr Asc",
+        "description": "Bull Beta 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperDownsideDeviationPopulation1yr_DESC",
+        "name": "Downside Deviation 1Yr Desc",
+        "description": "Downside Deviation 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperDownsideDeviationPopulation1yr_ASC",
+        "name": "Downside Deviation 1Yr Asc",
+        "description": "Downside Deviation 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperMaxLoss1yr_DESC",
+        "name": "Max Loss 1Yr Desc",
+        "description": "Max Loss 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperMaxLoss1yr_ASC",
+        "name": "Max Loss 1Yr Asc",
+        "description": "Max Loss 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperMaximumDrawdown1yr_DESC",
+        "name": "Max Drawdown 1Yr Desc",
+        "description": "Max Drawdown 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperMaximumDrawdown1yr_ASC",
+        "name": "Max Drawdown 1Yr Asc",
+        "description": "Max Drawdown 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperPositivePeriods1yr_DESC",
+        "name": "Positive Periods 1Yr Desc",
+        "description": "Positive Periods 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperPositivePeriods1yr_ASC",
+        "name": "Positive Periods 1Yr Asc",
+        "description": "Positive Periods 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperRSquared1yr_DESC",
+        "name": "R-Squared 1Yr Desc",
+        "description": "R-Squared 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperRSquared1yr_ASC",
+        "name": "R-Squared 1Yr Asc",
+        "description": "R-Squared 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSRRI1yr_DESC",
+        "name": "Synthetic Risk and Reward Indicator 1Yr Desc",
+        "description": "Synthetic Risk and Reward Indicator 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSRRI1yr_ASC",
+        "name": "Synthetic Risk and Reward Indicator 1Yr Asc",
+        "description": "Synthetic Risk and Reward Indicator 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSemiDeviation1yr_DESC",
+        "name": "Semi Deviation 1Yr Desc",
+        "description": "Semi Deviation 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSemiDeviation1yr_ASC",
+        "name": "Semi Deviation 1Yr Asc",
+        "description": "Semi Deviation 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSemiVariance1yr_DESC",
+        "name": "Semi Variance 1Yr Desc",
+        "description": "Semi Variance 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSemiVariance1yr_ASC",
+        "name": "Semi Variance 1Yr Asc",
+        "description": "Semi Variance 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSortino1yr_DESC",
+        "name": "Sortino Ratio 1Yr Desc",
+        "description": "Sortino Ratio 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSortino1yr_ASC",
+        "name": "Sortino Ratio 1Yr Asc",
+        "description": "Sortino Ratio 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperStandardDeviation1yr_DESC",
+        "name": "Standard Deviation 1Yr Desc",
+        "description": "Standard Deviation 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperStandardDeviation1yr_ASC",
+        "name": "Standard Deviation 1Yr Asc",
+        "description": "Standard Deviation 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperTrackingError1yr_DESC",
+        "name": "Tracking Error 1Yr Desc",
+        "description": "Tracking Error 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperTrackingError1yr_ASC",
+        "name": "Tracking Error 1Yr Asc",
+        "description": "Tracking Error 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperValueAtRiskNormal1yr_DESC",
+        "name": "Value At Risk Normal 1Yr Desc",
+        "description": "Value At Risk Normal 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperValueAtRiskNormal1yr_ASC",
+        "name": "Value At Risk Normal 1Yr Asc",
+        "description": "Value At Risk Normal 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperValueAtRiskNormalETL1yr_DESC",
+        "name": "Value At Risk Normal End Tail Loss 1Yr Desc",
+        "description": "Value At Risk Normal End Tail Loss 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperValueAtRiskNormalETL1yr_ASC",
+        "name": "Value At Risk Normal End Tail Loss 1Yr Asc",
+        "description": "Value At Risk Normal End Tail Loss 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperValueAtRiskQuantile1yr_DESC",
+        "name": "Value At Risk Quantile 1Yr Desc",
+        "description": "Value At Risk Quantile 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperValueAtRiskQuantile1yr_ASC",
+        "name": "Value At Risk Quantile 1Yr Asc",
+        "description": "Value At Risk Quantile 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperValueAtRiskQuantileETL1yr_DESC",
+        "name": "Value At Risk Quantile End Tail Loss 1Yr Desc",
+        "description": "Value At Risk Quantile End Tail Loss 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperValueAtRiskQuantileETL1yr_ASC",
+        "name": "Value At Risk Quantile End Tail Loss 1Yr Asc",
+        "description": "Value At Risk Quantile End Tail Loss 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperVariance1yr_DESC",
+        "name": "Variance 1Yr Desc",
+        "description": "Variance 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperVariance1yr_ASC",
+        "name": "Variance 1Yr Asc",
+        "description": "Variance 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperNumberOfSecurities_DESC",
+        "name": "Number of Securities Desc",
+        "description": "Number of Securities Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperNumberOfSecurities_ASC",
+        "name": "Number of Securities Asc",
+        "description": "Number of Securities Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperEBIT2Interest_DESC",
+        "name": "EBIT to Interest Desc",
+        "description": "EBIT to Interest Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperEBIT2Interest_ASC",
+        "name": "EBIT to Interest Asc",
+        "description": "EBIT to Interest Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperMktCapAvgLatest_DESC",
+        "name": "Market Capitalisation - Avg. Latest Desc",
+        "description": "Market Capitalisation - Avg. Latest Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperMktCapAvgLatest_ASC",
+        "name": "Market Capitalisation - Avg. Latest Asc",
+        "description": "Market Capitalisation - Avg. Latest Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnAssets1yr_DESC",
+        "name": "Return on Assets 1Yr Desc",
+        "description": "Return on Assets 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnAssets1yr_ASC",
+        "name": "Return on Assets 1Yr Asc",
+        "description": "Return on Assets 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnAssets3yr_DESC",
+        "name": "Return on Assets 3Yr Desc",
+        "description": "Return on Assets 3Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnAssets3yr_ASC",
+        "name": "Return on Assets 3Yr Asc",
+        "description": "Return on Assets 3Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnInvestment1yr_DESC",
+        "name": "Return on Investment 1Yr Desc",
+        "description": "Return on Investment 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnInvestment1yr_ASC",
+        "name": "Return on Investment 1Yr Asc",
+        "description": "Return on Investment 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnInvestment3yr_DESC",
+        "name": "Return on Investment 3Yr Desc",
+        "description": "Return on Investment 3Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnInvestment3yr_ASC",
+        "name": "Return on Investment 3Yr Asc",
+        "description": "Return on Investment 3Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSales2TotalAssets_DESC",
+        "name": "Sales to Total Assets Desc",
+        "description": "Sales to Total Assets Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSales2TotalAssets_ASC",
+        "name": "Sales to Total Assets Asc",
+        "description": "Sales to Total Assets Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperTotalDebt2TotalCapital_DESC",
+        "name": "Total Debt / Total Capital Desc",
+        "description": "Total Debt / Total Capital Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperTotalDebt2TotalCapital_ASC",
+        "name": "Total Debt / Total Capital Asc",
+        "description": "Total Debt / Total Capital Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperPrice2Cash_DESC",
+        "name": "Price to Cash Desc",
+        "description": "Price to Cash Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperPrice2Cash_ASC",
+        "name": "Price to Cash Asc",
+        "description": "Price to Cash Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperRelativeStrength_DESC",
+        "name": "Relative Strength Desc",
+        "description": "Relative Strength Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperRelativeStrength_ASC",
+        "name": "Relative Strength Asc",
+        "description": "Relative Strength Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnCapital_DESC",
+        "name": "Return on Capital Desc",
+        "description": "Return on Capital Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnCapital_ASC",
+        "name": "Return on Capital Asc",
+        "description": "Return on Capital Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnCapital3yr_DESC",
+        "name": "Return on Capital 3Yr Desc",
+        "description": "Return on Capital 3Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnCapital3yr_ASC",
+        "name": "Return on Capital 3Yr Asc",
+        "description": "Return on Capital 3Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestCompositeZScore_DESC",
+        "name": "Composite Z-Score Latest Desc",
+        "description": "Composite Z-Score Latest Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestCompositeZScore_ASC",
+        "name": "Composite Z-Score Latest Asc",
+        "description": "Composite Z-Score Latest Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestPrice2BookZScore_DESC",
+        "name": "Price to Book Z-Score Latest Desc",
+        "description": "Price to Book Z-Score Latest Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestPrice2BookZScore_ASC",
+        "name": "Price to Book Z-Score Latest Asc",
+        "description": "Price to Book Z-Score Latest Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestPrice2SalesZScore_DESC",
+        "name": "Price/Sales Z-Score Latest Desc",
+        "description": "Price/Sales Z-Score Latest Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestPrice2SalesZScore_ASC",
+        "name": "Price/Sales Z-Score Latest Asc",
+        "description": "Price/Sales Z-Score Latest Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAverageFinalCompositeZScore_DESC",
+        "name": "Average Final Composite Z-Score Desc",
+        "description": "Average Final Composite Z-Score Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperAverageFinalCompositeZScore_ASC",
+        "name": "Average Final Composite Z-Score Asc",
+        "description": "Average Final Composite Z-Score Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperWeightedFinalCompositeZScore_DESC",
+        "name": "Weighted Final Composite Z-Score Desc",
+        "description": "Weighted Final Composite Z-Score Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperWeightedFinalCompositeZScore_ASC",
+        "name": "Weighted Final Composite Z-Score Asc",
+        "description": "Weighted Final Composite Z-Score Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_socialSentimentScore_ASC",
+        "name": "Social Sentiment Score Asc",
+        "description": "Social Sentiment Score Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_socialSentimentScore_DESC",
+        "name": "Social Sentiment Score Desc",
+        "description": "Social Sentiment Score Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_socialSentimentScoreChange_ASC",
+        "name": "Social Sentiment Score Change Asc",
+        "description": "Social Sentiment Score Change Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_socialSentimentScoreChange_DESC",
+        "name": "Social Sentiment Score Change Desc",
+        "description": "Social Sentiment Score Change Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_numShares_ASC",
+        "name": "Shares Outstanding Asc",
+        "description": "Shares Outstanding Asc",
+        "instruments": [
+          "US Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_numShares_DESC",
+        "name": "Shares Outstanding Desc",
+        "description": "Shares Outstanding Desc",
+        "instruments": [
+          "US Stocks"
+        ]
+      }
+    ],
+    "Price Movement": [
+      {
+        "code": "TOP_PERC_GAIN",
+        "name": "Top % Gainers",
+        "description": "Stocks with the highest percentage price gain today",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Indexes",
+          "Europe Indexes",
+          "Asia Indexes",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures",
+          "US Single Stock Futures",
+          "Americas SSFs",
+          "Europe SSFs",
+          "Asia SSFs",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "TOP_PERC_LOSE",
+        "name": "Top % Losers",
+        "description": "Stocks with the highest percentage price loss today",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Indexes",
+          "Europe Indexes",
+          "Asia Indexes",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures",
+          "US Single Stock Futures",
+          "Americas SSFs",
+          "Europe SSFs",
+          "Asia SSFs",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_ihInsiderOfFloatPerc_ASC",
+        "name": "Insider Shares as % of Float Asc",
+        "description": "Insider Shares as % of Float Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_ihInsiderOfFloatPerc_DESC",
+        "name": "Insider Shares as % of Float Desc",
+        "description": "Insider Shares as % of Float Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_iiInstitutionalOfFloatPerc_ASC",
+        "name": "Institutional Shares as % of Float Asc",
+        "description": "Institutional Shares as % of Float Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_iiInstitutionalOfFloatPerc_DESC",
+        "name": "Institutional Shares as % of Float Desc",
+        "description": "Institutional Shares as % of Float Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_lipperCovariance1yr_DESC",
+        "name": "CoVariance 1Yr Desc",
+        "description": "CoVariance 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperCovariance1yr_ASC",
+        "name": "CoVariance 1Yr Asc",
+        "description": "CoVariance 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperCorrelation1yr_DESC",
+        "name": "Correlation 1Yr Desc",
+        "description": "Correlation 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperCorrelation1yr_ASC",
+        "name": "Correlation 1Yr Asc",
+        "description": "Correlation 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperMaxGain1yr_DESC",
+        "name": "Max Gain 1Yr Desc",
+        "description": "Max Gain 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperMaxGain1yr_ASC",
+        "name": "Max Gain 1Yr Asc",
+        "description": "Max Gain 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperCalculatedAverageQuality_DESC",
+        "name": "Calculated Average Quality Desc",
+        "description": "Calculated Average Quality Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperCalculatedAverageQuality_ASC",
+        "name": "Calculated Average Quality Asc",
+        "description": "Calculated Average Quality Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_ivPercntl13w_ASC",
+        "name": "13 Week IV Percentile Asc",
+        "description": "13 Week IV Percentile Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_ivPercntl13w_DESC",
+        "name": "13 Week IV Percentile Desc",
+        "description": "13 Week IV Percentile Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_ivPercntl26w_ASC",
+        "name": "26 Week IV Percentile Asc",
+        "description": "26 Week IV Percentile Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_ivPercntl26w_DESC",
+        "name": "26 Week IV Percentile Desc",
+        "description": "26 Week IV Percentile Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_ivPercntl52w_ASC",
+        "name": "52 Week IV Percentile Asc",
+        "description": "52 Week IV Percentile Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_ivPercntl52w_DESC",
+        "name": "52 Week IV Percentile Desc",
+        "description": "52 Week IV Percentile Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_hvPercntl13w_ASC",
+        "name": "13 Week HV Percentile Asc",
+        "description": "13 Week HV Percentile Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_hvPercntl13w_DESC",
+        "name": "13 Week HV Percentile Desc",
+        "description": "13 Week HV Percentile Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_hvPercntl26w_ASC",
+        "name": "26 Week HV Percentile Asc",
+        "description": "26 Week HV Percentile Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_hvPercntl26w_DESC",
+        "name": "26 Week HV Percentile Desc",
+        "description": "26 Week HV Percentile Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_hvPercntl52w_ASC",
+        "name": "52 Week HV Percentile Asc",
+        "description": "52 Week HV Percentile Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_hvPercntl52w_DESC",
+        "name": "52 Week HV Percentile Desc",
+        "description": "52 Week HV Percentile Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      }
+    ],
+    "Volume & Activity": [
+      {
+        "code": "MOST_ACTIVE",
+        "name": "Most Active",
+        "description": "Stocks with highest trading volume today",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures",
+          "US Single Stock Futures",
+          "Americas SSFs",
+          "Europe SSFs",
+          "Asia SSFs",
+          "Corporate Bonds",
+          "Stock Loans",
+          "US Options"
+        ]
+      },
+      {
+        "code": "NOT_YET_TRADED_TODAY",
+        "name": "Not Yet Traded Today",
+        "description": "Stocks that haven't traded yet today",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures"
+        ]
+      },
+      {
+        "code": "MOST_ACTIVE_USD",
+        "name": "Most Active ($)",
+        "description": "Stocks with highest dollar volume traded today",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures",
+          "US Single Stock Futures",
+          "Americas SSFs",
+          "Europe SSFs",
+          "Asia SSFs",
+          "Stock Loans",
+          "US Options"
+        ]
+      },
+      {
+        "code": "MOST_ACTIVE_AVG_USD",
+        "name": "Most Active (Avg $)",
+        "description": "Stocks with highest average dollar volume",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "HOT_BY_VOLUME",
+        "name": "Hot Contracts by Volume",
+        "description": "Stocks with unusual volume compared to their average",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "TOP_TRADE_COUNT",
+        "name": "Top Trade Count",
+        "description": "Stocks with the most number of trades today",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures",
+          "US Single Stock Futures",
+          "Americas SSFs",
+          "Europe SSFs",
+          "Asia SSFs",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "TOP_TRADE_RATE",
+        "name": "Top Trade Rate",
+        "description": "Stocks with fastest trade rate (trades per minute)",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures",
+          "US Single Stock Futures",
+          "Americas SSFs",
+          "Europe SSFs",
+          "Asia SSFs",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "TOP_VOLUME_RATE",
+        "name": "Top Volume Rate",
+        "description": "Stocks with fastest volume rate",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures"
+        ]
+      },
+      {
+        "code": "HIGH_STVOLUME_3MIN",
+        "name": "High 3min Volume",
+        "description": "Stocks with highest volume in last 3 minutes",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures",
+          "US Single Stock Futures",
+          "Americas SSFs",
+          "Europe SSFs",
+          "Asia SSFs"
+        ]
+      },
+      {
+        "code": "HIGH_STVOLUME_5MIN",
+        "name": "High 5min Volume",
+        "description": "Stocks with highest volume in last 5 minutes",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures",
+          "US Single Stock Futures",
+          "Americas SSFs",
+          "Europe SSFs",
+          "Asia SSFs"
+        ]
+      },
+      {
+        "code": "HIGH_STVOLUME_10MIN",
+        "name": "High 10min Volume",
+        "description": "Stocks with highest volume in last 10 minutes",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures",
+          "US Single Stock Futures",
+          "Americas SSFs",
+          "Europe SSFs",
+          "Asia SSFs"
+        ]
+      },
+      {
+        "code": "FIRST_TRADE_DATE_ASC",
+        "name": "Upcoming IPO Date Asc",
+        "description": "Upcoming IPOs (earliest first)",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "FIRST_TRADE_DATE_DESC",
+        "name": "Upcoming IPO Date Desc",
+        "description": "Recent IPOs (most recent first)",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "COMBO_LATEST_TRADE",
+        "name": "Trades",
+        "description": "Trades",
+        "instruments": [
+          "NATCOMB"
+        ]
+      },
+      {
+        "code": "COMBO_MOST_ACTIVE",
+        "name": "Volume",
+        "description": "Volume",
+        "instruments": [
+          "NATCOMB"
+        ]
+      },
+      {
+        "code": "COMBO_ALL_TRADE_TIME_ASC",
+        "name": "All (Trade Time Asc)",
+        "description": "All (Trade Time Asc)",
+        "instruments": [
+          "NATCOMB"
+        ]
+      },
+      {
+        "code": "COMBO_ALL_TRADE_TIME_DESC",
+        "name": "All (Trade Time Desc)",
+        "description": "All (Trade Time Desc)",
+        "instruments": [
+          "NATCOMB"
+        ]
+      },
+      {
+        "code": "COMBO_ALL_TRADE_QUOTE_TIME_ASC",
+        "name": "All (Time Asc)",
+        "description": "All (Time Asc)",
+        "instruments": [
+          "NATCOMB"
+        ]
+      },
+      {
+        "code": "COMBO_ALL_TRADE_QUOTE_TIME_DESC",
+        "name": "All (Time Desc)",
+        "description": "All (Time Desc)",
+        "instruments": [
+          "NATCOMB"
+        ]
+      },
+      {
+        "code": "COMBO_ALL_VOLUME_ASC",
+        "name": "All (Volume Asc)",
+        "description": "All (Volume Asc)",
+        "instruments": [
+          "NATCOMB"
+        ]
+      },
+      {
+        "code": "COMBO_ALL_VOLUME_DESC",
+        "name": "All (Volume Desc)",
+        "description": "All (Volume Desc)",
+        "instruments": [
+          "NATCOMB"
+        ]
+      },
+      {
+        "code": "SCAN_tweetVolumeScore_ASC",
+        "name": "Tweet Volume Score Asc",
+        "description": "Tweet Volume Score Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_tweetVolumeScore_DESC",
+        "name": "Tweet Volume Score Desc",
+        "description": "Tweet Volume Score Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_tweetVolumeScoreChange_ASC",
+        "name": "Tweet Volume Score Change Asc",
+        "description": "Tweet Volume Score Change Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_tweetVolumeScoreChange_DESC",
+        "name": "Tweet Volume Score Change Desc",
+        "description": "Tweet Volume Score Change Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      }
+    ],
+    "Trading Status": [
+      {
+        "code": "HALTED",
+        "name": "Halted",
+        "description": "Stocks currently halted from trading",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures",
+          "US Single Stock Futures",
+          "Americas SSFs",
+          "Europe SSFs",
+          "Asia SSFs"
+        ]
+      },
+      {
+        "code": "LIMIT_UP_DOWN",
+        "name": "Closest to Limit Up/Down",
+        "description": "Stocks closest to their limit up/down price bands",
+        "instruments": [
+          "US Stocks",
+          "US Futures"
+        ]
+      }
+    ],
+    "Hot Contracts": [
+      {
+        "code": "HOT_BY_PRICE",
+        "name": "Hot Contracts by Price",
+        "description": "Stocks with unusual price movement",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures",
+          "US Single Stock Futures",
+          "Americas SSFs",
+          "Europe SSFs",
+          "Asia SSFs"
+        ]
+      },
+      {
+        "code": "HOT_BY_PRICE_RANGE",
+        "name": "Hot By Price Range",
+        "description": "Stocks with unusual intraday price range",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures"
+        ]
+      }
+    ],
+    "Dividends": [
+      {
+        "code": "HIGH_DIVIDEND_YIELD_IB",
+        "name": "High Dividend Yield",
+        "description": "Stocks with highest dividend yield",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_lipperDistributionYield1yrValue_DESC",
+        "name": "Distribution Yield 1Yr Desc",
+        "description": "Distribution Yield 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperDistributionYield1yrValue_ASC",
+        "name": "Distribution Yield 1Yr Asc",
+        "description": "Distribution Yield 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperYieldValue_DESC",
+        "name": "Yield 1Yr Desc",
+        "description": "Yield 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperYieldValue_ASC",
+        "name": "Yield 1Yr Asc",
+        "description": "Yield 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperProjectedYieldValue_DESC",
+        "name": "Projected Yield Value Desc",
+        "description": "Projected Yield Value Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperProjectedYieldValue_ASC",
+        "name": "Projected Yield Value Asc",
+        "description": "Projected Yield Value Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperDividendPayoutRatio_DESC",
+        "name": "Dividend Payout Ratio Desc",
+        "description": "Dividend Payout Ratio Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperDividendPayoutRatio_ASC",
+        "name": "Dividend Payout Ratio Asc",
+        "description": "Dividend Payout Ratio Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperDividendPayoutRatio5yr_DESC",
+        "name": "Dividend Payout Ratio - 5Yr Desc",
+        "description": "Dividend Payout Ratio - 5Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperDividendPayoutRatio5yr_ASC",
+        "name": "Dividend Payout Ratio - 5Yr Asc",
+        "description": "Dividend Payout Ratio - 5Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperDividendPerShare1yr_DESC",
+        "name": "Dividend Per Share 1Yr Desc",
+        "description": "Dividend Per Share 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperDividendPerShare1yr_ASC",
+        "name": "Dividend Per Share 1Yr Asc",
+        "description": "Dividend Per Share 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperDividendPerShare3yr_DESC",
+        "name": "Dividend Per Share 3Yr Desc",
+        "description": "Dividend Per Share 3Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperDividendPerShare3yr_ASC",
+        "name": "Dividend Per Share 3Yr Asc",
+        "description": "Dividend Per Share 3Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperPrice2Dividend_DESC",
+        "name": "Price to Dividend Desc",
+        "description": "Price to Dividend Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperPrice2Dividend_ASC",
+        "name": "Price to Dividend Asc",
+        "description": "Price to Dividend Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperDividendYieldWAvg_DESC",
+        "name": "Dividend Yield Weighted Average Desc",
+        "description": "Dividend Yield Weighted Average Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperDividendYieldWAvg_ASC",
+        "name": "Dividend Yield Weighted Average Asc",
+        "description": "Dividend Yield Weighted Average Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperDividendYieldZScore_DESC",
+        "name": "Dividend Yield Z-Score Latest Desc",
+        "description": "Dividend Yield Z-Score Latest Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperDividendYieldZScore_ASC",
+        "name": "Dividend Yield Z-Score Latest Asc",
+        "description": "Dividend Yield Z-Score Latest Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      }
+    ],
+    "Gap & Open": [
+      {
+        "code": "TOP_OPEN_PERC_GAIN",
+        "name": "Top % Gainers Since Open",
+        "description": "Stocks with highest % gain since market open",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures"
+        ]
+      },
+      {
+        "code": "TOP_OPEN_PERC_LOSE",
+        "name": "Top % Losers Since Open",
+        "description": "Stocks with highest % loss since market open",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures"
+        ]
+      },
+      {
+        "code": "HIGH_OPEN_GAP",
+        "name": "Top Close-to-Open % Gainers",
+        "description": "Stocks that gapped up the most from previous close to open",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures"
+        ]
+      },
+      {
+        "code": "LOW_OPEN_GAP",
+        "name": "Top Close-to-Open % Losers",
+        "description": "Stocks that gapped down the most from previous close to open",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Futures",
+          "Americas Futures",
+          "Europe Futures",
+          "Asia Futures"
+        ]
+      }
+    ],
+    "After Hours": [
+      {
+        "code": "TOP_AFTER_HOURS_PERC_GAIN",
+        "name": "Top % After-Hours Gainers",
+        "description": "Top percentage gainers in after-hours trading",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "TOP_AFTER_HOURS_PERC_LOSE",
+        "name": "Top % After-Hours Losers",
+        "description": "Top percentage losers in after-hours trading",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      }
+    ],
+    "Options & Volatility": [
+      {
+        "code": "HIGH_OPT_IMP_VOLAT",
+        "name": "Highest Option Imp Vol",
+        "description": "Stocks with highest options implied volatility",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Indexes",
+          "Europe Indexes",
+          "Asia Indexes"
+        ]
+      },
+      {
+        "code": "LOW_OPT_IMP_VOLAT",
+        "name": "Lowest Option Imp Vol",
+        "description": "Stocks with lowest options implied volatility",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Indexes",
+          "Europe Indexes",
+          "Asia Indexes"
+        ]
+      },
+      {
+        "code": "TOP_OPT_IMP_VOLAT_GAIN",
+        "name": "Top Option Imp Vol % Gainers",
+        "description": "Stocks with biggest increase in implied volatility",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Indexes",
+          "Europe Indexes",
+          "Asia Indexes"
+        ]
+      },
+      {
+        "code": "TOP_OPT_IMP_VOLAT_LOSE",
+        "name": "Top Option Imp Vol % Losers",
+        "description": "Stocks with biggest decrease in implied volatility",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Indexes",
+          "Europe Indexes",
+          "Asia Indexes"
+        ]
+      },
+      {
+        "code": "HIGH_OPT_IMP_VOLAT_OVER_HIST",
+        "name": "High Option Imp Vol Over Historical",
+        "description": "Stocks where implied vol is highest vs historical vol",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Indexes",
+          "Europe Indexes",
+          "Asia Indexes"
+        ]
+      },
+      {
+        "code": "LOW_OPT_IMP_VOLAT_OVER_HIST",
+        "name": "Low Option Imp Vol Over Historical",
+        "description": "Stocks where implied vol is lowest vs historical vol",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Indexes",
+          "Europe Indexes",
+          "Asia Indexes"
+        ]
+      },
+      {
+        "code": "OPT_VOLUME_MOST_ACTIVE",
+        "name": "Most Active By Opt Volume",
+        "description": "Stocks with highest options trading volume",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Indexes",
+          "Asia Stocks",
+          "US Futures"
+        ]
+      },
+      {
+        "code": "OPT_OPEN_INTEREST_MOST_ACTIVE",
+        "name": "Most Active By Opt Open Interest",
+        "description": "Stocks with highest options open interest",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Indexes",
+          "Asia Stocks",
+          "US Futures",
+          "IND.FCASTX"
+        ]
+      },
+      {
+        "code": "HIGH_OPT_VOLUME_PUT_CALL_RATIO",
+        "name": "High Opt Volume P/C Ratio",
+        "description": "Stocks with highest put/call volume ratio (bearish sentiment)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Indexes",
+          "Asia Stocks",
+          "US Futures"
+        ]
+      },
+      {
+        "code": "LOW_OPT_VOLUME_PUT_CALL_RATIO",
+        "name": "Low Opt Volume P/C Ratio",
+        "description": "Stocks with lowest put/call volume ratio (bullish sentiment)",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Indexes",
+          "Asia Stocks",
+          "US Futures"
+        ]
+      },
+      {
+        "code": "HIGH_OPT_OPEN_INTEREST_PUT_CALL_RATIO",
+        "name": "High Opt Open Interest P/C Ratio",
+        "description": "Stocks with highest put/call open interest ratio",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Indexes",
+          "Asia Stocks",
+          "US Futures"
+        ]
+      },
+      {
+        "code": "LOW_OPT_OPEN_INTEREST_PUT_CALL_RATIO",
+        "name": "Low Opt Open Interest P/C Ratio",
+        "description": "Stocks with lowest put/call open interest ratio",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Indexes",
+          "Asia Stocks",
+          "US Futures"
+        ]
+      },
+      {
+        "code": "HOT_BY_OPT_VOLUME",
+        "name": "Hot By Opt Volume",
+        "description": "Stocks with unusual options volume",
+        "instruments": [
+          "US Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "US Indexes",
+          "Asia Stocks"
+        ]
+      }
+    ],
+    "Fundamentals": [
+      {
+        "code": "TOP_STOCK_BUY_IMBALANCE_ADV_RATIO",
+        "name": "Hot by Buy Imbalance",
+        "description": "Stocks with highest buy order imbalance",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "TOP_STOCK_SELL_IMBALANCE_ADV_RATIO",
+        "name": "Hot by Sell Imbalance",
+        "description": "Stocks with highest sell order imbalance",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "TOP_STOCK_BUY_REG_IMBALANCE_ADV_RATIO",
+        "name": "Hot by Buy Regulatory Imbalance",
+        "description": "Stocks with highest regulatory buy imbalance",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "TOP_STOCK_SELL_REG_IMBALANCE_ADV_RATIO",
+        "name": "Hot by Sell Regulatory Imbalance",
+        "description": "Stocks with highest regulatory sell imbalance",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "HIGH_GROWTH_RATE",
+        "name": "High Growth Rate (Refinitiv)",
+        "description": "Stocks with highest earnings growth rate",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "LOW_GROWTH_RATE",
+        "name": "Low Growth Rate (Refinitiv)",
+        "description": "Stocks with lowest earnings growth rate",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "HIGH_PE_RATIO",
+        "name": "High P/E Ratio (Refinitiv)",
+        "description": "Stocks with highest P/E ratio",
+        "instruments": [
+          "US Stocks"
+        ]
+      },
+      {
+        "code": "LOW_PE_RATIO",
+        "name": "Low P/E Ratio (Refinitiv)",
+        "description": "Stocks with lowest P/E ratio",
+        "instruments": [
+          "US Stocks"
+        ]
+      },
+      {
+        "code": "HIGH_QUICK_RATIO",
+        "name": "High Quick Ratio (Refinitiv)",
+        "description": "Stocks with highest quick ratio (liquidity)",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "LOW_QUICK_RATIO",
+        "name": "Low Quick Ratio (Refinitiv)",
+        "description": "Stocks with lowest quick ratio",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "HIGH_RETURN_ON_EQUITY",
+        "name": "High Return On Equity (Refinitiv)",
+        "description": "Stocks with highest return on equity",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "LOW_RETURN_ON_EQUITY",
+        "name": "Low Return On Equity (Refinitiv)",
+        "description": "Stocks with lowest return on equity",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "HIGH_PRICE_2_BOOK_RATIO",
+        "name": "High Price/Book Ratio (Refinitiv)",
+        "description": "Stocks with highest price-to-book ratio",
+        "instruments": [
+          "US Stocks"
+        ]
+      },
+      {
+        "code": "LOW_PRICE_2_BOOK_RATIO",
+        "name": "Low Price/Book Ratio (Refinitiv)",
+        "description": "Stocks with lowest price-to-book ratio",
+        "instruments": [
+          "US Stocks"
+        ]
+      },
+      {
+        "code": "HIGH_PRICE_2_TAN_BOOK_RATIO",
+        "name": "High Price/Tang. Book Ratio (Refinitiv)",
+        "description": "Stocks with highest price-to-tangible-book ratio",
+        "instruments": [
+          "US Stocks"
+        ]
+      },
+      {
+        "code": "LOW_PRICE_2_TAN_BOOK_RATIO",
+        "name": "Low Price/Tang. Book Ratio (Refinitiv)",
+        "description": "Stocks with lowest price-to-tangible-book ratio",
+        "instruments": [
+          "US Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_epsChangeTTM_ASC",
+        "name": "EPS Chg TTM % (Refinitiv) Asc",
+        "description": "EPS Chg TTM % (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_epsChangeTTM_DESC",
+        "name": "EPS Chg TTM % (Refinitiv) Desc",
+        "description": "EPS Chg TTM % (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_revChange_ASC",
+        "name": "Rev Change(%) (Refinitiv) Asc",
+        "description": "Rev Change(%) (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_revChange_DESC",
+        "name": "Rev Change(%) (Refinitiv) Desc",
+        "description": "Rev Change(%) (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_revGrowthRate5Y_ASC",
+        "name": "Revenue Growth Rate 5Y (Refinitiv) Asc",
+        "description": "Revenue Growth Rate 5Y (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_revGrowthRate5Y_DESC",
+        "name": "Revenue Growth Rate 5Y (Refinitiv) Desc",
+        "description": "Revenue Growth Rate 5Y (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_payoutRatioTTM_ASC",
+        "name": "Payout Ratio TTM (Refinitiv) Asc",
+        "description": "Payout Ratio TTM (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_payoutRatioTTM_DESC",
+        "name": "Payout Ratio TTM (Refinitiv) Desc",
+        "description": "Payout Ratio TTM (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_operatingMarginTTM_ASC",
+        "name": "Operating Margin (Refinitiv) Asc",
+        "description": "Operating Margin (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_operatingMarginTTM_DESC",
+        "name": "Operating Margin (Refinitiv) Desc",
+        "description": "Operating Margin (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_netProfitMarginTTM_ASC",
+        "name": "Net Profit Margin(%) (Refinitiv) Asc",
+        "description": "Net Profit Margin(%) (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_netProfitMarginTTM_DESC",
+        "name": "Net Profit Margin(%) (Refinitiv) Desc",
+        "description": "Net Profit Margin(%) (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_avgAnalystTarget2PriceRatio_ASC",
+        "name": "Analyst Target/Price Ratio (Refinitiv) Asc",
+        "description": "Analyst Target/Price Ratio (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_avgAnalystTarget2PriceRatio_DESC",
+        "name": "Analyst Target/Price Ratio (Refinitiv) Desc",
+        "description": "Analyst Target/Price Ratio (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_lipperTotalExpenseRatio_DESC",
+        "name": "Total Expense Ratio Desc",
+        "description": "Total Expense Ratio Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperTotalExpenseRatio_ASC",
+        "name": "Total Expense Ratio Asc",
+        "description": "Total Expense Ratio Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperPercentageGrowthCumulativeValue_DESC",
+        "name": "Percentage Growth Cumulative Desc",
+        "description": "Percentage Growth Cumulative Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperPercentageGrowthCumulativeValue_ASC",
+        "name": "Percentage Growth Cumulative Asc",
+        "description": "Percentage Growth Cumulative Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperInformationRatio1yr_DESC",
+        "name": "Information Ratio 1Yr Desc",
+        "description": "Information Ratio 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperInformationRatio1yr_ASC",
+        "name": "Information Ratio 1Yr Asc",
+        "description": "Information Ratio 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnRiskRatio1yr_DESC",
+        "name": "Return Risk Ratio 1Yr Desc",
+        "description": "Return Risk Ratio 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnRiskRatio1yr_ASC",
+        "name": "Return Risk Ratio 1Yr Asc",
+        "description": "Return Risk Ratio 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSharpeRatio1yr_DESC",
+        "name": "Sharpe Ratio 1Yr Desc",
+        "description": "Sharpe Ratio 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSharpeRatio1yr_ASC",
+        "name": "Sharpe Ratio 1Yr Asc",
+        "description": "Sharpe Ratio 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperTreynorRatio1yr_DESC",
+        "name": "Treynor Ratio 1Yr Desc",
+        "description": "Treynor Ratio 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperTreynorRatio1yr_ASC",
+        "name": "Treynor Ratio 1Yr Asc",
+        "description": "Treynor Ratio 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperOperCashFlowGrowthRate3yr_DESC",
+        "name": "Operating Cash Flow - Growth Rate 3Yr Desc",
+        "description": "Operating Cash Flow - Growth Rate 3Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperOperCashFlowGrowthRate3yr_ASC",
+        "name": "Operating Cash Flow - Growth Rate 3Yr Asc",
+        "description": "Operating Cash Flow - Growth Rate 3Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSalesGrowth1yr_DESC",
+        "name": "Sales Growth 1Yr Desc",
+        "description": "Sales Growth 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSalesGrowth1yr_ASC",
+        "name": "Sales Growth 1Yr Asc",
+        "description": "Sales Growth 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSalesGrowth3yr_DESC",
+        "name": "Sales Growth 3Yr Desc",
+        "description": "Sales Growth 3Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSalesGrowth3yr_ASC",
+        "name": "Sales Growth 3Yr Asc",
+        "description": "Sales Growth 3Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSalesGrowth5yr_DESC",
+        "name": "Sales Growth 5Yr Desc",
+        "description": "Sales Growth 5Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSalesGrowth5yr_ASC",
+        "name": "Sales Growth 5Yr Asc",
+        "description": "Sales Growth 5Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestPrice2EarningsRatio_DESC",
+        "name": "Price/Earnings Ratio Latest Desc",
+        "description": "Price/Earnings Ratio Latest Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestPrice2EarningsRatio_ASC",
+        "name": "Price/Earnings Ratio Latest Asc",
+        "description": "Price/Earnings Ratio Latest Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestPrice2BookRatio_DESC",
+        "name": "Price/Book Ratio Latest Desc",
+        "description": "Price/Book Ratio Latest Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestPrice2BookRatio_ASC",
+        "name": "Price/Book Ratio Latest Asc",
+        "description": "Price/Book Ratio Latest Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestPrice2SalesRatio_DESC",
+        "name": "Price/Sales Ratio Latest Desc",
+        "description": "Price/Sales Ratio Latest Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestPrice2SalesRatio_ASC",
+        "name": "Price/Sales Ratio Latest Asc",
+        "description": "Price/Sales Ratio Latest Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestReturnOnEquityWAvg_DESC",
+        "name": "Return on Equity Weighted Average Latest Desc",
+        "description": "Return on Equity Weighted Average Latest Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestReturnOnEquityWAvg_ASC",
+        "name": "Return on Equity Weighted Average Latest Asc",
+        "description": "Return on Equity Weighted Average Latest Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestSalesPerShareGrowth3yr_DESC",
+        "name": "Sales Per Share Growth 3Yr Latest Desc",
+        "description": "Sales Per Share Growth 3Yr Latest Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestSalesPerShareGrowth3yr_ASC",
+        "name": "Sales Per Share Growth 3Yr Latest Asc",
+        "description": "Sales Per Share Growth 3Yr Latest Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLTDebt2ShareholdersEquity_DESC",
+        "name": "LT Debt / Shareholders Equity Desc",
+        "description": "LT Debt / Shareholders Equity Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLTDebt2ShareholdersEquity_ASC",
+        "name": "LT Debt / Shareholders Equity Asc",
+        "description": "LT Debt / Shareholders Equity Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperEPSGrowth1yr_DESC",
+        "name": "EPS Growth - 1Yr Desc",
+        "description": "EPS Growth - 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperEPSGrowth1yr_ASC",
+        "name": "EPS Growth - 1Yr Asc",
+        "description": "EPS Growth - 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperEPSGrowth3yr_DESC",
+        "name": "EPS Growth - 3Yr Desc",
+        "description": "EPS Growth - 3Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperEPSGrowth3yr_ASC",
+        "name": "EPS Growth - 3Yr Asc",
+        "description": "EPS Growth - 3Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperEPSGrowth5yr_DESC",
+        "name": "EPS Growth - 5Yr Desc",
+        "description": "EPS Growth - 5Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperEPSGrowth5yr_ASC",
+        "name": "EPS Growth - 5Yr Asc",
+        "description": "EPS Growth - 5Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperPrice2EarningsRatio_DESC",
+        "name": "Price/Earnings Ratio Desc",
+        "description": "Price/Earnings Ratio Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperPrice2EarningsRatio_ASC",
+        "name": "Price/Earnings Ratio Asc",
+        "description": "Price/Earnings Ratio Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperPrice2BookRatio_DESC",
+        "name": "Price/Book Desc",
+        "description": "Price/Book Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperPrice2BookRatio_ASC",
+        "name": "Price/Book Asc",
+        "description": "Price/Book Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperPrice2SalesRatio_DESC",
+        "name": "Price/Sales Ratio Latest Desc",
+        "description": "Price/Sales Ratio Latest Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperPrice2SalesRatio_ASC",
+        "name": "Price/Sales Ratio Latest Asc",
+        "description": "Price/Sales Ratio Latest Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnEquity1yr_DESC",
+        "name": "Return on Equity 1Yr Desc",
+        "description": "Return on Equity 1Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnEquity1yr_ASC",
+        "name": "Return on Equity 1Yr Asc",
+        "description": "Return on Equity 1Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnEquity3yr_DESC",
+        "name": "Return on Equity 3Yr Desc",
+        "description": "Return on Equity 3Yr Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnEquity3yr_ASC",
+        "name": "Return on Equity 3Yr Asc",
+        "description": "Return on Equity 3Yr Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSalesPerShareGrowth1yr_DESC",
+        "name": "Sales Per Share Growth 1 Year Desc",
+        "description": "Sales Per Share Growth 1 Year Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSalesPerShareGrowth1yr_ASC",
+        "name": "Sales Per Share Growth 1 Year Asc",
+        "description": "Sales Per Share Growth 1 Year Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSalesPerShareGrowth3yr_DESC",
+        "name": "Sales Per Share Growth 3 Year Desc",
+        "description": "Sales Per Share Growth 3 Year Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperSalesPerShareGrowth3yr_ASC",
+        "name": "Sales Per Share Growth 3 Year Asc",
+        "description": "Sales Per Share Growth 3 Year Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperTotalAssets2TotalEquity_DESC",
+        "name": "Total Assets / Total Equity Desc",
+        "description": "Total Assets / Total Equity Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperTotalAssets2TotalEquity_ASC",
+        "name": "Total Assets / Total Equity Asc",
+        "description": "Total Assets / Total Equity Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperTotalDebt2TotalEquity_DESC",
+        "name": "Total Debt / Total Equity Desc",
+        "description": "Total Debt / Total Equity Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperTotalDebt2TotalEquity_ASC",
+        "name": "Total Debt / Total Equity Asc",
+        "description": "Total Debt / Total Equity Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestSPSGrowthZScore_DESC",
+        "name": "SPS Growth Z-Score Latest Desc",
+        "description": "SPS Growth Z-Score Latest Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestSPSGrowthZScore_ASC",
+        "name": "SPS Growth Z-Score Latest Asc",
+        "description": "SPS Growth Z-Score Latest Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnEquityZScore_DESC",
+        "name": "Return on Equity Z-Score Latest Desc",
+        "description": "Return on Equity Z-Score Latest Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperReturnOnEquityZScore_ASC",
+        "name": "Return on Equity Z-Score Latest Asc",
+        "description": "Return on Equity Z-Score Latest Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperFundLeverageRatio_DESC",
+        "name": "Fund Leverage Ratio Desc",
+        "description": "Fund Leverage Ratio Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperFundLeverageRatio_ASC",
+        "name": "Fund Leverage Ratio Asc",
+        "description": "Fund Leverage Ratio Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      }
+    ],
+    "52/26/13 Week High-Low": [
+      {
+        "code": "HIGH_VS_13W_HL",
+        "name": "13-Week High",
+        "description": "Stocks closest to their 13-week high",
+        "instruments": [
+          "US Stocks",
+          "Asia Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Americas Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "LOW_VS_13W_HL",
+        "name": "13-Week Low",
+        "description": "Stocks closest to their 13-week low",
+        "instruments": [
+          "US Stocks",
+          "Asia Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Americas Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "HIGH_VS_26W_HL",
+        "name": "26-Week High",
+        "description": "Stocks closest to their 26-week high",
+        "instruments": [
+          "US Stocks",
+          "Asia Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Americas Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "LOW_VS_26W_HL",
+        "name": "26-Week Low",
+        "description": "Stocks closest to their 26-week low",
+        "instruments": [
+          "US Stocks",
+          "Asia Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Americas Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "HIGH_VS_52W_HL",
+        "name": "52-Week High",
+        "description": "Stocks closest to their 52-week high",
+        "instruments": [
+          "US Stocks",
+          "Asia Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Americas Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "LOW_VS_52W_HL",
+        "name": "52-Week Low",
+        "description": "Stocks closest to their 52-week low",
+        "instruments": [
+          "US Stocks",
+          "Asia Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Americas Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_ivRank13w_ASC",
+        "name": "13 Week IV Rank Asc",
+        "description": "13 Week IV Rank Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_ivRank13w_DESC",
+        "name": "13 Week IV Rank Desc",
+        "description": "13 Week IV Rank Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_ivRank26w_ASC",
+        "name": "26 Week IV Rank Asc",
+        "description": "26 Week IV Rank Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_ivRank26w_DESC",
+        "name": "26 Week IV Rank Desc",
+        "description": "26 Week IV Rank Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_ivRank52w_ASC",
+        "name": "52 Week IV Rank Asc",
+        "description": "52 Week IV Rank Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_ivRank52w_DESC",
+        "name": "52 Week IV Rank Desc",
+        "description": "52 Week IV Rank Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_hvRank13w_ASC",
+        "name": "13 Week HV Rank Asc",
+        "description": "13 Week HV Rank Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_hvRank13w_DESC",
+        "name": "13 Week HV Rank Desc",
+        "description": "13 Week HV Rank Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_hvRank26w_ASC",
+        "name": "26 Week HV Rank Asc",
+        "description": "26 Week HV Rank Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_hvRank26w_DESC",
+        "name": "26 Week HV Rank Desc",
+        "description": "26 Week HV Rank Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_hvRank52w_ASC",
+        "name": "52 Week HV Rank Asc",
+        "description": "52 Week HV Rank Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      },
+      {
+        "code": "SCAN_hvRank52w_DESC",
+        "name": "52 Week HV Rank Desc",
+        "description": "52 Week HV Rank Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs"
+        ]
+      }
+    ],
+    "Events & Earnings": [
+      {
+        "code": "WSH_NEXT_MAJOR_EVENT",
+        "name": "Upcoming Major Event (WSH)",
+        "description": "Stocks with upcoming major corporate events",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "WSH_NEXT_EARNINGS",
+        "name": "Upcoming Earnings (WSH)",
+        "description": "Stocks with upcoming earnings announcements",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "WSH_NEXT_ANALYST_MEETING",
+        "name": "Upcoming Meeting (WSH)",
+        "description": "Stocks with upcoming analyst meetings",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "WSH_NEXT_EVENT",
+        "name": "Upcoming Event (WSH)",
+        "description": "Stocks with upcoming corporate events",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "WSH_PREV_EARNINGS",
+        "name": "Recent Earnings (WSH)",
+        "description": "Stocks with recent earnings announcements",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "WSH_PREV_ANALYST_MEETING",
+        "name": "Recent Meeting (WSH)",
+        "description": "Stocks with recent analyst meetings",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "WSH_PREV_EVENT",
+        "name": "Recent Event (WSH)",
+        "description": "Stocks with recent corporate events",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestPrice2EarningsZScore_DESC",
+        "name": "Price to Earnings Z-Score Latest Desc",
+        "description": "Price to Earnings Z-Score Latest Desc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      },
+      {
+        "code": "SCAN_lipperLatestPrice2EarningsZScore_ASC",
+        "name": "Price to Earnings Z-Score Latest Asc",
+        "description": "Price to Earnings Z-Score Latest Asc",
+        "instruments": [
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds"
+        ]
+      }
+    ],
+    "Stock Loan": [
+      {
+        "code": "HIGHEST_SLB_BID",
+        "name": "Highest Bid",
+        "description": "Highest Bid",
+        "instruments": [
+          "Stock Loans"
+        ]
+      },
+      {
+        "code": "LOWEST_SLB_ASK",
+        "name": "Lowest Ask",
+        "description": "Lowest Ask",
+        "instruments": [
+          "Stock Loans"
+        ]
+      }
+    ],
+    "Combos": [
+      {
+        "code": "COMBO_QUOTES",
+        "name": "Quotes",
+        "description": "Quotes",
+        "instruments": [
+          "NATCOMB"
+        ]
+      },
+      {
+        "code": "COMBO_ALL_QUOTE_TIME_ASC",
+        "name": "All (Quote Time Asc)",
+        "description": "All (Quote Time Asc)",
+        "instruments": [
+          "NATCOMB"
+        ]
+      },
+      {
+        "code": "COMBO_ALL_QUOTE_TIME_DESC",
+        "name": "All (Quote Time Desc)",
+        "description": "All (Quote Time Desc)",
+        "instruments": [
+          "NATCOMB"
+        ]
+      }
+    ],
+    "ESG": [
+      {
+        "code": "SCAN_esgScore_DESC",
+        "name": "ESG Score (Refinitiv) Desc",
+        "description": "ESG Score (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgScore_ASC",
+        "name": "ESG Score (Refinitiv) Asc",
+        "description": "ESG Score (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgCombinedScore_DESC",
+        "name": "ESG Combined Score (Refinitiv) Desc",
+        "description": "ESG Combined Score (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgCombinedScore_ASC",
+        "name": "ESG Combined Score (Refinitiv) Asc",
+        "description": "ESG Combined Score (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgControversiesScore_DESC",
+        "name": "ESG Controversies Score (Refinitiv) Desc",
+        "description": "ESG Controversies Score (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgControversiesScore_ASC",
+        "name": "ESG Controversies Score (Refinitiv) Asc",
+        "description": "ESG Controversies Score (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgResourceUseScore_DESC",
+        "name": "ESG Resource Use Score (Refinitiv) Desc",
+        "description": "ESG Resource Use Score (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgResourceUseScore_ASC",
+        "name": "ESG Resource Use Score (Refinitiv) Asc",
+        "description": "ESG Resource Use Score (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgEmissionsScore_DESC",
+        "name": "ESG Emissions Score (Refinitiv) Desc",
+        "description": "ESG Emissions Score (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgEmissionsScore_ASC",
+        "name": "ESG Emissions Score (Refinitiv) Asc",
+        "description": "ESG Emissions Score (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgEnvInvScore_DESC",
+        "name": "ESG Environmental Innovation Score (Refinitiv) Desc",
+        "description": "ESG Environmental Innovation Score (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgEnvInvScore_ASC",
+        "name": "ESG Environmental Innovation Score (Refinitiv) Asc",
+        "description": "ESG Environmental Innovation Score (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgWorkforceScore_DESC",
+        "name": "ESG Workforce Score (Refinitiv) Desc",
+        "description": "ESG Workforce Score (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgWorkforceScore_ASC",
+        "name": "ESG Workforce Score (Refinitiv) Asc",
+        "description": "ESG Workforce Score (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgHrScore_DESC",
+        "name": "ESG Human Rights Score (Refinitiv) Desc",
+        "description": "ESG Human Rights Score (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgHrScore_ASC",
+        "name": "ESG Human Rights Score (Refinitiv) Asc",
+        "description": "ESG Human Rights Score (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgCommunityScore_DESC",
+        "name": "ESG Community Score (Refinitiv) Desc",
+        "description": "ESG Community Score (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgCommunityScore_ASC",
+        "name": "ESG Community Score (Refinitiv) Asc",
+        "description": "ESG Community Score (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgProdRespScore_DESC",
+        "name": "ESG Product Responsibility Score (Refinitiv) Desc",
+        "description": "ESG Product Responsibility Score (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgProdRespScore_ASC",
+        "name": "ESG Product Responsibility Score (Refinitiv) Asc",
+        "description": "ESG Product Responsibility Score (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgManagementScore_DESC",
+        "name": "ESG Management Score (Refinitiv) Desc",
+        "description": "ESG Management Score (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgManagementScore_ASC",
+        "name": "ESG Management Score (Refinitiv) Asc",
+        "description": "ESG Management Score (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgShareholdersScore_DESC",
+        "name": "ESG Shareholders Score (Refinitiv) Desc",
+        "description": "ESG Shareholders Score (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgShareholdersScore_ASC",
+        "name": "ESG Shareholders Score (Refinitiv) Asc",
+        "description": "ESG Shareholders Score (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgStrategyScore_DESC",
+        "name": "ESG CSR Strategy Score (Refinitiv) Desc",
+        "description": "ESG CSR Strategy Score (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgStrategyScore_ASC",
+        "name": "ESG CSR Strategy Score (Refinitiv) Asc",
+        "description": "ESG CSR Strategy Score (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgEnvPillarScore_DESC",
+        "name": "ESG Environmental Score (Refinitiv) Desc",
+        "description": "ESG Environmental Score (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgEnvPillarScore_ASC",
+        "name": "ESG Environmental Score (Refinitiv) Asc",
+        "description": "ESG Environmental Score (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgSocialPillarScore_DESC",
+        "name": "ESG Social Score (Refinitiv) Desc",
+        "description": "ESG Social Score (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgSocialPillarScore_ASC",
+        "name": "ESG Social Score (Refinitiv) Asc",
+        "description": "ESG Social Score (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgCorpGovPillarScore_DESC",
+        "name": "ESG Corporate Governance Score (Refinitiv) Desc",
+        "description": "ESG Corporate Governance Score (Refinitiv) Desc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      },
+      {
+        "code": "SCAN_esgCorpGovPillarScore_ASC",
+        "name": "ESG Corporate Governance Score (Refinitiv) Asc",
+        "description": "ESG Corporate Governance Score (Refinitiv) Asc",
+        "instruments": [
+          "US Stocks",
+          "Americas Stocks",
+          "Europe Stocks",
+          "Middle East Stocks",
+          "Asia Stocks",
+          "US Equity ETFs",
+          "US Fixed Income ETFs",
+          "FUND.US",
+          "Mutual Funds",
+          "Corporate Bonds"
+        ]
+      }
+    ]
+  },
+  "filters_reference": {
+    "ABSCHANGEPERC": {
+      "name": "Abs % Change",
+      "description": "Absolute percentage change",
+      "usage": "absChangePercAbove"
+    },
+    "AFTERHRSCHANGEPERC": {
+      "name": "After Hours % Change",
+      "description": "After hours price change %",
+      "usage": "afterHrsChangePercAbove"
+    },
+    "AVGOPTVOLUME": {
+      "name": "Avg Options Volume",
+      "description": "Average options volume",
+      "usage": "avgOptVolumeAbove"
+    },
+    "AVGPRICETARGET": {
+      "name": "Avg Price Target",
+      "description": "Average analyst price target",
+      "usage": "avgPriceTargetAbove"
+    },
+    "AVGRATING": {
+      "name": "Avg Analyst Rating",
+      "description": "Average analyst rating",
+      "usage": "avgRatingAbove, avgRatingBelow"
+    },
+    "AVGVOLUME": {
+      "name": "Avg Volume",
+      "description": "Average daily volume",
+      "usage": "avgVolumeAbove"
+    },
+    "AVGVOLUME_USD": {
+      "name": "Avg Volume (USD)",
+      "description": "Average daily dollar volume",
+      "usage": "avgVolumeUsdAbove"
+    },
+    "CHANGEOPENPERC": {
+      "name": "Change Since Open %",
+      "description": "% change since market open",
+      "usage": "changeOpenPercAbove"
+    },
+    "CHANGEPERC": {
+      "name": "% Change",
+      "description": "Percentage change today",
+      "usage": "changePercAbove, changePercBelow"
+    },
+    "EMA_20": {
+      "name": "EMA 20",
+      "description": "20-day exponential moving average",
+      "usage": "ema20Above, ema20Below"
+    },
+    "EMA_50": {
+      "name": "EMA 50",
+      "description": "50-day exponential moving average",
+      "usage": "ema50Above, ema50Below"
+    },
+    "EMA_100": {
+      "name": "EMA 100",
+      "description": "100-day exponential moving average",
+      "usage": "ema100Above"
+    },
+    "EMA_200": {
+      "name": "EMA 200",
+      "description": "200-day exponential moving average",
+      "usage": "ema200Above"
+    },
+    "PRICE_VS_EMA_20": {
+      "name": "Price vs EMA20",
+      "description": "Price relative to EMA 20",
+      "usage": "priceVsEma20Above"
+    },
+    "PRICE_VS_EMA_50": {
+      "name": "Price vs EMA50",
+      "description": "Price relative to EMA 50",
+      "usage": "priceVsEma50Above"
+    },
+    "DIVIB": {
+      "name": "Dividend",
+      "description": "Annual dividend amount",
+      "usage": "divAbove"
+    },
+    "DIVYIELDIB": {
+      "name": "Dividend Yield",
+      "description": "Dividend yield percentage",
+      "usage": "divYieldAbove, divYieldBelow"
+    },
+    "FEERATE": {
+      "name": "Borrow Fee Rate",
+      "description": "Stock borrow fee rate",
+      "usage": "feeRateAbove, feeRateBelow"
+    },
+    "FIRSTTRADEDATE": {
+      "name": "First Trade Date",
+      "description": "IPO/first trade date",
+      "usage": "firstTradeDateBefore, firstTradeDateAfter"
+    },
+    "GROWTHRATE": {
+      "name": "Growth Rate",
+      "description": "Earnings growth rate",
+      "usage": "growthRateAbove, growthRateBelow"
+    },
+    "HALTED": {
+      "name": "Halted",
+      "description": "Trading is halted",
+      "usage": "halted=true/false"
+    },
+    "HASOPTIONS": {
+      "name": "Has Options",
+      "description": "Has listed options",
+      "usage": "hasOptions=true"
+    },
+    "HISTDIVIB": {
+      "name": "Historical Dividend",
+      "description": "Historical dividend amount",
+      "usage": "histDivAbove"
+    },
+    "HISTDIVYIELDIB": {
+      "name": "Historical Div Yield",
+      "description": "Historical dividend yield",
+      "usage": "histDivYieldAbove"
+    },
+    "IMPVOLAT": {
+      "name": "Implied Volatility",
+      "description": "Options implied volatility",
+      "usage": "impVolatAbove, impVolatBelow"
+    },
+    "IMPVOLATCHANGEPERC": {
+      "name": "IV Change %",
+      "description": "Implied volatility change %",
+      "usage": "impVolatChangePercAbove"
+    },
+    "IMPVOLATOVERHIST": {
+      "name": "IV/HV Ratio",
+      "description": "Implied vol over historical vol",
+      "usage": "impVolatOverHistAbove, impVolatOverHistBelow"
+    },
+    "INSIDEROFFLOATPERC": {
+      "name": "Insider Ownership %",
+      "description": "Insider ownership of float",
+      "usage": "insiderOfFloatPercAbove"
+    },
+    "INSTITUTIONALOFFLOATPERC": {
+      "name": "Institutional %",
+      "description": "Institutional ownership of float",
+      "usage": "institutionalOfFloatPercAbove"
+    },
+    "MACD": {
+      "name": "MACD",
+      "description": "MACD indicator value",
+      "usage": "macdAbove, macdBelow"
+    },
+    "MACD_SIGNAL": {
+      "name": "MACD Signal",
+      "description": "MACD signal line",
+      "usage": "macdSignalAbove"
+    },
+    "MACD_HISTOGRAM": {
+      "name": "MACD Histogram",
+      "description": "MACD histogram value",
+      "usage": "macdHistogramAbove"
+    },
+    "MKTCAP": {
+      "name": "Market Cap",
+      "description": "Market capitalization (millions)",
+      "usage": "marketCapAbove, marketCapBelow"
+    },
+    "MKTCAP_USD": {
+      "name": "Market Cap (USD)",
+      "description": "Market cap in USD (millions)",
+      "usage": "marketCapAbove, marketCapBelow"
+    },
+    "NEXTDIVAMOUNT": {
+      "name": "Next Dividend",
+      "description": "Next dividend amount",
+      "usage": "nextDivAmountAbove"
+    },
+    "NEXTDIVDATE": {
+      "name": "Next Div Date",
+      "description": "Next dividend date",
+      "usage": "nextDivDateBefore, nextDivDateAfter"
+    },
+    "NUMPRICETARGETS": {
+      "name": "Num Price Targets",
+      "description": "Number of price targets",
+      "usage": "numPriceTargetsAbove"
+    },
+    "NUMRATINGS": {
+      "name": "Num Ratings",
+      "description": "Number of analyst ratings",
+      "usage": "numRatingsAbove"
+    },
+    "OPENGAPPERC": {
+      "name": "Gap %",
+      "description": "Gap from previous close to open",
+      "usage": "openGapPercAbove, openGapPercBelow"
+    },
+    "OPTOI": {
+      "name": "Options Open Interest",
+      "description": "Options open interest",
+      "usage": "optOpenInterestAbove"
+    },
+    "OPTVOLUME": {
+      "name": "Options Volume",
+      "description": "Options trading volume",
+      "usage": "optVolumeAbove"
+    },
+    "OPTVOLUMEPCRATIO": {
+      "name": "Put/Call Ratio",
+      "description": "Options put/call volume ratio",
+      "usage": "optVolumePcRatioAbove, optVolumePcRatioBelow"
+    },
+    "PERATIO": {
+      "name": "P/E Ratio",
+      "description": "Price to earnings ratio",
+      "usage": "peRatioAbove, peRatioBelow"
+    },
+    "PRICE": {
+      "name": "Price",
+      "description": "Current stock price",
+      "usage": "priceAbove, priceBelow"
+    },
+    "PRICE2BK": {
+      "name": "Price/Book",
+      "description": "Price to book ratio",
+      "usage": "price2BookAbove, price2BookBelow"
+    },
+    "PRICE2TANBK": {
+      "name": "Price/Tang Book",
+      "description": "Price to tangible book",
+      "usage": "price2TanBookAbove"
+    },
+    "PRICERANGE": {
+      "name": "Price Range",
+      "description": "Intraday high-low range",
+      "usage": "priceRangeAbove"
+    },
+    "PRICE_USD": {
+      "name": "Price (USD)",
+      "description": "Price in US dollars",
+      "usage": "priceAbove, priceBelow"
+    },
+    "QUICKRATIO": {
+      "name": "Quick Ratio",
+      "description": "Liquidity ratio",
+      "usage": "quickRatioAbove"
+    },
+    "RETEQUITY": {
+      "name": "Return on Equity",
+      "description": "ROE percentage",
+      "usage": "returnOnEquityAbove"
+    },
+    "SHORTABLESHARES": {
+      "name": "Shortable Shares",
+      "description": "Shares available to short",
+      "usage": "shortableSharesAbove"
+    },
+    "SHORTSALERESTRICTED": {
+      "name": "Short Sale Restricted",
+      "description": "SSR in effect",
+      "usage": "shortSaleRestricted=true/false"
+    },
+    "SIC": {
+      "name": "SIC Code",
+      "description": "Standard Industrial Classification",
+      "usage": "sic=XXXX"
+    },
+    "ISSUER_COUNTRY_CODE": {
+      "name": "Country",
+      "description": "Issuer country code",
+      "usage": "countryCode=US"
+    },
+    "STKTYPE": {
+      "name": "Stock Type",
+      "description": "ADR, Common, Preferred, etc.",
+      "usage": "stkType=ADR/COMMON/PREF"
+    },
+    "STVOLUME_3MIN": {
+      "name": "3-Min Volume",
+      "description": "Volume in last 3 minutes",
+      "usage": "stVolume3MinAbove"
+    },
+    "STVOLUME_5MIN": {
+      "name": "5-Min Volume",
+      "description": "Volume in last 5 minutes",
+      "usage": "stVolume5MinAbove"
+    },
+    "STVOLUME_10MIN": {
+      "name": "10-Min Volume",
+      "description": "Volume in last 10 minutes",
+      "usage": "stVolume10MinAbove"
+    },
+    "TRADECOUNT": {
+      "name": "Trade Count",
+      "description": "Number of trades today",
+      "usage": "tradeCountAbove"
+    },
+    "TRADERATE": {
+      "name": "Trade Rate",
+      "description": "Trades per minute",
+      "usage": "tradeRateAbove"
+    },
+    "UNSHORTABLE": {
+      "name": "Unshortable",
+      "description": "Cannot be shorted",
+      "usage": "unshortable=true/false"
+    },
+    "VOLUME": {
+      "name": "Volume",
+      "description": "Today's trading volume",
+      "usage": "volumeAbove"
+    },
+    "VOLUMERATE": {
+      "name": "Volume Rate",
+      "description": "Current volume rate vs average",
+      "usage": "volumeRateAbove"
+    },
+    "VOLUME_USD": {
+      "name": "Volume (USD)",
+      "description": "Dollar volume traded",
+      "usage": "volumeUsdAbove"
+    },
+    "ESG_SCORE": {
+      "name": "ESG Score",
+      "description": "Overall ESG score",
+      "usage": "esgScoreAbove"
+    },
+    "ESG_COMBINED_SCORE": {
+      "name": "ESG Combined Score",
+      "description": "Combined ESG score",
+      "usage": "esgCombinedScoreAbove"
+    },
+    "ESG_ENV_PILLAR_SCORE": {
+      "name": "Environmental Score",
+      "description": "Environmental pillar score",
+      "usage": "esgEnvPillarScoreAbove"
+    },
+    "ESG_SOCIAL_PILLAR_SCORE": {
+      "name": "Social Score",
+      "description": "Social pillar score",
+      "usage": "esgSocialPillarScoreAbove"
+    },
+    "ESG_CORP_GOV_PILLAR_SCORE": {
+      "name": "Governance Score",
+      "description": "Corporate governance score",
+      "usage": "esgCorpGovPillarScoreAbove"
+    },
+    "IV_RANK52": {
+      "name": "IV Rank 52W",
+      "description": "IV rank over 52 weeks",
+      "usage": "ivRank52Above, ivRank52Below"
+    },
+    "IV_PERCENTILE52": {
+      "name": "IV Percentile 52W",
+      "description": "IV percentile over 52 weeks",
+      "usage": "ivPercentile52Above"
+    },
+    "HV_RANK52": {
+      "name": "HV Rank 52W",
+      "description": "Historical vol rank 52 weeks",
+      "usage": "hvRank52Above"
+    },
+    "PRICE_2_SALES": {
+      "name": "Price/Sales",
+      "description": "Price to sales ratio",
+      "usage": "price2SalesAbove, price2SalesBelow"
+    },
+    "UTILIZATION": {
+      "name": "Short Utilization",
+      "description": "% of shortable shares in use",
+      "usage": "utilizationAbove"
+    },
+    "EPS_CHANGE_TTM": {
+      "name": "EPS Change TTM",
+      "description": "EPS change trailing 12 months",
+      "usage": "epsChangeTtmAbove"
+    },
+    "REV_CHANGE": {
+      "name": "Revenue Change",
+      "description": "Revenue change %",
+      "usage": "revChangeAbove"
+    },
+    "PAYOUT_RATIO_TTM": {
+      "name": "Payout Ratio",
+      "description": "Dividend payout ratio",
+      "usage": "payoutRatioAbove, payoutRatioBelow"
+    },
+    "OPERATING_MARGIN_TTM": {
+      "name": "Operating Margin",
+      "description": "Operating margin TTM",
+      "usage": "operatingMarginAbove"
+    },
+    "NET_PROFIT_MARGIN_TTM": {
+      "name": "Net Profit Margin",
+      "description": "Net profit margin TTM",
+      "usage": "netProfitMarginAbove"
+    },
+    "RETURN_ON_INVESTMENT_TTM": {
+      "name": "ROI TTM",
+      "description": "Return on investment TTM",
+      "usage": "returnOnInvestmentAbove"
+    },
+    "NUMSHARES": {
+      "name": "Shares Outstanding",
+      "description": "Total shares outstanding",
+      "usage": "numSharesAbove"
+    },
+    "HIGH_VS_HL13": {
+      "name": "% from 13W High",
+      "description": "Distance from 13-week high",
+      "usage": "highVs13WAbove"
+    },
+    "HIGH_VS_HL26": {
+      "name": "% from 26W High",
+      "description": "Distance from 26-week high",
+      "usage": "highVs26WAbove"
+    },
+    "HIGH_VS_HL52": {
+      "name": "% from 52W High",
+      "description": "Distance from 52-week high",
+      "usage": "highVs52WAbove, highVs52WBelow"
+    },
+    "LOW_VS_HL52": {
+      "name": "% from 52W Low",
+      "description": "Distance from 52-week low",
+      "usage": "lowVs52WAbove"
+    },
+    "NEXTEARNINGSDATETIME": {
+      "name": "Next Earnings Date",
+      "description": "Next earnings announcement",
+      "usage": "nextEarningsDateBefore, nextEarningsDateAfter"
+    },
+    "FLOATSHARES": {
+      "name": "Float Shares",
+      "description": "Shares in public float",
+      "usage": "floatSharesAbove, floatSharesBelow"
+    }
+  },
+  "filters_by_instrument": {
+    "STK": "US Stocks - all filters available",
+    "ETF.EQ.US": "US Equity ETFs - most stock filters + ETF-specific",
+    "FUT.US": "US Futures - limited to price, volume, change filters",
+    "IND.US": "US Indexes - price, options, volatility filters only",
+    "BOND": "Corporate Bonds - bond-specific filters (yield, rating, maturity)"
+  },
+  "filter_categories": {
+    "price": [
+      "priceAbove",
+      "priceBelow",
+      "changePercAbove",
+      "openGapPercAbove"
+    ],
+    "volume": [
+      "avgVolumeAbove",
+      "volumeAbove",
+      "tradeCountAbove"
+    ],
+    "market_cap": [
+      "marketCapAbove",
+      "marketCapBelow"
+    ],
+    "fundamentals": [
+      "peRatioAbove",
+      "peRatioBelow",
+      "divYieldAbove",
+      "growthRateAbove"
+    ],
+    "options": [
+      "optVolumeAbove",
+      "impVolatAbove",
+      "impVolatBelow"
+    ],
+    "technical": [
+      "ema20Above",
+      "ema50Above",
+      "macdAbove"
+    ]
+  },
+  "instruments": [
+    {
+      "name": "US Stocks",
+      "code": "STK"
+    },
+    {
+      "name": "US Equity ETFs",
+      "code": "ETF.EQ.US"
+    },
+    {
+      "name": "US Fixed Income ETFs",
+      "code": "ETF.FI.US"
+    },
+    {
+      "name": "US Futures",
+      "code": "FUT.US"
+    },
+    {
+      "name": "US Indexes",
+      "code": "IND.US"
+    },
+    {
+      "name": "Corporate Bonds",
+      "code": "BOND"
+    },
+    {
+      "name": "US CDs",
+      "code": "BOND.CD"
+    },
+    {
+      "name": "US Agency Bonds",
+      "code": "BOND.AGNCY"
+    },
+    {
+      "name": "US Treasuries",
+      "code": "BOND.GOVT"
+    },
+    {
+      "name": "US Municipal Bonds",
+      "code": "BOND.MUNI"
+    },
+    {
+      "name": "Non-US Sovereign Bonds",
+      "code": "BOND.GOVT.NON-US"
+    },
+    {
+      "name": "US SBLs",
+      "code": "SLB.US"
+    },
+    {
+      "name": "Mutual Funds",
+      "code": "FUND.ALL"
+    },
+    {
+      "name": "America Non-US Stocks",
+      "code": "STOCK.NA"
+    },
+    {
+      "name": "America Non-US Futures",
+      "code": "FUT.NA"
+    },
+    {
+      "name": "America Non-US SSFs",
+      "code": "SSF.NA"
+    },
+    {
+      "name": "Europe Stocks",
+      "code": "STOCK.EU"
+    },
+    {
+      "name": "Europe Futures",
+      "code": "FUT.EU"
+    },
+    {
+      "name": "Europe Indexes",
+      "code": "IND.EU"
+    },
+    {
+      "name": "Europe SSFs",
+      "code": "SSF.EU"
+    }
+  ],
+  "locations_us": [
+    {
+      "code": "STK.US",
+      "name": "US Stocks"
+    },
+    {
+      "code": "STK.US.MAJOR",
+      "name": "Listed/NASDAQ"
+    },
+    {
+      "code": "STK.US.MINOR",
+      "name": "OTCMarkets"
+    },
+    {
+      "code": "ETF.EQ.US",
+      "name": "US ETFs"
+    },
+    {
+      "code": "ETF.EQ.US.MAJOR",
+      "name": "Listed/NASDAQ"
+    },
+    {
+      "code": "ETF.FI.US",
+      "name": "US ETFs"
+    },
+    {
+      "code": "ETF.FI.US.MAJOR",
+      "name": "Listed/NASDAQ"
+    },
+    {
+      "code": "FUT.US",
+      "name": "US Futures"
+    },
+    {
+      "code": "IND.US",
+      "name": "US Indexes"
+    },
+    {
+      "code": "BOND.US",
+      "name": "US Corporate Bonds"
+    },
+    {
+      "code": "BOND.CD.US",
+      "name": "US CDs"
+    },
+    {
+      "code": "BOND.AGNCY.US",
+      "name": "US Agency Bonds"
+    },
+    {
+      "code": "BOND.GOVT.US",
+      "name": "US Treasuries"
+    },
+    {
+      "code": "BOND.MUNI.US",
+      "name": "US Municipal Bonds"
+    },
+    {
+      "code": "BOND.GOVT.NON-US",
+      "name": "Non-US Sovereign Bonds"
+    },
+    {
+      "code": "BOND.GOVT.US.NON-US",
+      "name": "Non-US Govt Bonds"
+    },
+    {
+      "code": "FUND.US",
+      "name": "US Mutual Funds"
+    },
+    {
+      "code": "FUND.NON-US",
+      "name": "Non-US Mutual Funds"
+    },
+    {
+      "code": "STK.EU.IBIS-EUSTARS",
+      "name": "EUSTARS"
+    },
+    {
+      "code": "STK.EU.IBIS-USSTARS",
+      "name": "USSTARS"
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "_info": {
+    "description": "Filter parameter catalog: categories, per-instrument applicability, and reference.",
+    "source_files": [
+      "scanner_reference.json"
+    ]
+  },
+  "categories": {
+    "price": [
+      "priceAbove",
+      "priceBelow",
+      "changePercAbove",
+      "openGapPercAbove"
+    ],
+    "volume": [
+      "avgVolumeAbove",
+      "volumeAbove",
+      "tradeCountAbove"
+    ],
+    "market_cap": [
+      "marketCapAbove",
+      "marketCapBelow"
+    ],
+    "fundamentals": [
+      "peRatioAbove",
+      "peRatioBelow",
+      "divYieldAbove",
+      "growthRateAbove"
+    ],
+    "options": [
+      "optVolumeAbove",
+      "impVolatAbove",
+      "impVolatBelow"
+    ],
+    "technical": [
+      "ema20Above",
+      "ema50Above",
+      "macdAbove"
+    ]
+  },
+  "filters_by_instrument": {
+    "STK": "US Stocks - all filters available",
+    "ETF.EQ.US": "US Equity ETFs - most stock filters + ETF-specific",
+    "FUT.US": "US Futures - limited to price, volume, change filters",
+    "IND.US": "US Indexes - price, options, volatility filters only",
+    "BOND": "Corporate Bonds - bond-specific filters (yield, rating, maturity)"
+  },
+  "filters_reference": {
+    "ABSCHANGEPERC": {
+      "name": "Abs % Change",
+      "description": "Absolute percentage change",
+      "usage": "absChangePercAbove"
+    },
+    "AFTERHRSCHANGEPERC": {
+      "name": "After Hours % Change",
+      "description": "After hours price change %",
+      "usage": "afterHrsChangePercAbove"
+    },
+    "AVGOPTVOLUME": {
+      "name": "Avg Options Volume",
+      "description": "Average options volume",
+      "usage": "avgOptVolumeAbove"
+    },
+    "AVGPRICETARGET": {
+      "name": "Avg Price Target",
+      "description": "Average analyst price target",
+      "usage": "avgPriceTargetAbove"
+    },
+    "AVGRATING": {
+      "name": "Avg Analyst Rating",
+      "description": "Average analyst rating",
+      "usage": "avgRatingAbove, avgRatingBelow"
+    },
+    "AVGVOLUME": {
+      "name": "Avg Volume",
+      "description": "Average daily volume",
+      "usage": "avgVolumeAbove"
+    },
+    "AVGVOLUME_USD": {
+      "name": "Avg Volume (USD)",
+      "description": "Average daily dollar volume",
+      "usage": "avgVolumeUsdAbove"
+    },
+    "CHANGEOPENPERC": {
+      "name": "Change Since Open %",
+      "description": "% change since market open",
+      "usage": "changeOpenPercAbove"
+    },
+    "CHANGEPERC": {
+      "name": "% Change",
+      "description": "Percentage change today",
+      "usage": "changePercAbove, changePercBelow"
+    },
+    "EMA_20": {
+      "name": "EMA 20",
+      "description": "20-day exponential moving average",
+      "usage": "ema20Above, ema20Below"
+    },
+    "EMA_50": {
+      "name": "EMA 50",
+      "description": "50-day exponential moving average",
+      "usage": "ema50Above, ema50Below"
+    },
+    "EMA_100": {
+      "name": "EMA 100",
+      "description": "100-day exponential moving average",
+      "usage": "ema100Above"
+    },
+    "EMA_200": {
+      "name": "EMA 200",
+      "description": "200-day exponential moving average",
+      "usage": "ema200Above"
+    },
+    "PRICE_VS_EMA_20": {
+      "name": "Price vs EMA20",
+      "description": "Price relative to EMA 20",
+      "usage": "priceVsEma20Above"
+    },
+    "PRICE_VS_EMA_50": {
+      "name": "Price vs EMA50",
+      "description": "Price relative to EMA 50",
+      "usage": "priceVsEma50Above"
+    },
+    "DIVIB": {
+      "name": "Dividend",
+      "description": "Annual dividend amount",
+      "usage": "divAbove"
+    },
+    "DIVYIELDIB": {
+      "name": "Dividend Yield",
+      "description": "Dividend yield percentage",
+      "usage": "divYieldAbove, divYieldBelow"
+    },
+    "FEERATE": {
+      "name": "Borrow Fee Rate",
+      "description": "Stock borrow fee rate",
+      "usage": "feeRateAbove, feeRateBelow"
+    },
+    "FIRSTTRADEDATE": {
+      "name": "First Trade Date",
+      "description": "IPO/first trade date",
+      "usage": "firstTradeDateBefore, firstTradeDateAfter"
+    },
+    "GROWTHRATE": {
+      "name": "Growth Rate",
+      "description": "Earnings growth rate",
+      "usage": "growthRateAbove, growthRateBelow"
+    },
+    "HALTED": {
+      "name": "Halted",
+      "description": "Trading is halted",
+      "usage": "halted=true/false"
+    },
+    "HASOPTIONS": {
+      "name": "Has Options",
+      "description": "Has listed options",
+      "usage": "hasOptions=true"
+    },
+    "HISTDIVIB": {
+      "name": "Historical Dividend",
+      "description": "Historical dividend amount",
+      "usage": "histDivAbove"
+    },
+    "HISTDIVYIELDIB": {
+      "name": "Historical Div Yield",
+      "description": "Historical dividend yield",
+      "usage": "histDivYieldAbove"
+    },
+    "IMPVOLAT": {
+      "name": "Implied Volatility",
+      "description": "Options implied volatility",
+      "usage": "impVolatAbove, impVolatBelow"
+    },
+    "IMPVOLATCHANGEPERC": {
+      "name": "IV Change %",
+      "description": "Implied volatility change %",
+      "usage": "impVolatChangePercAbove"
+    },
+    "IMPVOLATOVERHIST": {
+      "name": "IV/HV Ratio",
+      "description": "Implied vol over historical vol",
+      "usage": "impVolatOverHistAbove, impVolatOverHistBelow"
+    },
+    "INSIDEROFFLOATPERC": {
+      "name": "Insider Ownership %",
+      "description": "Insider ownership of float",
+      "usage": "insiderOfFloatPercAbove"
+    },
+    "INSTITUTIONALOFFLOATPERC": {
+      "name": "Institutional %",
+      "description": "Institutional ownership of float",
+      "usage": "institutionalOfFloatPercAbove"
+    },
+    "MACD": {
+      "name": "MACD",
+      "description": "MACD indicator value",
+      "usage": "macdAbove, macdBelow"
+    },
+    "MACD_SIGNAL": {
+      "name": "MACD Signal",
+      "description": "MACD signal line",
+      "usage": "macdSignalAbove"
+    },
+    "MACD_HISTOGRAM": {
+      "name": "MACD Histogram",
+      "description": "MACD histogram value",
+      "usage": "macdHistogramAbove"
+    },
+    "MKTCAP": {
+      "name": "Market Cap",
+      "description": "Market capitalization (millions)",
+      "usage": "marketCapAbove, marketCapBelow"
+    },
+    "MKTCAP_USD": {
+      "name": "Market Cap (USD)",
+      "description": "Market cap in USD (millions)",
+      "usage": "marketCapAbove, marketCapBelow"
+    },
+    "NEXTDIVAMOUNT": {
+      "name": "Next Dividend",
+      "description": "Next dividend amount",
+      "usage": "nextDivAmountAbove"
+    },
+    "NEXTDIVDATE": {
+      "name": "Next Div Date",
+      "description": "Next dividend date",
+      "usage": "nextDivDateBefore, nextDivDateAfter"
+    },
+    "NUMPRICETARGETS": {
+      "name": "Num Price Targets",
+      "description": "Number of price targets",
+      "usage": "numPriceTargetsAbove"
+    },
+    "NUMRATINGS": {
+      "name": "Num Ratings",
+      "description": "Number of analyst ratings",
+      "usage": "numRatingsAbove"
+    },
+    "OPENGAPPERC": {
+      "name": "Gap %",
+      "description": "Gap from previous close to open",
+      "usage": "openGapPercAbove, openGapPercBelow"
+    },
+    "OPTOI": {
+      "name": "Options Open Interest",
+      "description": "Options open interest",
+      "usage": "optOpenInterestAbove"
+    },
+    "OPTVOLUME": {
+      "name": "Options Volume",
+      "description": "Options trading volume",
+      "usage": "optVolumeAbove"
+    },
+    "OPTVOLUMEPCRATIO": {
+      "name": "Put/Call Ratio",
+      "description": "Options put/call volume ratio",
+      "usage": "optVolumePcRatioAbove, optVolumePcRatioBelow"
+    },
+    "PERATIO": {
+      "name": "P/E Ratio",
+      "description": "Price to earnings ratio",
+      "usage": "peRatioAbove, peRatioBelow"
+    },
+    "PRICE": {
+      "name": "Price",
+      "description": "Current stock price",
+      "usage": "priceAbove, priceBelow"
+    },
+    "PRICE2BK": {
+      "name": "Price/Book",
+      "description": "Price to book ratio",
+      "usage": "price2BookAbove, price2BookBelow"
+    },
+    "PRICE2TANBK": {
+      "name": "Price/Tang Book",
+      "description": "Price to tangible book",
+      "usage": "price2TanBookAbove"
+    },
+    "PRICERANGE": {
+      "name": "Price Range",
+      "description": "Intraday high-low range",
+      "usage": "priceRangeAbove"
+    },
+    "PRICE_USD": {
+      "name": "Price (USD)",
+      "description": "Price in US dollars",
+      "usage": "priceAbove, priceBelow"
+    },
+    "QUICKRATIO": {
+      "name": "Quick Ratio",
+      "description": "Liquidity ratio",
+      "usage": "quickRatioAbove"
+    },
+    "RETEQUITY": {
+      "name": "Return on Equity",
+      "description": "ROE percentage",
+      "usage": "returnOnEquityAbove"
+    },
+    "SHORTABLESHARES": {
+      "name": "Shortable Shares",
+      "description": "Shares available to short",
+      "usage": "shortableSharesAbove"
+    },
+    "SHORTSALERESTRICTED": {
+      "name": "Short Sale Restricted",
+      "description": "SSR in effect",
+      "usage": "shortSaleRestricted=true/false"
+    },
+    "SIC": {
+      "name": "SIC Code",
+      "description": "Standard Industrial Classification",
+      "usage": "sic=XXXX"
+    },
+    "ISSUER_COUNTRY_CODE": {
+      "name": "Country",
+      "description": "Issuer country code",
+      "usage": "countryCode=US"
+    },
+    "STKTYPE": {
+      "name": "Stock Type",
+      "description": "ADR, Common, Preferred, etc.",
+      "usage": "stkType=ADR/COMMON/PREF"
+    },
+    "STVOLUME_3MIN": {
+      "name": "3-Min Volume",
+      "description": "Volume in last 3 minutes",
+      "usage": "stVolume3MinAbove"
+    },
+    "STVOLUME_5MIN": {
+      "name": "5-Min Volume",
+      "description": "Volume in last 5 minutes",
+      "usage": "stVolume5MinAbove"
+    },
+    "STVOLUME_10MIN": {
+      "name": "10-Min Volume",
+      "description": "Volume in last 10 minutes",
+      "usage": "stVolume10MinAbove"
+    },
+    "TRADECOUNT": {
+      "name": "Trade Count",
+      "description": "Number of trades today",
+      "usage": "tradeCountAbove"
+    },
+    "TRADERATE": {
+      "name": "Trade Rate",
+      "description": "Trades per minute",
+      "usage": "tradeRateAbove"
+    },
+    "UNSHORTABLE": {
+      "name": "Unshortable",
+      "description": "Cannot be shorted",
+      "usage": "unshortable=true/false"
+    },
+    "VOLUME": {
+      "name": "Volume",
+      "description": "Today's trading volume",
+      "usage": "volumeAbove"
+    },
+    "VOLUMERATE": {
+      "name": "Volume Rate",
+      "description": "Current volume rate vs average",
+      "usage": "volumeRateAbove"
+    },
+    "VOLUME_USD": {
+      "name": "Volume (USD)",
+      "description": "Dollar volume traded",
+      "usage": "volumeUsdAbove"
+    },
+    "ESG_SCORE": {
+      "name": "ESG Score",
+      "description": "Overall ESG score",
+      "usage": "esgScoreAbove"
+    },
+    "ESG_COMBINED_SCORE": {
+      "name": "ESG Combined Score",
+      "description": "Combined ESG score",
+      "usage": "esgCombinedScoreAbove"
+    },
+    "ESG_ENV_PILLAR_SCORE": {
+      "name": "Environmental Score",
+      "description": "Environmental pillar score",
+      "usage": "esgEnvPillarScoreAbove"
+    },
+    "ESG_SOCIAL_PILLAR_SCORE": {
+      "name": "Social Score",
+      "description": "Social pillar score",
+      "usage": "esgSocialPillarScoreAbove"
+    },
+    "ESG_CORP_GOV_PILLAR_SCORE": {
+      "name": "Governance Score",
+      "description": "Corporate governance score",
+      "usage": "esgCorpGovPillarScoreAbove"
+    },
+    "IV_RANK52": {
+      "name": "IV Rank 52W",
+      "description": "IV rank over 52 weeks",
+      "usage": "ivRank52Above, ivRank52Below"
+    },
+    "IV_PERCENTILE52": {
+      "name": "IV Percentile 52W",
+      "description": "IV percentile over 52 weeks",
+      "usage": "ivPercentile52Above"
+    },
+    "HV_RANK52": {
+      "name": "HV Rank 52W",
+      "description": "Historical vol rank 52 weeks",
+      "usage": "hvRank52Above"
+    },
+    "PRICE_2_SALES": {
+      "name": "Price/Sales",
+      "description": "Price to sales ratio",
+      "usage": "price2SalesAbove, price2SalesBelow"
+    },
+    "UTILIZATION": {
+      "name": "Short Utilization",
+      "description": "% of shortable shares in use",
+      "usage": "utilizationAbove"
+    },
+    "EPS_CHANGE_TTM": {
+      "name": "EPS Change TTM",
+      "description": "EPS change trailing 12 months",
+      "usage": "epsChangeTtmAbove"
+    },
+    "REV_CHANGE": {
+      "name": "Revenue Change",
+      "description": "Revenue change %",
+      "usage": "revChangeAbove"
+    },
+    "PAYOUT_RATIO_TTM": {
+      "name": "Payout Ratio",
+      "description": "Dividend payout ratio",
+      "usage": "payoutRatioAbove, payoutRatioBelow"
+    },
+    "OPERATING_MARGIN_TTM": {
+      "name": "Operating Margin",
+      "description": "Operating margin TTM",
+      "usage": "operatingMarginAbove"
+    },
+    "NET_PROFIT_MARGIN_TTM": {
+      "name": "Net Profit Margin",
+      "description": "Net profit margin TTM",
+      "usage": "netProfitMarginAbove"
+    },
+    "RETURN_ON_INVESTMENT_TTM": {
+      "name": "ROI TTM",
+      "description": "Return on investment TTM",
+      "usage": "returnOnInvestmentAbove"
+    },
+    "NUMSHARES": {
+      "name": "Shares Outstanding",
+      "description": "Total shares outstanding",
+      "usage": "numSharesAbove"
+    },
+    "HIGH_VS_HL13": {
+      "name": "% from 13W High",
+      "description": "Distance from 13-week high",
+      "usage": "highVs13WAbove"
+    },
+    "HIGH_VS_HL26": {
+      "name": "% from 26W High",
+      "description": "Distance from 26-week high",
+      "usage": "highVs26WAbove"
+    },
+    "HIGH_VS_HL52": {
+      "name": "% from 52W High",
+      "description": "Distance from 52-week high",
+      "usage": "highVs52WAbove, highVs52WBelow"
+    },
+    "LOW_VS_HL52": {
+      "name": "% from 52W Low",
+      "description": "Distance from 52-week low",
+      "usage": "lowVs52WAbove"
+    },
+    "NEXTEARNINGSDATETIME": {
+      "name": "Next Earnings Date",
+      "description": "Next earnings announcement",
+      "usage": "nextEarningsDateBefore, nextEarningsDateAfter"
+    },
+    "FLOATSHARES": {
+      "name": "Float Shares",
+      "description": "Shares in public float",
+      "usage": "floatSharesAbove, floatSharesBelow"
+    }
+  }
+}

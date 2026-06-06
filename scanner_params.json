@@ -1,0 +1,7348 @@
+{
+  "scan_codes": [
+    {
+      "code": "FAR_MATURITY_DATE",
+      "name": "",
+      "search_name": "Maturity (Far-Near)",
+      "instruments": [
+        "BOND",
+        "BOND.CD",
+        "BOND.AGNCY",
+        "BOND.GOVT",
+        "BOND.MUNI",
+        "BOND.GOVT.NON-US"
+      ]
+    },
+    {
+      "code": "NEAR_MATURITY_DATE",
+      "name": "",
+      "search_name": "Maturity (Near-Far)",
+      "instruments": [
+        "BOND",
+        "BOND.CD",
+        "BOND.AGNCY",
+        "BOND.GOVT",
+        "BOND.MUNI",
+        "BOND.GOVT.NON-US"
+      ]
+    },
+    {
+      "code": "HIGH_COUPON_RATE",
+      "name": "",
+      "search_name": "Coupon Rate (High-Low)",
+      "instruments": [
+        "BOND",
+        "BOND.CD",
+        "BOND.AGNCY",
+        "BOND.GOVT",
+        "BOND.MUNI",
+        "BOND.GOVT.NON-US"
+      ]
+    },
+    {
+      "code": "LOW_COUPON_RATE",
+      "name": "",
+      "search_name": "Coupon Rate (Low-High)",
+      "instruments": [
+        "BOND",
+        "BOND.CD",
+        "BOND.AGNCY",
+        "BOND.GOVT",
+        "BOND.MUNI",
+        "BOND.GOVT.NON-US"
+      ]
+    },
+    {
+      "code": "LOW_BOND_BID_YIELD_ALL",
+      "name": "Lowest Bid Yield",
+      "search_name": "Bid Yield (Low-High)",
+      "instruments": [
+        "BOND",
+        "BOND.CD",
+        "BOND.AGNCY",
+        "BOND.GOVT",
+        "BOND.MUNI",
+        "BOND.GOVT.NON-US"
+      ]
+    },
+    {
+      "code": "HIGH_BOND_ASK_YIELD_ALL",
+      "name": "Highest Ask Yield",
+      "search_name": "Ask Yield (High-Low)",
+      "instruments": [
+        "BOND",
+        "BOND.CD",
+        "BOND.AGNCY",
+        "BOND.GOVT",
+        "BOND.MUNI",
+        "BOND.GOVT.NON-US"
+      ]
+    },
+    {
+      "code": "HIGH_BOND_SPREAD_ALL",
+      "name": "Highest Spread",
+      "search_name": "Spread (High-Low)",
+      "instruments": [
+        "BOND",
+        "BOND.AGNCY",
+        "BOND.GOVT",
+        "BOND.MUNI",
+        "BOND.GOVT.NON-US"
+      ]
+    },
+    {
+      "code": "LOW_BOND_SPREAD_ALL",
+      "name": "Lowest Spread",
+      "search_name": "Spread (Low-High)",
+      "instruments": [
+        "BOND",
+        "BOND.AGNCY",
+        "BOND.GOVT",
+        "BOND.MUNI",
+        "BOND.GOVT.NON-US"
+      ]
+    },
+    {
+      "code": "HIGH_MOODY_RATING_ALL",
+      "name": "",
+      "search_name": "Moody Rating (High-Low)",
+      "instruments": [
+        "BOND",
+        "BOND.MUNI"
+      ]
+    },
+    {
+      "code": "LOW_MOODY_RATING_ALL",
+      "name": "",
+      "search_name": "Moody Rating (Low-High)",
+      "instruments": [
+        "BOND",
+        "BOND.MUNI"
+      ]
+    },
+    {
+      "code": "HIGH_SP_RATING_ALL",
+      "name": "",
+      "search_name": "S&P Rating (High-Low)",
+      "instruments": [
+        "BOND",
+        "BOND.MUNI"
+      ]
+    },
+    {
+      "code": "LOW_SP_RATING_ALL",
+      "name": "",
+      "search_name": "S&P Rating (Low-High)",
+      "instruments": [
+        "BOND",
+        "BOND.MUNI"
+      ]
+    },
+    {
+      "code": "BOND_CUSIP_AZ",
+      "name": "",
+      "search_name": "CUSIP (A-Z)",
+      "instruments": [
+        "BOND",
+        "BOND.CD",
+        "BOND.AGNCY",
+        "BOND.GOVT",
+        "BOND.MUNI",
+        "BOND.GOVT.NON-US"
+      ]
+    },
+    {
+      "code": "BOND_CUSIP_ZA",
+      "name": "",
+      "search_name": "CUSIP (Z-A)",
+      "instruments": [
+        "BOND",
+        "BOND.CD",
+        "BOND.AGNCY",
+        "BOND.GOVT",
+        "BOND.MUNI",
+        "BOND.GOVT.NON-US"
+      ]
+    },
+    {
+      "code": "TOP_PERC_GAIN",
+      "name": "Top % Gainers",
+      "search_name": "% Gainers (High-Low)",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "IND.US",
+        "IND.EU",
+        "IND.HK",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK",
+        "SSF.US",
+        "SSF.NA",
+        "SSF.EU",
+        "SSF.HK",
+        "BOND"
+      ]
+    },
+    {
+      "code": "TOP_PERC_LOSE",
+      "name": "Top % Losers",
+      "search_name": "% Losers (High-Low)",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "IND.US",
+        "IND.EU",
+        "IND.HK",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK",
+        "SSF.US",
+        "SSF.NA",
+        "SSF.EU",
+        "SSF.HK",
+        "BOND"
+      ]
+    },
+    {
+      "code": "MOST_ACTIVE",
+      "name": "Most Active",
+      "search_name": "Volume (High-Low)",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK",
+        "SSF.US",
+        "SSF.NA",
+        "SSF.EU",
+        "SSF.HK",
+        "BOND",
+        "SLB.US",
+        "OPT.US"
+      ]
+    },
+    {
+      "code": "NOT_YET_TRADED_TODAY",
+      "name": "Not Yet Traded Today",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK"
+      ]
+    },
+    {
+      "code": "MOST_ACTIVE_USD",
+      "name": "Most Active ($)",
+      "search_name": "Volume ($) (High-Low)",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK",
+        "SSF.US",
+        "SSF.NA",
+        "SSF.EU",
+        "SSF.HK",
+        "SLB.US",
+        "OPT.US"
+      ]
+    },
+    {
+      "code": "MOST_ACTIVE_AVG_USD",
+      "name": "Most Active (Avg $)",
+      "search_name": "Avg Volume ($) (High-Low)",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "HALTED",
+      "name": "Halted",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK",
+        "SSF.US",
+        "SSF.NA",
+        "SSF.EU",
+        "SSF.HK"
+      ]
+    },
+    {
+      "code": "LIMIT_UP_DOWN",
+      "name": "Closest to Limit Up/Down",
+      "search_name": "% Remaining Up/Down Range (Low-High)",
+      "instruments": [
+        "STK",
+        "FUT.US"
+      ]
+    },
+    {
+      "code": "HOT_BY_PRICE",
+      "name": "Hot Contracts by Price",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK",
+        "SSF.US",
+        "SSF.NA",
+        "SSF.EU",
+        "SSF.HK"
+      ]
+    },
+    {
+      "code": "HOT_BY_VOLUME",
+      "name": "Hot Contracts by Volume",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "HIGH_DIVIDEND_YIELD_IB",
+      "name": "High Dividend Yield",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "TOP_TRADE_COUNT",
+      "name": "Top Trade Count",
+      "search_name": "Trade Count (High-Low)",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK",
+        "SSF.US",
+        "SSF.NA",
+        "SSF.EU",
+        "SSF.HK",
+        "BOND"
+      ]
+    },
+    {
+      "code": "TOP_TRADE_RATE",
+      "name": "Top Trade Rate",
+      "search_name": "Trade Rate (High-Low)",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK",
+        "SSF.US",
+        "SSF.NA",
+        "SSF.EU",
+        "SSF.HK",
+        "BOND"
+      ]
+    },
+    {
+      "code": "TOP_PRICE_RANGE",
+      "name": "Top Price Range",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUT.US"
+      ]
+    },
+    {
+      "code": "HOT_BY_PRICE_RANGE",
+      "name": "Hot By Price Range",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK"
+      ]
+    },
+    {
+      "code": "TOP_VOLUME_RATE",
+      "name": "Top Volume Rate",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK"
+      ]
+    },
+    {
+      "code": "HIGH_STVOLUME_3MIN",
+      "name": "High 3min Volume",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK",
+        "SSF.US",
+        "SSF.NA",
+        "SSF.EU",
+        "SSF.HK"
+      ]
+    },
+    {
+      "code": "HIGH_STVOLUME_5MIN",
+      "name": "High 5min Volume",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK",
+        "SSF.US",
+        "SSF.NA",
+        "SSF.EU",
+        "SSF.HK"
+      ]
+    },
+    {
+      "code": "HIGH_STVOLUME_10MIN",
+      "name": "High 10min Volume",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK",
+        "SSF.US",
+        "SSF.NA",
+        "SSF.EU",
+        "SSF.HK"
+      ]
+    },
+    {
+      "code": "TOP_OPEN_PERC_GAIN",
+      "name": "Top % Gainers Since Open",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK"
+      ]
+    },
+    {
+      "code": "TOP_OPEN_PERC_LOSE",
+      "name": "Top % Losers Since Open",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK"
+      ]
+    },
+    {
+      "code": "HIGH_OPEN_GAP",
+      "name": "Top Close-to-Open % Gainers",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK"
+      ]
+    },
+    {
+      "code": "LOW_OPEN_GAP",
+      "name": "Top Close-to-Open % Losers",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUT.US",
+        "FUT.NA",
+        "FUT.EU",
+        "FUT.HK"
+      ]
+    },
+    {
+      "code": "TOP_AFTER_HOURS_PERC_GAIN",
+      "name": "Top % After-Hours Gainers",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "TOP_AFTER_HOURS_PERC_LOSE",
+      "name": "Top % After-Hours Losers",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "HIGH_OPT_IMP_VOLAT",
+      "name": "Highest Option Imp Vol",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "IND.US",
+        "IND.EU",
+        "IND.HK"
+      ]
+    },
+    {
+      "code": "LOW_OPT_IMP_VOLAT",
+      "name": "Lowest Option Imp Vol",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "IND.US",
+        "IND.EU",
+        "IND.HK"
+      ]
+    },
+    {
+      "code": "TOP_OPT_IMP_VOLAT_GAIN",
+      "name": "Top Option Imp Vol % Gainers",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "IND.US",
+        "IND.EU",
+        "IND.HK"
+      ]
+    },
+    {
+      "code": "TOP_OPT_IMP_VOLAT_LOSE",
+      "name": "Top Option Imp Vol % Losers",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "IND.US",
+        "IND.EU",
+        "IND.HK"
+      ]
+    },
+    {
+      "code": "HIGH_OPT_IMP_VOLAT_OVER_HIST",
+      "name": "High Option Imp Vol Over Historical",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "IND.US",
+        "IND.EU",
+        "IND.HK"
+      ]
+    },
+    {
+      "code": "LOW_OPT_IMP_VOLAT_OVER_HIST",
+      "name": "Low Option Imp Vol Over Historical",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "IND.US",
+        "IND.EU",
+        "IND.HK"
+      ]
+    },
+    {
+      "code": "OPT_VOLUME_MOST_ACTIVE",
+      "name": "Most Active By Opt Volume",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "IND.US",
+        "STOCK.HK",
+        "FUT.US"
+      ]
+    },
+    {
+      "code": "OPT_OPEN_INTEREST_MOST_ACTIVE",
+      "name": "Most Active By Opt Open Interest",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "IND.US",
+        "STOCK.HK",
+        "FUT.US",
+        "IND.FCASTX"
+      ]
+    },
+    {
+      "code": "HIGH_OPT_VOLUME_PUT_CALL_RATIO",
+      "name": "High Opt Volume P/C Ratio",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "IND.US",
+        "STOCK.HK",
+        "FUT.US"
+      ]
+    },
+    {
+      "code": "LOW_OPT_VOLUME_PUT_CALL_RATIO",
+      "name": "Low Opt Volume P/C Ratio",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "IND.US",
+        "STOCK.HK",
+        "FUT.US"
+      ]
+    },
+    {
+      "code": "HIGH_OPT_OPEN_INTEREST_PUT_CALL_RATIO",
+      "name": "High Opt Open Interest P/C Ratio",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "IND.US",
+        "STOCK.HK",
+        "FUT.US"
+      ]
+    },
+    {
+      "code": "LOW_OPT_OPEN_INTEREST_PUT_CALL_RATIO",
+      "name": "Low Opt Open Interest P/C Ratio",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "IND.US",
+        "STOCK.HK",
+        "FUT.US"
+      ]
+    },
+    {
+      "code": "HOT_BY_OPT_VOLUME",
+      "name": "Hot By Opt Volume",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "IND.US",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "TOP_STOCK_BUY_IMBALANCE_ADV_RATIO",
+      "name": "Hot by Buy Imbalance",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "TOP_STOCK_SELL_IMBALANCE_ADV_RATIO",
+      "name": "Hot by Sell Imbalance",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "TOP_STOCK_BUY_REG_IMBALANCE_ADV_RATIO",
+      "name": "Hot by Buy Regulatory Imbalance",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "TOP_STOCK_SELL_REG_IMBALANCE_ADV_RATIO",
+      "name": "Hot by Sell Regulatory Imbalance",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "HIGH_VS_13W_HL",
+      "name": "13-Week High",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.HK",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.NA",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "LOW_VS_13W_HL",
+      "name": "13-Week Low",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.HK",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.NA",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "HIGH_VS_26W_HL",
+      "name": "26-Week High",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.HK",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.NA",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "LOW_VS_26W_HL",
+      "name": "26-Week Low",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.HK",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.NA",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "HIGH_VS_52W_HL",
+      "name": "52-Week High",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.HK",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.NA",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "LOW_VS_52W_HL",
+      "name": "52-Week Low",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.HK",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.NA",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "FIRST_TRADE_DATE_ASC",
+      "name": "Upcoming IPO Date Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "FIRST_TRADE_DATE_DESC",
+      "name": "Upcoming IPO Date Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "HIGH_GROWTH_RATE",
+      "name": "High Growth Rate (Refinitiv)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "LOW_GROWTH_RATE",
+      "name": "Low Growth Rate (Refinitiv)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "HIGH_PE_RATIO",
+      "name": "High P/E Ratio (Refinitiv)",
+      "search_name": "",
+      "instruments": [
+        "STK"
+      ]
+    },
+    {
+      "code": "LOW_PE_RATIO",
+      "name": "Low P/E Ratio (Refinitiv)",
+      "search_name": "",
+      "instruments": [
+        "STK"
+      ]
+    },
+    {
+      "code": "HIGH_QUICK_RATIO",
+      "name": "High Quick Ratio (Refinitiv)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "LOW_QUICK_RATIO",
+      "name": "Low Quick Ratio (Refinitiv)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "HIGH_RETURN_ON_EQUITY",
+      "name": "High Return On Equity (Refinitiv)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "LOW_RETURN_ON_EQUITY",
+      "name": "Low Return On Equity (Refinitiv)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "HIGH_PRICE_2_BOOK_RATIO",
+      "name": "High Price/Book Ratio (Refinitiv)",
+      "search_name": "",
+      "instruments": [
+        "STK"
+      ]
+    },
+    {
+      "code": "LOW_PRICE_2_BOOK_RATIO",
+      "name": "Low Price/Book Ratio (Refinitiv)",
+      "search_name": "",
+      "instruments": [
+        "STK"
+      ]
+    },
+    {
+      "code": "HIGH_PRICE_2_TAN_BOOK_RATIO",
+      "name": "High Price/Tang. Book Ratio (Refinitiv)",
+      "search_name": "",
+      "instruments": [
+        "STK"
+      ]
+    },
+    {
+      "code": "LOW_PRICE_2_TAN_BOOK_RATIO",
+      "name": "Low Price/Tang. Book Ratio (Refinitiv)",
+      "search_name": "",
+      "instruments": [
+        "STK"
+      ]
+    },
+    {
+      "code": "SCAN_epsChangeTTM_ASC",
+      "name": "EPS Chg TTM % (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_epsChangeTTM_DESC",
+      "name": "EPS Chg TTM % (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_revChange_ASC",
+      "name": "Rev Change(%) (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_revChange_DESC",
+      "name": "Rev Change(%) (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_revGrowthRate5Y_ASC",
+      "name": "Revenue Growth Rate 5Y (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_revGrowthRate5Y_DESC",
+      "name": "Revenue Growth Rate 5Y (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_payoutRatioTTM_ASC",
+      "name": "Payout Ratio TTM (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_payoutRatioTTM_DESC",
+      "name": "Payout Ratio TTM (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_price2CashTTM_ASC",
+      "name": "Price To Cash Per Share (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_price2CashTTM_DESC",
+      "name": "Price To Cash Per Share (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_operatingMarginTTM_ASC",
+      "name": "Operating Margin (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_operatingMarginTTM_DESC",
+      "name": "Operating Margin (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_netProfitMarginTTM_ASC",
+      "name": "Net Profit Margin(%) (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_netProfitMarginTTM_DESC",
+      "name": "Net Profit Margin(%) (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_returnOnInvestmentTTM_ASC",
+      "name": "Return On Investment (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_returnOnInvestmentTTM_DESC",
+      "name": "Return On Investment (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "WSH_NEXT_MAJOR_EVENT",
+      "name": "Upcoming Major Event (WSH)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "WSH_NEXT_EARNINGS",
+      "name": "Upcoming Earnings (WSH)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "WSH_NEXT_ANALYST_MEETING",
+      "name": "Upcoming Meeting (WSH)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "WSH_NEXT_EVENT",
+      "name": "Upcoming Event (WSH)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "WSH_PREV_EARNINGS",
+      "name": "Recent Earnings (WSH)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "WSH_PREV_ANALYST_MEETING",
+      "name": "Recent Meeting (WSH)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "WSH_PREV_EVENT",
+      "name": "Recent Event (WSH)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "HIGHEST_SLB_BID",
+      "name": "Highest Bid",
+      "search_name": "",
+      "instruments": [
+        "SLB.US"
+      ]
+    },
+    {
+      "code": "LOWEST_SLB_ASK",
+      "name": "Lowest Ask",
+      "search_name": "",
+      "instruments": [
+        "SLB.US"
+      ]
+    },
+    {
+      "code": "HIGH_BOND_DEBT_2_EQUITY_RATIO",
+      "name": "High Debt/Equity",
+      "search_name": "Debt/Equity (High-Low)",
+      "instruments": [
+        "BOND"
+      ]
+    },
+    {
+      "code": "LOW_BOND_DEBT_2_EQUITY_RATIO",
+      "name": "Low Debt/Equity",
+      "search_name": "Debt/Equity (Low-High)",
+      "instruments": [
+        "BOND"
+      ]
+    },
+    {
+      "code": "HIGH_BOND_DEBT_2_BOOK_RATIO",
+      "name": "High Debt/Book (Refinitiv)",
+      "search_name": "Debt/Book (High-Low) (Refinitiv)",
+      "instruments": [
+        "BOND"
+      ]
+    },
+    {
+      "code": "LOW_BOND_DEBT_2_BOOK_RATIO",
+      "name": "Low Debt/Book (Refinitiv)",
+      "search_name": "Debt/Book (Low-High) (Refinitiv)",
+      "instruments": [
+        "BOND"
+      ]
+    },
+    {
+      "code": "HIGH_BOND_DEBT_2_TAN_BOOK_RATIO",
+      "name": "High Debt/Tang. Book (Refinitiv)",
+      "search_name": "Debt/Tang. Book (High-Low) (Refinitiv)",
+      "instruments": [
+        "BOND"
+      ]
+    },
+    {
+      "code": "LOW_BOND_DEBT_2_TAN_BOOK_RATIO",
+      "name": "Low Debt/Tang. Book (Refinitiv)",
+      "search_name": "Debt/Tang. Book (Low-High) (Refinitiv)",
+      "instruments": [
+        "BOND"
+      ]
+    },
+    {
+      "code": "HIGH_BOND_EQUITY_2_BOOK_RATIO",
+      "name": "High Equity/Book (Refinitiv)",
+      "search_name": "Equity/Book (High-Low) (Refinitiv)",
+      "instruments": [
+        "BOND"
+      ]
+    },
+    {
+      "code": "LOW_BOND_EQUITY_2_BOOK_RATIO",
+      "name": "Low Equity/Book (Refinitiv)",
+      "search_name": "Equity/Book (Low-High) (Refinitiv)",
+      "instruments": [
+        "BOND"
+      ]
+    },
+    {
+      "code": "HIGH_BOND_EQUITY_2_TAN_BOOK_RATIO",
+      "name": "High Equity/Tang. Book (Refinitiv)",
+      "search_name": "Equity/Tang. Book (High-Low) (Refinitiv)",
+      "instruments": [
+        "BOND"
+      ]
+    },
+    {
+      "code": "LOW_BOND_EQUITY_2_TAN_BOOK_RATIO",
+      "name": "Low Equity/Tang. Book (Refinitiv)",
+      "search_name": "Equity/Tang. Book (Low-High) (Refinitiv)",
+      "instruments": [
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_sharesAvailableNorm_ASC",
+      "name": "Shortable shares (Low-High)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_sharesAvailableNorm_DESC",
+      "name": "Shortable shares (High-Low)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_feeRate_ASC",
+      "name": "Fee Rate (Low-High)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_feeRate_DESC",
+      "name": "Fee Rate (High-Low)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_utilization_ASC",
+      "name": "Utilization (Low-High)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_utilization_DESC",
+      "name": "Utilization (High-Low)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_avgRating_ASC",
+      "name": "Avg Analyst Rating (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_avgRating_DESC",
+      "name": "Avg Analyst Rating (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_numRatings_ASC",
+      "name": "# of Analyst Ratings (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_numRatings_DESC",
+      "name": "# of Analyst Ratings (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_avgPriceTarget_ASC",
+      "name": "Avg Analyst Price Target (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK"
+      ]
+    },
+    {
+      "code": "SCAN_avgPriceTarget_DESC",
+      "name": "Avg Analyst Price Target (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK"
+      ]
+    },
+    {
+      "code": "SCAN_numPriceTargets_ASC",
+      "name": "# of Analyst Price Targets (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK"
+      ]
+    },
+    {
+      "code": "SCAN_numPriceTargets_DESC",
+      "name": "# of Analyst Price Targets (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK"
+      ]
+    },
+    {
+      "code": "SCAN_avgAnalystTarget2PriceRatio_ASC",
+      "name": "Analyst Target/Price Ratio (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK"
+      ]
+    },
+    {
+      "code": "SCAN_avgAnalystTarget2PriceRatio_DESC",
+      "name": "Analyst Target/Price Ratio (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK"
+      ]
+    },
+    {
+      "code": "SCAN_ihNumSharesInsider_ASC",
+      "name": "# Shares Held By Insider Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_ihNumSharesInsider_DESC",
+      "name": "# Shares Held By Insider Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_ihInsiderOfFloatPerc_ASC",
+      "name": "Insider Shares as % of Float Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_ihInsiderOfFloatPerc_DESC",
+      "name": "Insider Shares as % of Float Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_iiNumSharesInstitutional_ASC",
+      "name": "# Shares Held By Institutions Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_iiNumSharesInstitutional_DESC",
+      "name": "# Shares Held By Institutions Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_iiInstitutionalOfFloatPerc_ASC",
+      "name": "Institutional Shares as % of Float Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_iiInstitutionalOfFloatPerc_DESC",
+      "name": "Institutional Shares as % of Float Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "HIGH_LAST_VS_EMA20",
+      "name": "Price vs EMA(20) Change(%) (High-Low)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "LOW_LAST_VS_EMA20",
+      "name": "Price vs EMA(20) Change(%) (Low-High)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "HIGH_LAST_VS_EMA50",
+      "name": "Price vs EMA(50) Change(%) (High-Low)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "LOW_LAST_VS_EMA50",
+      "name": "Price vs EMA(50) Change(%) (Low-High)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "HIGH_LAST_VS_EMA100",
+      "name": "Price vs EMA(100) Change(%) (High-Low)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "LOW_LAST_VS_EMA100",
+      "name": "Price vs EMA(100) Change(%) (Low-High)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "HIGH_LAST_VS_EMA200",
+      "name": "Price vs EMA(200) Change(%) (High-Low)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "LOW_LAST_VS_EMA200",
+      "name": "Price vs EMA(200) Change(%) (Low-High)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "BULLISH_LAST_VS_EMA20",
+      "name": "Bullish Price vs EMA(20)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "BEARISH_LAST_VS_EMA20",
+      "name": "Bearish Price vs EMA(20)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "BULLISH_LAST_VS_EMA50",
+      "name": "Bullish Price vs EMA(50)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "BEARISH_LAST_VS_EMA50",
+      "name": "Bearish Price vs EMA(50)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "BULLISH_LAST_VS_EMA100",
+      "name": "Bullish Price vs EMA(100)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "BEARISH_LAST_VS_EMA100",
+      "name": "Bearish Price vs EMA(100)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "BULLISH_LAST_VS_EMA200",
+      "name": "Bullish Price vs EMA(200)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "BEARISH_LAST_VS_EMA200",
+      "name": "Bearish Price vs EMA(200)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "BULLISH_EMA_DIFF_VS_LAST",
+      "name": "Bullish EMA(20) vs EMA(200)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "BEARISH_EMA_DIFF_VS_LAST",
+      "name": "Bearish EMA(20) vs EMA(200)",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "BULLISH_MACD_DIST_VS_LAST",
+      "name": "Bullish MACD Histogram",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "BEARISH_MACD_DIST_VS_LAST",
+      "name": "Bearish MACD Histogram",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "BULLISH_PPO_DIST",
+      "name": "Bullish PPO Histogram",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "BEARISH_PPO_DIST",
+      "name": "Bearish PPO Histogram",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "COMBO_LATEST_TRADE",
+      "name": "Trades",
+      "search_name": "",
+      "instruments": [
+        "NATCOMB"
+      ]
+    },
+    {
+      "code": "COMBO_QUOTES",
+      "name": "Quotes",
+      "search_name": "",
+      "instruments": [
+        "NATCOMB"
+      ]
+    },
+    {
+      "code": "COMBO_MOST_ACTIVE",
+      "name": "Volume",
+      "search_name": "",
+      "instruments": [
+        "NATCOMB"
+      ]
+    },
+    {
+      "code": "COMBO_ALL_TRADE_TIME_ASC",
+      "name": "All (Trade Time Asc)",
+      "search_name": "",
+      "instruments": [
+        "NATCOMB"
+      ]
+    },
+    {
+      "code": "COMBO_ALL_TRADE_TIME_DESC",
+      "name": "All (Trade Time Desc)",
+      "search_name": "",
+      "instruments": [
+        "NATCOMB"
+      ]
+    },
+    {
+      "code": "COMBO_ALL_QUOTE_TIME_ASC",
+      "name": "All (Quote Time Asc)",
+      "search_name": "",
+      "instruments": [
+        "NATCOMB"
+      ]
+    },
+    {
+      "code": "COMBO_ALL_QUOTE_TIME_DESC",
+      "name": "All (Quote Time Desc)",
+      "search_name": "",
+      "instruments": [
+        "NATCOMB"
+      ]
+    },
+    {
+      "code": "COMBO_ALL_TRADE_QUOTE_TIME_ASC",
+      "name": "All (Time Asc)",
+      "search_name": "",
+      "instruments": [
+        "NATCOMB"
+      ]
+    },
+    {
+      "code": "COMBO_ALL_TRADE_QUOTE_TIME_DESC",
+      "name": "All (Time Desc)",
+      "search_name": "",
+      "instruments": [
+        "NATCOMB"
+      ]
+    },
+    {
+      "code": "COMBO_ALL_VOLUME_ASC",
+      "name": "All (Volume Asc)",
+      "search_name": "",
+      "instruments": [
+        "NATCOMB"
+      ]
+    },
+    {
+      "code": "COMBO_ALL_VOLUME_DESC",
+      "name": "All (Volume Desc)",
+      "search_name": "",
+      "instruments": [
+        "NATCOMB"
+      ]
+    },
+    {
+      "code": "SCAN_mfTotalReturnScoreOverall_DESC",
+      "name": "Total Return Score - Overall Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfTotalReturnScoreOverall_ASC",
+      "name": "Total Return Score - Overall Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfConsistentReturnScoreOverall_DESC",
+      "name": "Consistent Return Score - Overall Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfConsistentReturnScoreOverall_ASC",
+      "name": "Consistent Return Score - Overall Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfPreservationScoreOverall_DESC",
+      "name": "Preservation Score - Overall Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfPreservationScoreOverall_ASC",
+      "name": "Preservation Score - Overall Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfTaxEfficiencyScoreOverall_DESC",
+      "name": "Tax Efficiency Score - Overall Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfTaxEfficiencyScoreOverall_ASC",
+      "name": "Tax Efficiency Score - Overall Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfExpenseScoreOverall_DESC",
+      "name": "Expense Score - Overall Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfExpenseScoreOverall_ASC",
+      "name": "Expense Score - Overall Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfTotalReturnScore3yr_DESC",
+      "name": "Total Return Score - 3yr Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfTotalReturnScore3yr_ASC",
+      "name": "Total Return Score - 3yr Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfConsistentReturnScore3yr_DESC",
+      "name": "Consistent Return Score - 3yr Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfConsistentReturnScore3yr_ASC",
+      "name": "Consistent Return Score - 3yr Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfPreservationScore3yr_DESC",
+      "name": "Preservation Score - 3yr Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfPreservationScore3yr_ASC",
+      "name": "Preservation Score - 3yr Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfTaxEfficiencyScore3yr_DESC",
+      "name": "Tax Efficiency Score - 3yr Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfTaxEfficiencyScore3yr_ASC",
+      "name": "Tax Efficiency Score - 3yr Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfExpenseScore3yr_DESC",
+      "name": "Expense Score - 3yr Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfExpenseScore3yr_ASC",
+      "name": "Expense Score - 3yr Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfTotalReturnScore5yr_DESC",
+      "name": "Total Return Score - 5yr Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfTotalReturnScore5yr_ASC",
+      "name": "Total Return Score - 5yr Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfConsistentReturnScore5yr_DESC",
+      "name": "Consistent Return Score - 5yr Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfConsistentReturnScore5yr_ASC",
+      "name": "Consistent Return Score - 5yr Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfPreservationScore5yr_DESC",
+      "name": "Preservation Score - 5yr Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfPreservationScore5yr_ASC",
+      "name": "Preservation Score - 5yr Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfTaxEfficiencyScore5yr_DESC",
+      "name": "Tax Efficiency Score - 5yr Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfTaxEfficiencyScore5yr_ASC",
+      "name": "Tax Efficiency Score - 5yr Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfExpenseScore5yr_DESC",
+      "name": "Expense Score - 5yr Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfExpenseScore5yr_ASC",
+      "name": "Expense Score - 5yr Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfTotalReturnScore10yr_DESC",
+      "name": "Total Return Score - 10yr Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfTotalReturnScore10yr_ASC",
+      "name": "Total Return Score - 10yr Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfConsistentReturnScore10yr_DESC",
+      "name": "Consistent Return Score - 10yr Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfConsistentReturnScore10yr_ASC",
+      "name": "Consistent Return Score - 10yr Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfPreservationScore10yr_DESC",
+      "name": "Preservation Score - 10yr Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfPreservationScore10yr_ASC",
+      "name": "Preservation Score - 10yr Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfTaxEfficiencyScore10yr_DESC",
+      "name": "Tax Efficiency Score - 10yr Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfTaxEfficiencyScore10yr_ASC",
+      "name": "Tax Efficiency Score - 10yr Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfExpenseScore10yr_DESC",
+      "name": "Expense Score - 10yr Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfExpenseScore10yr_ASC",
+      "name": "Expense Score - 10yr Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfPriceChangeValue_DESC",
+      "name": "Price Change Value Desc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_mfPriceChangeValue_ASC",
+      "name": "Price Change Value Asc",
+      "search_name": "",
+      "instruments": [
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperTotalNetAssets_DESC",
+      "name": "Total Net Assets Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperTotalNetAssets_ASC",
+      "name": "Total Net Assets Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperTotalExpenseRatio_DESC",
+      "name": "Total Expense Ratio Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperTotalExpenseRatio_ASC",
+      "name": "Total Expense Ratio Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperDistributionYield1yrValue_DESC",
+      "name": "Distribution Yield 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperDistributionYield1yrValue_ASC",
+      "name": "Distribution Yield 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperPercentageGrowthCumulativeValue_DESC",
+      "name": "Percentage Growth Cumulative Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperPercentageGrowthCumulativeValue_ASC",
+      "name": "Percentage Growth Cumulative Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAnnualizedPerformance3yrValue_DESC",
+      "name": "Annualized Performance 3Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAnnualizedPerformance3yrValue_ASC",
+      "name": "Annualized Performance 3Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAnnualizedPerformance5yrValue_DESC",
+      "name": "Annualized Performance 5Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAnnualizedPerformance5yrValue_ASC",
+      "name": "Annualized Performance 5Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAnnualizedPerformance10yrValue_DESC",
+      "name": "Annualized Performance 10Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAnnualizedPerformance10yrValue_ASC",
+      "name": "Annualized Performance 10Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperYieldValue_DESC",
+      "name": "Yield 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperYieldValue_ASC",
+      "name": "Yield 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperProjectedYieldValue_DESC",
+      "name": "Projected Yield Value Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperProjectedYieldValue_ASC",
+      "name": "Projected Yield Value Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperPctChange_DESC",
+      "name": "Pct Change Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperPctChange_ASC",
+      "name": "Pct Change Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAdjustedRSquared1yr_DESC",
+      "name": "R-Squared Adjusted 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAdjustedRSquared1yr_ASC",
+      "name": "R-Squared Adjusted 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAlpha1yr_DESC",
+      "name": "Alpha 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAlpha1yr_ASC",
+      "name": "Alpha 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAverageLoss1yr_DESC",
+      "name": "Average Loss 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAverageLoss1yr_ASC",
+      "name": "Average Loss 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAverageReturn1yr_DESC",
+      "name": "Average Return 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAverageReturn1yr_ASC",
+      "name": "Average Return 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperBearBeta1yr_DESC",
+      "name": "Bear Beta 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperBearBeta1yr_ASC",
+      "name": "Bear Beta 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperBeta1yr_DESC",
+      "name": "Beta 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperBeta1yr_ASC",
+      "name": "Beta 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperBullBeta1yr_DESC",
+      "name": "Bull Beta 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperBullBeta1yr_ASC",
+      "name": "Bull Beta 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperCovariance1yr_DESC",
+      "name": "CoVariance 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperCovariance1yr_ASC",
+      "name": "CoVariance 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperCorrelation1yr_DESC",
+      "name": "Correlation 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperCorrelation1yr_ASC",
+      "name": "Correlation 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperDownsideDeviationPopulation1yr_DESC",
+      "name": "Downside Deviation 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperDownsideDeviationPopulation1yr_ASC",
+      "name": "Downside Deviation 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperInformationRatio1yr_DESC",
+      "name": "Information Ratio 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperInformationRatio1yr_ASC",
+      "name": "Information Ratio 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperMaxGain1yr_DESC",
+      "name": "Max Gain 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperMaxGain1yr_ASC",
+      "name": "Max Gain 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperMaxLoss1yr_DESC",
+      "name": "Max Loss 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperMaxLoss1yr_ASC",
+      "name": "Max Loss 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperMaximumDrawdown1yr_DESC",
+      "name": "Max Drawdown 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperMaximumDrawdown1yr_ASC",
+      "name": "Max Drawdown 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperPositivePeriods1yr_DESC",
+      "name": "Positive Periods 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperPositivePeriods1yr_ASC",
+      "name": "Positive Periods 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperRSquared1yr_DESC",
+      "name": "R-Squared 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperRSquared1yr_ASC",
+      "name": "R-Squared 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnRiskRatio1yr_DESC",
+      "name": "Return Risk Ratio 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnRiskRatio1yr_ASC",
+      "name": "Return Risk Ratio 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSRRI1yr_DESC",
+      "name": "Synthetic Risk and Reward Indicator 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSRRI1yr_ASC",
+      "name": "Synthetic Risk and Reward Indicator 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSemiDeviation1yr_DESC",
+      "name": "Semi Deviation 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSemiDeviation1yr_ASC",
+      "name": "Semi Deviation 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSemiVariance1yr_DESC",
+      "name": "Semi Variance 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSemiVariance1yr_ASC",
+      "name": "Semi Variance 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSharpeRatio1yr_DESC",
+      "name": "Sharpe Ratio 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSharpeRatio1yr_ASC",
+      "name": "Sharpe Ratio 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSortino1yr_DESC",
+      "name": "Sortino Ratio 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSortino1yr_ASC",
+      "name": "Sortino Ratio 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperStandardDeviation1yr_DESC",
+      "name": "Standard Deviation 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperStandardDeviation1yr_ASC",
+      "name": "Standard Deviation 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperTrackingError1yr_DESC",
+      "name": "Tracking Error 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperTrackingError1yr_ASC",
+      "name": "Tracking Error 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperTreynorRatio1yr_DESC",
+      "name": "Treynor Ratio 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperTreynorRatio1yr_ASC",
+      "name": "Treynor Ratio 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperValueAtRiskNormal1yr_DESC",
+      "name": "Value At Risk Normal 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperValueAtRiskNormal1yr_ASC",
+      "name": "Value At Risk Normal 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperValueAtRiskNormalETL1yr_DESC",
+      "name": "Value At Risk Normal End Tail Loss 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperValueAtRiskNormalETL1yr_ASC",
+      "name": "Value At Risk Normal End Tail Loss 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperValueAtRiskQuantile1yr_DESC",
+      "name": "Value At Risk Quantile 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperValueAtRiskQuantile1yr_ASC",
+      "name": "Value At Risk Quantile 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperValueAtRiskQuantileETL1yr_DESC",
+      "name": "Value At Risk Quantile End Tail Loss 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperValueAtRiskQuantileETL1yr_ASC",
+      "name": "Value At Risk Quantile End Tail Loss 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperVariance1yr_DESC",
+      "name": "Variance 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperVariance1yr_ASC",
+      "name": "Variance 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperNumberOfSecurities_DESC",
+      "name": "Number of Securities Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperNumberOfSecurities_ASC",
+      "name": "Number of Securities Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperDividendPayoutRatio_DESC",
+      "name": "Dividend Payout Ratio Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperDividendPayoutRatio_ASC",
+      "name": "Dividend Payout Ratio Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperDividendPayoutRatio5yr_DESC",
+      "name": "Dividend Payout Ratio - 5Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperDividendPayoutRatio5yr_ASC",
+      "name": "Dividend Payout Ratio - 5Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperDividendPerShare1yr_DESC",
+      "name": "Dividend Per Share 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperDividendPerShare1yr_ASC",
+      "name": "Dividend Per Share 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperDividendPerShare3yr_DESC",
+      "name": "Dividend Per Share 3Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperDividendPerShare3yr_ASC",
+      "name": "Dividend Per Share 3Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperPrice2Dividend_DESC",
+      "name": "Price to Dividend Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperPrice2Dividend_ASC",
+      "name": "Price to Dividend Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperDividendYieldWAvg_DESC",
+      "name": "Dividend Yield Weighted Average Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperDividendYieldWAvg_ASC",
+      "name": "Dividend Yield Weighted Average Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperEBIT2Interest_DESC",
+      "name": "EBIT to Interest Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperEBIT2Interest_ASC",
+      "name": "EBIT to Interest Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperMktCapAvgLatest_DESC",
+      "name": "Market Capitalisation - Avg. Latest Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperMktCapAvgLatest_ASC",
+      "name": "Market Capitalisation - Avg. Latest Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperOperCashFlowGrowthRate3yr_DESC",
+      "name": "Operating Cash Flow - Growth Rate 3Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperOperCashFlowGrowthRate3yr_ASC",
+      "name": "Operating Cash Flow - Growth Rate 3Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSalesGrowth1yr_DESC",
+      "name": "Sales Growth 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSalesGrowth1yr_ASC",
+      "name": "Sales Growth 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSalesGrowth3yr_DESC",
+      "name": "Sales Growth 3Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSalesGrowth3yr_ASC",
+      "name": "Sales Growth 3Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSalesGrowth5yr_DESC",
+      "name": "Sales Growth 5Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSalesGrowth5yr_ASC",
+      "name": "Sales Growth 5Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestPrice2EarningsRatio_DESC",
+      "name": "Price/Earnings Ratio Latest Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestPrice2EarningsRatio_ASC",
+      "name": "Price/Earnings Ratio Latest Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestPrice2BookRatio_DESC",
+      "name": "Price/Book Ratio Latest Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestPrice2BookRatio_ASC",
+      "name": "Price/Book Ratio Latest Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestPrice2SalesRatio_DESC",
+      "name": "Price/Sales Ratio Latest Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestPrice2SalesRatio_ASC",
+      "name": "Price/Sales Ratio Latest Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestReturnOnEquityWAvg_DESC",
+      "name": "Return on Equity Weighted Average Latest Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestReturnOnEquityWAvg_ASC",
+      "name": "Return on Equity Weighted Average Latest Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestSalesPerShareGrowth3yr_DESC",
+      "name": "Sales Per Share Growth 3Yr Latest Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestSalesPerShareGrowth3yr_ASC",
+      "name": "Sales Per Share Growth 3Yr Latest Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLTDebt2ShareholdersEquity_DESC",
+      "name": "LT Debt / Shareholders Equity Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLTDebt2ShareholdersEquity_ASC",
+      "name": "LT Debt / Shareholders Equity Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperEPSGrowth1yr_DESC",
+      "name": "EPS Growth - 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperEPSGrowth1yr_ASC",
+      "name": "EPS Growth - 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperEPSGrowth3yr_DESC",
+      "name": "EPS Growth - 3Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperEPSGrowth3yr_ASC",
+      "name": "EPS Growth - 3Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperEPSGrowth5yr_DESC",
+      "name": "EPS Growth - 5Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperEPSGrowth5yr_ASC",
+      "name": "EPS Growth - 5Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperPrice2EarningsRatio_DESC",
+      "name": "Price/Earnings Ratio Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperPrice2EarningsRatio_ASC",
+      "name": "Price/Earnings Ratio Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperPrice2BookRatio_DESC",
+      "name": "Price/Book Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperPrice2BookRatio_ASC",
+      "name": "Price/Book Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperPrice2SalesRatio_DESC",
+      "name": "Price/Sales Ratio Latest Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperPrice2SalesRatio_ASC",
+      "name": "Price/Sales Ratio Latest Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnAssets1yr_DESC",
+      "name": "Return on Assets 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnAssets1yr_ASC",
+      "name": "Return on Assets 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnAssets3yr_DESC",
+      "name": "Return on Assets 3Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnAssets3yr_ASC",
+      "name": "Return on Assets 3Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnEquity1yr_DESC",
+      "name": "Return on Equity 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnEquity1yr_ASC",
+      "name": "Return on Equity 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnEquity3yr_DESC",
+      "name": "Return on Equity 3Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnEquity3yr_ASC",
+      "name": "Return on Equity 3Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnInvestment1yr_DESC",
+      "name": "Return on Investment 1Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnInvestment1yr_ASC",
+      "name": "Return on Investment 1Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnInvestment3yr_DESC",
+      "name": "Return on Investment 3Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnInvestment3yr_ASC",
+      "name": "Return on Investment 3Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSales2TotalAssets_DESC",
+      "name": "Sales to Total Assets Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSales2TotalAssets_ASC",
+      "name": "Sales to Total Assets Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSalesPerShareGrowth1yr_DESC",
+      "name": "Sales Per Share Growth 1 Year Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSalesPerShareGrowth1yr_ASC",
+      "name": "Sales Per Share Growth 1 Year Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSalesPerShareGrowth3yr_DESC",
+      "name": "Sales Per Share Growth 3 Year Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperSalesPerShareGrowth3yr_ASC",
+      "name": "Sales Per Share Growth 3 Year Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperTotalAssets2TotalEquity_DESC",
+      "name": "Total Assets / Total Equity Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperTotalAssets2TotalEquity_ASC",
+      "name": "Total Assets / Total Equity Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperTotalDebt2TotalCapital_DESC",
+      "name": "Total Debt / Total Capital Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperTotalDebt2TotalCapital_ASC",
+      "name": "Total Debt / Total Capital Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperTotalDebt2TotalEquity_DESC",
+      "name": "Total Debt / Total Equity Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperTotalDebt2TotalEquity_ASC",
+      "name": "Total Debt / Total Equity Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperPrice2Cash_DESC",
+      "name": "Price to Cash Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperPrice2Cash_ASC",
+      "name": "Price to Cash Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperRelativeStrength_DESC",
+      "name": "Relative Strength Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperRelativeStrength_ASC",
+      "name": "Relative Strength Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnCapital_DESC",
+      "name": "Return on Capital Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnCapital_ASC",
+      "name": "Return on Capital Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnCapital3yr_DESC",
+      "name": "Return on Capital 3Yr Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnCapital3yr_ASC",
+      "name": "Return on Capital 3Yr Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestCompositeZScore_DESC",
+      "name": "Composite Z-Score Latest Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestCompositeZScore_ASC",
+      "name": "Composite Z-Score Latest Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestPrice2EarningsZScore_DESC",
+      "name": "Price to Earnings Z-Score Latest Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestPrice2EarningsZScore_ASC",
+      "name": "Price to Earnings Z-Score Latest Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestPrice2BookZScore_DESC",
+      "name": "Price to Book Z-Score Latest Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestPrice2BookZScore_ASC",
+      "name": "Price to Book Z-Score Latest Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestPrice2SalesZScore_DESC",
+      "name": "Price/Sales Z-Score Latest Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestPrice2SalesZScore_ASC",
+      "name": "Price/Sales Z-Score Latest Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestSPSGrowthZScore_DESC",
+      "name": "SPS Growth Z-Score Latest Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperLatestSPSGrowthZScore_ASC",
+      "name": "SPS Growth Z-Score Latest Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAverageFinalCompositeZScore_DESC",
+      "name": "Average Final Composite Z-Score Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAverageFinalCompositeZScore_ASC",
+      "name": "Average Final Composite Z-Score Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperWeightedFinalCompositeZScore_DESC",
+      "name": "Weighted Final Composite Z-Score Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperWeightedFinalCompositeZScore_ASC",
+      "name": "Weighted Final Composite Z-Score Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperDividendYieldZScore_DESC",
+      "name": "Dividend Yield Z-Score Latest Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperDividendYieldZScore_ASC",
+      "name": "Dividend Yield Z-Score Latest Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnEquityZScore_DESC",
+      "name": "Return on Equity Z-Score Latest Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperReturnOnEquityZScore_ASC",
+      "name": "Return on Equity Z-Score Latest Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperYieldToMaturity_DESC",
+      "name": "Yield to Maturity Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperYieldToMaturity_ASC",
+      "name": "Yield to Maturity Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperNominalMaturity_DESC",
+      "name": "Nominal Maturity Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperNominalMaturity_ASC",
+      "name": "Nominal Maturity Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperEffectiveMaturity_DESC",
+      "name": "Effective Maturity Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperEffectiveMaturity_ASC",
+      "name": "Effective Maturity Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAverageCoupon_DESC",
+      "name": "Average Coupon Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperAverageCoupon_ASC",
+      "name": "Average Coupon Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperCalculatedAverageQuality_DESC",
+      "name": "Calculated Average Quality Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperCalculatedAverageQuality_ASC",
+      "name": "Calculated Average Quality Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperFundLeverageRatio_DESC",
+      "name": "Fund Leverage Ratio Desc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_lipperFundLeverageRatio_ASC",
+      "name": "Fund Leverage Ratio Asc",
+      "search_name": "",
+      "instruments": [
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL"
+      ]
+    },
+    {
+      "code": "SCAN_esgScore_DESC",
+      "name": "ESG Score (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgScore_ASC",
+      "name": "ESG Score (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgCombinedScore_DESC",
+      "name": "ESG Combined Score (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgCombinedScore_ASC",
+      "name": "ESG Combined Score (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgControversiesScore_DESC",
+      "name": "ESG Controversies Score (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgControversiesScore_ASC",
+      "name": "ESG Controversies Score (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgResourceUseScore_DESC",
+      "name": "ESG Resource Use Score (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgResourceUseScore_ASC",
+      "name": "ESG Resource Use Score (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgEmissionsScore_DESC",
+      "name": "ESG Emissions Score (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgEmissionsScore_ASC",
+      "name": "ESG Emissions Score (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgEnvInvScore_DESC",
+      "name": "ESG Environmental Innovation Score (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgEnvInvScore_ASC",
+      "name": "ESG Environmental Innovation Score (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgWorkforceScore_DESC",
+      "name": "ESG Workforce Score (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgWorkforceScore_ASC",
+      "name": "ESG Workforce Score (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgHrScore_DESC",
+      "name": "ESG Human Rights Score (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgHrScore_ASC",
+      "name": "ESG Human Rights Score (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgCommunityScore_DESC",
+      "name": "ESG Community Score (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgCommunityScore_ASC",
+      "name": "ESG Community Score (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgProdRespScore_DESC",
+      "name": "ESG Product Responsibility Score (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgProdRespScore_ASC",
+      "name": "ESG Product Responsibility Score (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgManagementScore_DESC",
+      "name": "ESG Management Score (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgManagementScore_ASC",
+      "name": "ESG Management Score (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgShareholdersScore_DESC",
+      "name": "ESG Shareholders Score (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgShareholdersScore_ASC",
+      "name": "ESG Shareholders Score (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgStrategyScore_DESC",
+      "name": "ESG CSR Strategy Score (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgStrategyScore_ASC",
+      "name": "ESG CSR Strategy Score (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgEnvPillarScore_DESC",
+      "name": "ESG Environmental Score (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgEnvPillarScore_ASC",
+      "name": "ESG Environmental Score (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgSocialPillarScore_DESC",
+      "name": "ESG Social Score (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgSocialPillarScore_ASC",
+      "name": "ESG Social Score (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgCorpGovPillarScore_DESC",
+      "name": "ESG Corporate Governance Score (Refinitiv) Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_esgCorpGovPillarScore_ASC",
+      "name": "ESG Corporate Governance Score (Refinitiv) Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US",
+        "FUND.US",
+        "FUND.ALL",
+        "BOND"
+      ]
+    },
+    {
+      "code": "SCAN_ivRank13w_ASC",
+      "name": "13 Week IV Rank Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_ivRank13w_DESC",
+      "name": "13 Week IV Rank Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_ivRank26w_ASC",
+      "name": "26 Week IV Rank Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_ivRank26w_DESC",
+      "name": "26 Week IV Rank Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_ivRank52w_ASC",
+      "name": "52 Week IV Rank Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_ivRank52w_DESC",
+      "name": "52 Week IV Rank Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_ivPercntl13w_ASC",
+      "name": "13 Week IV Percentile Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_ivPercntl13w_DESC",
+      "name": "13 Week IV Percentile Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_ivPercntl26w_ASC",
+      "name": "26 Week IV Percentile Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_ivPercntl26w_DESC",
+      "name": "26 Week IV Percentile Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_ivPercntl52w_ASC",
+      "name": "52 Week IV Percentile Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_ivPercntl52w_DESC",
+      "name": "52 Week IV Percentile Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_hvRank13w_ASC",
+      "name": "13 Week HV Rank Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_hvRank13w_DESC",
+      "name": "13 Week HV Rank Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_hvRank26w_ASC",
+      "name": "26 Week HV Rank Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_hvRank26w_DESC",
+      "name": "26 Week HV Rank Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_hvRank52w_ASC",
+      "name": "52 Week HV Rank Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_hvRank52w_DESC",
+      "name": "52 Week HV Rank Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_hvPercntl13w_ASC",
+      "name": "13 Week HV Percentile Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_hvPercntl13w_DESC",
+      "name": "13 Week HV Percentile Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_hvPercntl26w_ASC",
+      "name": "26 Week HV Percentile Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_hvPercntl26w_DESC",
+      "name": "26 Week HV Percentile Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_hvPercntl52w_ASC",
+      "name": "52 Week HV Percentile Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_hvPercntl52w_DESC",
+      "name": "52 Week HV Percentile Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK",
+        "ETF.EQ.US",
+        "ETF.FI.US"
+      ]
+    },
+    {
+      "code": "SCAN_socialSentimentScore_ASC",
+      "name": "Social Sentiment Score Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_socialSentimentScore_DESC",
+      "name": "Social Sentiment Score Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_socialSentimentScoreChange_ASC",
+      "name": "Social Sentiment Score Change Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_socialSentimentScoreChange_DESC",
+      "name": "Social Sentiment Score Change Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_tweetVolumeScore_ASC",
+      "name": "Tweet Volume Score Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_tweetVolumeScore_DESC",
+      "name": "Tweet Volume Score Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_tweetVolumeScoreChange_ASC",
+      "name": "Tweet Volume Score Change Asc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_tweetVolumeScoreChange_DESC",
+      "name": "Tweet Volume Score Change Desc",
+      "search_name": "",
+      "instruments": [
+        "STK",
+        "STOCK.NA",
+        "STOCK.EU",
+        "STOCK.ME",
+        "STOCK.HK"
+      ]
+    },
+    {
+      "code": "SCAN_numShares_ASC",
+      "name": "Shares Outstanding Asc",
+      "search_name": "",
+      "instruments": [
+        "STK"
+      ]
+    },
+    {
+      "code": "SCAN_numShares_DESC",
+      "name": "Shares Outstanding Desc",
+      "search_name": "",
+      "instruments": [
+        "STK"
+      ]
+    }
+  ],
+  "instruments": [
+    {
+      "code": "US Stocks",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US Equity ETFs",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US Fixed Income ETFs",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US Futures",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US Indexes",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Corporate Bonds",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US CDs",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US Agency Bonds",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US Treasuries",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US Municipal Bonds",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Non-US Sovereign Bonds",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US SBLs",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Mutual Funds",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "America Non-US Stocks",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "America Non-US Futures",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "America Non-US SSFs",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Europe Stocks",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Europe Futures",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Europe Indexes",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Europe SSFs",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "MidEast Stocks",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Asia Stocks",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Asia Futures",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Asia Indexes",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Asia SSFs",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Native Combos",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Global Stocks",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Global Futures",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Global Indexes",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Global SSFs",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US Stocks",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US Equity ETFs",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US Fixed Income ETFs",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US Futures",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US Indexes",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Corporate Bonds",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US CDs",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US Agency Bonds",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US Treasuries",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US Municipal Bonds",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Non-US Sovereign Bonds",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "US SBLs",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Mutual Funds",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "America Non-US Stocks",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "America Non-US Futures",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "America Non-US SSFs",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Europe Stocks",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Europe Futures",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Europe Indexes",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Europe SSFs",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "MidEast Stocks",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Asia Stocks",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Asia Futures",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Asia Indexes",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Asia SSFs",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Native Combos",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Global Stocks",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Global Futures",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Global Indexes",
+      "name": "",
+      "description": ""
+    },
+    {
+      "code": "Global SSFs",
+      "name": "",
+      "description": ""
+    }
+  ],
+  "locations": [
+    {
+      "code": "STK.US",
+      "name": "US Stocks",
+      "description": ""
+    },
+    {
+      "code": "STK.US.MAJOR",
+      "name": "Listed/NASDAQ",
+      "description": ""
+    },
+    {
+      "code": "STK.NYSE",
+      "name": "NYSE",
+      "description": ""
+    },
+    {
+      "code": "STK.AMEX",
+      "name": "AMEX",
+      "description": ""
+    },
+    {
+      "code": "STK.ARCA",
+      "name": "ARCA",
+      "description": ""
+    },
+    {
+      "code": "STK.NASDAQ",
+      "name": "NASDAQ",
+      "description": ""
+    },
+    {
+      "code": "STK.NASDAQ.NMS",
+      "name": "NMS",
+      "description": ""
+    },
+    {
+      "code": "STK.NASDAQ.SCM",
+      "name": "Small Cap",
+      "description": ""
+    },
+    {
+      "code": "STK.BATS",
+      "name": "BATS",
+      "description": ""
+    },
+    {
+      "code": "STK.US.MINOR",
+      "name": "OTCMarkets",
+      "description": ""
+    },
+    {
+      "code": "STK.PINK",
+      "name": "Pink Sheets",
+      "description": ""
+    },
+    {
+      "code": "ETF.EQ.US",
+      "name": "US ETFs",
+      "description": ""
+    },
+    {
+      "code": "ETF.EQ.US.MAJOR",
+      "name": "Listed/NASDAQ",
+      "description": ""
+    },
+    {
+      "code": "ETF.EQ.ARCA",
+      "name": "ARCA",
+      "description": ""
+    },
+    {
+      "code": "ETF.EQ.NASDAQ.NMS",
+      "name": "NASDAQ",
+      "description": ""
+    },
+    {
+      "code": "ETF.EQ.BATS",
+      "name": "BATS",
+      "description": ""
+    },
+    {
+      "code": "ETF.FI.US",
+      "name": "US ETFs",
+      "description": ""
+    },
+    {
+      "code": "ETF.FI.US.MAJOR",
+      "name": "Listed/NASDAQ",
+      "description": ""
+    },
+    {
+      "code": "ETF.FI.ARCA",
+      "name": "ARCA",
+      "description": ""
+    },
+    {
+      "code": "ETF.FI.NASDAQ.NMS",
+      "name": "NASDAQ",
+      "description": ""
+    },
+    {
+      "code": "ETF.FI.BATS",
+      "name": "BATS",
+      "description": ""
+    },
+    {
+      "code": "FUT.US",
+      "name": "US Futures",
+      "description": ""
+    },
+    {
+      "code": "FUT.CME",
+      "name": "CME",
+      "description": ""
+    },
+    {
+      "code": "FUT.CBOT",
+      "name": "CBOT",
+      "description": ""
+    },
+    {
+      "code": "FUT.NYMEX",
+      "name": "NYMEX",
+      "description": ""
+    },
+    {
+      "code": "FUT.COMEX",
+      "name": "COMEX",
+      "description": ""
+    },
+    {
+      "code": "FUT.IPE",
+      "name": "IPE",
+      "description": ""
+    },
+    {
+      "code": "FUT.ENDEX",
+      "name": "ENDEX",
+      "description": ""
+    },
+    {
+      "code": "FUT.NYBOT",
+      "name": "NYBOT",
+      "description": ""
+    },
+    {
+      "code": "FUT.NYSELIFFE",
+      "name": "NYSELIFFE",
+      "description": ""
+    },
+    {
+      "code": "FUT.CFE",
+      "name": "CFE",
+      "description": ""
+    },
+    {
+      "code": "FUT.ICECRYPTO",
+      "name": "ICECRYPTO",
+      "description": ""
+    },
+    {
+      "code": "FUT.COINDERIV",
+      "name": "COINDERIV",
+      "description": ""
+    },
+    {
+      "code": "IND.US",
+      "name": "US Indexes",
+      "description": ""
+    },
+    {
+      "code": "BOND.WW",
+      "name": "WW Corp Bonds",
+      "description": ""
+    },
+    {
+      "code": "BOND.US",
+      "name": "US Corporate Bonds",
+      "description": ""
+    },
+    {
+      "code": "BOND.EU.EURONEXT",
+      "name": "EURONEXT Corporate Bonds",
+      "description": ""
+    },
+    {
+      "code": "BOND.EU.EBS",
+      "name": "SIX Swiss Corporate Bonds",
+      "description": ""
+    },
+    {
+      "code": "BOND.CD.US",
+      "name": "US CDs",
+      "description": ""
+    },
+    {
+      "code": "BOND.AGNCY.US",
+      "name": "US Agency Bonds",
+      "description": ""
+    },
+    {
+      "code": "BOND.GOVT.US",
+      "name": "US Treasuries",
+      "description": ""
+    },
+    {
+      "code": "BOND.MUNI.US",
+      "name": "US Municipal Bonds",
+      "description": ""
+    },
+    {
+      "code": "BOND.GOVT.NON-US",
+      "name": "Non-US Sovereign Bonds",
+      "description": ""
+    },
+    {
+      "code": "BOND.GOVT.US.NON-US",
+      "name": "Non-US Govt Bonds",
+      "description": ""
+    },
+    {
+      "code": "BOND.GOVT.EU.EURONEXT",
+      "name": "EURONEXT Govt Bonds",
+      "description": ""
+    },
+    {
+      "code": "BOND.GOVT.EU.EBS",
+      "name": "SIX Swiss Govt Bonds",
+      "description": ""
+    },
+    {
+      "code": "BOND.GOVT.HK.SEHK",
+      "name": "SEHK Bonds",
+      "description": ""
+    },
+    {
+      "code": "SLB.PREBORROW",
+      "name": "US SBLs",
+      "description": ""
+    },
+    {
+      "code": "FUND.ALL",
+      "name": "Mutual Funds",
+      "description": ""
+    },
+    {
+      "code": "FUND.US",
+      "name": "US Mutual Funds",
+      "description": ""
+    },
+    {
+      "code": "FUND.NON-US",
+      "name": "Non-US Mutual Funds",
+      "description": ""
+    },
+    {
+      "code": "STK.NA",
+      "name": "America Non-US Stocks",
+      "description": ""
+    },
+    {
+      "code": "STK.NA.CANADA",
+      "name": "Canada",
+      "description": ""
+    },
+    {
+      "code": "STK.NA.TSE",
+      "name": "TSE",
+      "description": ""
+    },
+    {
+      "code": "STK.NA.VENTURE",
+      "name": "VENTURE",
+      "description": ""
+    },
+    {
+      "code": "STK.NA.MEXI",
+      "name": "Mexico (MEXI)",
+      "description": ""
+    },
+    {
+      "code": "FUT.NA",
+      "name": "America Non-US Futures",
+      "description": ""
+    },
+    {
+      "code": "FUT.NA.CDE",
+      "name": "Canada (CDE)",
+      "description": ""
+    },
+    {
+      "code": "FUT.NA.MEXDER",
+      "name": "Mexico (MEXDER)",
+      "description": ""
+    },
+    {
+      "code": "SSF.NA",
+      "name": "America Non-US SSFs",
+      "description": ""
+    },
+    {
+      "code": "SSF.NA.MEXDER",
+      "name": "Mexico (MEXDER)",
+      "description": ""
+    },
+    {
+      "code": "STK.EU",
+      "name": "Europe Stocks",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.VSE",
+      "name": "Austria (VSE)",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.SBF",
+      "name": "France (SBF)",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.IBIS",
+      "name": "Germany",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.IBIS-XETRA",
+      "name": "XETRA",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.IBIS-EUSTARS",
+      "name": "EUSTARS",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.IBIS-USSTARS",
+      "name": "USSTARS",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.IBIS-ETF",
+      "name": "XETRA ETF",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.IBIS-NEWX",
+      "name": "XETRA NEWX",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.BVME",
+      "name": "Italy (BVME)",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.AEB",
+      "name": "Netherlands (AEB)",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.BM",
+      "name": "Spain (BM)",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.SFB",
+      "name": "Sweden (SFB)",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.EBS",
+      "name": "Switzerland (EBS)",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.LSE",
+      "name": "United Kingdom (LSE)",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.OTHER",
+      "name": "Other EU Stocks",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.PRA",
+      "name": "Czech Republic (PRA)",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.CPH",
+      "name": "Denmark (CPH)",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.HEX",
+      "name": "Finland (HEX)",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.OSE",
+      "name": "Norway (OSE)",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.BVL",
+      "name": "Portugal (BVL)",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.MOEX",
+      "name": "Russia (MOEX)",
+      "description": ""
+    },
+    {
+      "code": "STK.EU.LJSE",
+      "name": "Slovenia (LJSE)",
+      "description": ""
+    },
+    {
+      "code": "FUT.EU",
+      "name": "Europe Futures",
+      "description": ""
+    },
+    {
+      "code": "FUT.EU.BELFOX",
+      "name": "Belgium (BELFOX)",
+      "description": ""
+    },
+    {
+      "code": "FUT.EU.EUREX",
+      "name": "Germany (EUREX)",
+      "description": ""
+    },
+    {
+      "code": "FUT.EU.FTA",
+      "name": "Netherlands (FTA)",
+      "description": ""
+    },
+    {
+      "code": "FUT.EU.IDEM",
+      "name": "Italy (IDEM)",
+      "description": ""
+    },
+    {
+      "code": "FUT.EU.UK",
+      "name": "United Kingdom",
+      "description": ""
+    },
+    {
+      "code": "FUT.EU.ICEEU",
+      "name": "ICEEU",
+      "description": ""
+    },
+    {
+      "code": "FUT.EU.LMEOTC",
+      "name": "LMEOTC",
+      "description": ""
+    },
+    {
+      "code": "FUT.EU.MEFFRV",
+      "name": "Spain (MEFFRV)",
+      "description": ""
+    },
+    {
+      "code": "FUT.EU.MONEP",
+      "name": "France (MONEP)",
+      "description": ""
+    },
+    {
+      "code": "FUT.EU.OMS",
+      "name": "Sweden (OMS)",
+      "description": ""
+    },
+    {
+      "code": "FUT.EU.CEDX",
+      "name": "CBOE Europe (CEDX)",
+      "description": ""
+    },
+    {
+      "code": "IND.EU",
+      "name": "Europe Indexes",
+      "description": ""
+    },
+    {
+      "code": "IND.EU.BELFOX",
+      "name": "Belgium (BELFOX)",
+      "description": ""
+    },
+    {
+      "code": "IND.EU.EUREX",
+      "name": "Germany (EUREX)",
+      "description": ""
+    },
+    {
+      "code": "IND.EU.FTA",
+      "name": "Netherlands (FTA)",
+      "description": ""
+    },
+    {
+      "code": "IND.EU.ICEEU",
+      "name": "United Kingdom (ICEEU)",
+      "description": ""
+    },
+    {
+      "code": "IND.EU.MONEP",
+      "name": "France (MONEP)",
+      "description": ""
+    },
+    {
+      "code": "SSF.EU",
+      "name": "Europe SSF",
+      "description": ""
+    },
+    {
+      "code": "SSF.EU.EUREX",
+      "name": "Germany (EUREX)",
+      "description": ""
+    },
+    {
+      "code": "SSF.EU.IDEM",
+      "name": "Italy (IDEM)",
+      "description": ""
+    },
+    {
+      "code": "SSF.EU.ICEEU",
+      "name": "United Kingdom (ICEEU)",
+      "description": ""
+    },
+    {
+      "code": "SSF.EU.MEFFRV",
+      "name": "Spain (MEFFRV)",
+      "description": ""
+    },
+    {
+      "code": "SSF.EU.OMS",
+      "name": "Sweden (OMS)",
+      "description": ""
+    },
+    {
+      "code": "STK.ME",
+      "name": "MidEast Stocks",
+      "description": ""
+    },
+    {
+      "code": "STK.ME.TASE",
+      "name": "Israel (TASE)",
+      "description": ""
+    },
+    {
+      "code": "STK.ME.TADAWUL",
+      "name": "Saudi Arabia (TADAWUL)",
+      "description": ""
+    },
+    {
+      "code": "STK.ME.ADX",
+      "name": "United Arab Emirates (ADX)",
+      "description": ""
+    },
+    {
+      "code": "STK.ME.DFM",
+      "name": "United Arab Emirates (DFM)",
+      "description": ""
+    },
+    {
+      "code": "STK.HK",
+      "name": "Asia Stocks",
+      "description": ""
+    },
+    {
+      "code": "STK.HK.TSE_JPN",
+      "name": "Japan (TSEJ)",
+      "description": ""
+    },
+    {
+      "code": "STK.HK.SEHK",
+      "name": "Hong Kong (SEHK)",
+      "description": ""
+    },
+    {
+      "code": "STK.HK.SEHKNTL",
+      "name": "Shanghai-Hong Kong Stock Connect (SEHKNTL)",
+      "description": ""
+    },
+    {
+      "code": "STK.HK.SEHKSTAR",
+      "name": "SSE Star Markets (SEHKSTAR)",
+      "description": ""
+    },
+    {
+      "code": "STK.HK.SEHKSZSE",
+      "name": "Shenzhen Stock Exchange (SEHKSZSE)",
+      "description": ""
+    },
+    {
+      "code": "STK.HK.ASX",
+      "name": "Australia (ASX)",
+      "description": ""
+    },
+    {
+      "code": "STK.HK.NSE",
+      "name": "India (NSE)",
+      "description": ""
+    },
+    {
+      "code": "STK.HK.SGX",
+      "name": "Singapore (SGX)",
+      "description": ""
+    },
+    {
+      "code": "STK.HK.TWSE",
+      "name": "Taiwan (TWSE)",
+      "description": ""
+    },
+    {
+      "code": "STK.HK.TPEX",
+      "name": "Taiwan (TPEX)",
+      "description": ""
+    },
+    {
+      "code": "STK.HK.BURSAMY",
+      "name": "Malaysia (BURSAMY)",
+      "description": ""
+    },
+    {
+      "code": "FUT.HK",
+      "name": "Asia Futures",
+      "description": ""
+    },
+    {
+      "code": "FUT.HK.HKFE",
+      "name": "Hong Kong (HKFE)",
+      "description": ""
+    },
+    {
+      "code": "FUT.HK.KSE",
+      "name": "South Korea (KSE)",
+      "description": ""
+    },
+    {
+      "code": "FUT.HK.NSE",
+      "name": "India (NSE)",
+      "description": ""
+    },
+    {
+      "code": "FUT.HK.OSE_JPN",
+      "name": "Japan (OSE.JPN)",
+      "description": ""
+    },
+    {
+      "code": "FUT.HK.SGX",
+      "name": "Singapore (SGX)",
+      "description": ""
+    },
+    {
+      "code": "FUT.HK.SNFE",
+      "name": "Australia (SNFE)",
+      "description": ""
+    },
+    {
+      "code": "FUT.HK.BURSAMY",
+      "name": "Malaysia (BURSAMY)",
+      "description": ""
+    },
+    {
+      "code": "IND.HK",
+      "name": "Asia Indexes",
+      "description": ""
+    },
+    {
+      "code": "IND.HK.HKFE",
+      "name": "Hong Kong (HKFE)",
+      "description": ""
+    },
+    {
+      "code": "IND.HK.KSE",
+      "name": "South Korea (KSE)",
+      "description": ""
+    },
+    {
+      "code": "IND.HK.NSE",
+      "name": "India (NSE)",
+      "description": ""
+    },
+    {
+      "code": "IND.HK.OSE_JPN",
+      "name": "Japan (OSE.JPN)",
+      "description": ""
+    },
+    {
+      "code": "IND.HK.SGX",
+      "name": "Singapore (SGX)",
+      "description": ""
+    },
+    {
+      "code": "IND.HK.SNFE",
+      "name": "Australia (SNFE)",
+      "description": ""
+    },
+    {
+      "code": "SSF.HK",
+      "name": "Asia SSFs",
+      "description": ""
+    },
+    {
+      "code": "SSF.HK.HKFE",
+      "name": "Hong Kong (HKFE)",
+      "description": ""
+    },
+    {
+      "code": "SSF.HK.KSE",
+      "name": "South Korea (KSE)",
+      "description": ""
+    },
+    {
+      "code": "SSF.HK.NSE",
+      "name": "India (NSE)",
+      "description": ""
+    },
+    {
+      "code": "SSF.HK.SGX",
+      "name": "Singapore (SGX)",
+      "description": ""
+    },
+    {
+      "code": "NATCOMB",
+      "name": "Native Combos",
+      "description": ""
+    },
+    {
+      "code": "NATCOMB.OPT.US",
+      "name": "Option Combos (SMART)",
+      "description": ""
+    },
+    {
+      "code": "NATCOMB.OPT.AMEX",
+      "name": "Option Combos (AMEX)",
+      "description": ""
+    },
+    {
+      "code": "NATCOMB.OPT.CBOE",
+      "name": "Option Combos (CBOE)",
+      "description": ""
+    },
+    {
+      "code": "NATCOMB.OPT.ISE",
+      "name": "Option Combos (ISE)",
+      "description": ""
+    },
+    {
+      "code": "NATCOMB.OPT.PHLX",
+      "name": "Option Combos (PHLX)",
+      "description": ""
+    },
+    {
+      "code": "NATCOMB.OPT.PSE",
+      "name": "Option Combos (PSE)",
+      "description": ""
+    },
+    {
+      "code": "NATCOMB.CME",
+      "name": "CME Combos",
+      "description": ""
+    }
+  ],
+  "filters": [
+    "HVPercntl13wAbove",
+    "HVPercntl13wBelow",
+    "HVPercntl26wAbove",
+    "HVPercntl26wBelow",
+    "HVPercntl52wAbove",
+    "HVPercntl52wBelow",
+    "HVRank26wAbove",
+    "HVRank26wBelow",
+    "HVRank52wAbove",
+    "HVRank52wBelow",
+    "afterHoursChangeAbove",
+    "afterHoursChangeBelow",
+    "afterHoursChangePercAbove",
+    "afterHoursChangePercBelow",
+    "avgAnalystTarget2PriceRatioAbove",
+    "avgAnalystTarget2PriceRatioBelow",
+    "avgOptVolumeAbove",
+    "avgPriceTargetAbove",
+    "avgPriceTargetBelow",
+    "avgRatingAbove",
+    "avgRatingBelow",
+    "avgUsdVolumeAbove",
+    "avgUsdVolumeBelow",
+    "avgVolumeAbove",
+    "avgVolumeBelow",
+    "bidAskPriceType",
+    "bondAmtOutstandingAbove",
+    "bondAmtOutstandingBelow",
+    "bondAskAbove",
+    "bondAskBelow",
+    "bondAskSizeValueAbove",
+    "bondAskSizeValueBelow",
+    "bondAskYieldAbove",
+    "bondAskYieldBelow",
+    "bondAssetSubTypeStrBeginsWithOneOf",
+    "bondBankQualifiedIs",
+    "bondBidAbove",
+    "bondBidBelow",
+    "bondBidOrAskAbove",
+    "bondBidOrAskBelow",
+    "bondBidOrAskSizeValueAbove",
+    "bondBidOrAskSizeValueBelow",
+    "bondBidOrAskYieldAbove",
+    "bondBidOrAskYieldBelow",
+    "bondBidSizeValueAbove",
+    "bondBidSizeValueBelow",
+    "bondBidYieldAbove",
+    "bondBidYieldBelow",
+    "bondBuildAmericaIs",
+    "bondCallableIs",
+    "bondConvexityAbove",
+    "bondConvexityBelow",
+    "bondCreditRating",
+    "bondDebt2BookRatioAbove",
+    "bondDebt2BookRatioBelow",
+    "bondDebt2EquityRatioAbove",
+    "bondDebt2EquityRatioBelow",
+    "bondDebt2TanBookRatioAbove",
+    "bondDebt2TanBookRatioBelow",
+    "bondDebtOutstandingAbove",
+    "bondDebtOutstandingBelow",
+    "bondDebtOutstandingMuniAbove",
+    "bondDebtOutstandingMuniBelow",
+    "bondDefaultedIs",
+    "bondDurationAbove",
+    "bondDurationBelow",
+    "bondEquity2BookRatioAbove",
+    "bondEquity2BookRatioBelow",
+    "bondEquity2TanBookRatioAbove",
+    "bondEquity2TanBookRatioBelow",
+    "bondExchListedIs",
+    "bondFdicInsIs",
+    "bondGeneralObligationIs",
+    "bondIncrementSizeAbove",
+    "bondIncrementSizeBelow",
+    "bondInitialSizeAbove",
+    "bondInitialSizeBelow",
+    "bondInsuredIs",
+    "bondIssuerLike",
+    "bondNetAskAbove",
+    "bondNetAskBelow",
+    "bondNetAskSizeValueAbove",
+    "bondNetAskSizeValueBelow",
+    "bondNetAskYieldAbove",
+    "bondNetAskYieldBelow",
+    "bondNetBidAbove",
+    "bondNetBidBelow",
+    "bondNetBidOrAskAbove",
+    "bondNetBidOrAskBelow",
+    "bondNetBidOrAskSizeValueAbove",
+    "bondNetBidOrAskSizeValueBelow",
+    "bondNetBidOrAskYieldAbove",
+    "bondNetBidOrAskYieldBelow",
+    "bondNetBidSizeValueAbove",
+    "bondNetBidSizeValueBelow",
+    "bondNetBidYieldAbove",
+    "bondNetBidYieldBelow",
+    "bondNetSpreadAbove",
+    "bondNetSpreadBelow",
+    "bondNextCallDateAbove",
+    "bondNextCallDateBelow",
+    "bondNoFederalTaxIs",
+    "bondPaymentFreqIs",
+    "bondRefundedIs",
+    "bondRevenueIs",
+    "bondSpreadAbove",
+    "bondSpreadBelow",
+    "bondStkMarketCapAbove",
+    "bondStkMarketCapBelow",
+    "bondStkSymbolIs",
+    "bondStructRelated",
+    "bondSubjectToAmtIs",
+    "bondTradingFlatIs",
+    "bondUSStateLike",
+    "bondValidBidOrAskOnly",
+    "bondValidNetBidOrAskOnly",
+    "bondVarCouponRateIs",
+    "changeOpenPercAbove",
+    "changeOpenPercBelow",
+    "changePercAbove",
+    "changePercBelow",
+    "couponRateAbove",
+    "couponRateBelow",
+    "curEMA100Above",
+    "curEMA100Below",
+    "curEMA200Above",
+    "curEMA200Below",
+    "curEMA20Above",
+    "curEMA20Below",
+    "curEMA50Above",
+    "curEMA50Below",
+    "curMACDAbove",
+    "curMACDBelow",
+    "curMACDDistAbove",
+    "curMACDDistBelow",
+    "curMACDSignalAbove",
+    "curMACDSignalBelow",
+    "curPPOAbove",
+    "curPPOBelow",
+    "curPPODistAbove",
+    "curPPODistBelow",
+    "curPPOSignalAbove",
+    "curPPOSignalBelow",
+    "currYrETFFYBVPerShareAbove",
+    "currYrETFFYBVPerShareBelow",
+    "currYrETFFYDPSAbove",
+    "currYrETFFYDPSBelow",
+    "currYrETFFYDividendYieldAbove",
+    "currYrETFFYDividendYieldBelow",
+    "currYrETFFYEPSAbove",
+    "currYrETFFYEPSBelow",
+    "currYrETFFYEPSGrowthAbove",
+    "currYrETFFYEPSGrowthBelow",
+    "currYrETFFYNetMarginAbove",
+    "currYrETFFYNetMarginBelow",
+    "currYrETFFYPriceToBookValueAbove",
+    "currYrETFFYPriceToBookValueBelow",
+    "currYrETFFYPriceToCashFlowAbove",
+    "currYrETFFYPriceToCashFlowBelow",
+    "currYrETFFYPriceToEarningsAbove",
+    "currYrETFFYPriceToEarningsBelow",
+    "currYrETFFYPriceToGrowthAbove",
+    "currYrETFFYPriceToGrowthBelow",
+    "currYrETFFYPriceToSalesAbove",
+    "currYrETFFYPriceToSalesBelow",
+    "currYrETFFYRoEAbove",
+    "currYrETFFYRoEBelow",
+    "currYrETFFYSPSAbove",
+    "currYrETFFYSPSBelow",
+    "currYrETFFYSPSGrowthAbove",
+    "currYrETFFYSPSGrowthBelow",
+    "currencyLike",
+    "displayImbalanceAdvRatioAbove",
+    "displayImbalanceAdvRatioBelow",
+    "displayRegulatoryImbAdvRatioAbove",
+    "displayRegulatoryImbAdvRatioBelow",
+    "dividendFrdAbove",
+    "dividendFrdBelow",
+    "dividendNextAmountAbove",
+    "dividendNextAmountBelow",
+    "dividendNextDateAbove",
+    "dividendNextDateBelow",
+    "dividendYieldFrdAbove",
+    "dividendYieldFrdBelow",
+    "epsChangeTTMAbove",
+    "epsChangeTTMBelow",
+    "esgCombinedScoreAbove",
+    "esgCombinedScoreBelow",
+    "esgCommunityScoreAbove",
+    "esgCommunityScoreBelow",
+    "esgControversiesScoreAbove",
+    "esgControversiesScoreBelow",
+    "esgCorpGovPillarScoreAbove",
+    "esgCorpGovPillarScoreBelow",
+    "esgEmissionsScoreAbove",
+    "esgEmissionsScoreBelow",
+    "esgEnvInvScoreAbove",
+    "esgEnvInvScoreBelow",
+    "esgEnvPillarScoreAbove",
+    "esgEnvPillarScoreBelow",
+    "esgHrScoreAbove",
+    "esgHrScoreBelow",
+    "esgManagementScoreAbove",
+    "esgManagementScoreBelow",
+    "esgProdRespScoreAbove",
+    "esgProdRespScoreBelow",
+    "esgResourceUseScoreAbove",
+    "esgResourceUseScoreBelow",
+    "esgScoreAbove",
+    "esgScoreBelow",
+    "esgShareholdersScoreAbove",
+    "esgShareholdersScoreBelow",
+    "esgSocialPillarScoreAbove",
+    "esgSocialPillarScoreBelow",
+    "esgStrategyScoreAbove",
+    "esgStrategyScoreBelow",
+    "esgWorkforceScoreAbove",
+    "esgWorkforceScoreBelow",
+    "etf1moChngAbove",
+    "etf1moChngBelow",
+    "etf3moChngAbove",
+    "etf3moChngBelow",
+    "etf5yrEPSAbove",
+    "etf5yrEPSBelow",
+    "etfALTARAbove",
+    "etfALTARBelow",
+    "etfAssetTurnsAbove",
+    "etfAssetTurnsBelow",
+    "etfAssetsAbove",
+    "etfAssetsBelow",
+    "etfAvgALTARAbove",
+    "etfAvgALTARBelow",
+    "etfBetaSPXAbove",
+    "etfBetaSPXBelow",
+    "etfBidAskPctAbove",
+    "etfBidAskPctBelow",
+    "etfCONVEX_WgtAvgAbove",
+    "etfCONVEX_WgtAvgBelow",
+    "etfCPN_WgtAvgAbove",
+    "etfCPN_WgtAvgBelow",
+    "etfComponent_CountAbove",
+    "etfComponent_CountBelow",
+    "etfCurYld_WgtAvgAbove",
+    "etfCurYld_WgtAvgBelow",
+    "etfDUR_WgtAvgAbove",
+    "etfDUR_WgtAvgBelow",
+    "etfDevAbove",
+    "etfDevBelow",
+    "etfDistribFreqIs",
+    "etfEmgAbove",
+    "etfEmgBelow",
+    "etfExpenseAbove",
+    "etfExpenseBelow",
+    "etfFwd_PCFAbove",
+    "etfFwd_PCFBelow",
+    "etfFwd_PEAbove",
+    "etfFwd_PEBelow",
+    "etfFwd_YldAbove",
+    "etfFwd_YldBelow",
+    "etfLTGAbove",
+    "etfLTGBelow",
+    "etfLeverageAbove",
+    "etfLeverageBelow",
+    "etfMOD_DUR_WgtAvgAbove",
+    "etfMOD_DUR_WgtAvgBelow",
+    "etfMaturity_WgtAvgAbove",
+    "etfMaturity_WgtAvgBelow",
+    "etfMoodyRatingAbove",
+    "etfMoodyRatingBelow",
+    "etfNum_DistinctAbove",
+    "etfNum_DistinctBelow",
+    "etfPayoutAbove",
+    "etfPayoutBelow",
+    "etfPct_FixedAbove",
+    "etfPct_FixedBelow",
+    "etfPct_at_MtyAbove",
+    "etfPct_at_MtyBelow",
+    "etfRSIAbove",
+    "etfRSIBelow",
+    "etfSPRatingAbove",
+    "etfSPRatingBelow",
+    "etfSht_IntAbove",
+    "etfSht_IntBelow",
+    "etfTR10yrAbove",
+    "etfTR10yrBelow",
+    "etfTR1yrAbove",
+    "etfTR1yrBelow",
+    "etfTR5yrAbove",
+    "etfTR5yrBelow",
+    "etfTRIncepAbove",
+    "etfTRIncepBelow",
+    "etfTRytdAbove",
+    "etfTRytdBelow",
+    "etfTrackingDiffPctAbove",
+    "etfTrackingDiffPctBelow",
+    "etfYTM_WgtAvgAbove",
+    "etfYTM_WgtAvgBelow",
+    "excludeConvertible",
+    "feeRateAbove",
+    "feeRateBelow",
+    "firstTradeDateAbove",
+    "firstTradeDateBelow",
+    "haltedIs",
+    "hasOptionsIs",
+    "histDividendFrdAbove",
+    "histDividendFrdBelow",
+    "histDividendFrdYieldAbove",
+    "histDividendFrdYieldBelow",
+    "hvRank13wAbove",
+    "hvRank13wBelow",
+    "ihInsiderOfFloatPercAbove",
+    "ihInsiderOfFloatPercBelow",
+    "ihNumSharesInsiderAbove",
+    "ihNumSharesInsiderBelow",
+    "iiInstitutionalOfFloatPercAbove",
+    "iiInstitutionalOfFloatPercBelow",
+    "iiNumSharesInstitutionalAbove",
+    "iiNumSharesInstitutionalBelow",
+    "imbalanceAbove",
+    "imbalanceBelow",
+    "impVolatAbove",
+    "impVolatBelow",
+    "impVolatChangePercAbove",
+    "impVolatChangePercBelow",
+    "impVolatOverHistAbove",
+    "impVolatOverHistBelow",
+    "issuerCountryIs",
+    "ivPercntl13wAbove",
+    "ivPercntl13wBelow",
+    "ivPercntl26wAbove",
+    "ivPercntl26wBelow",
+    "ivPercntl52wAbove",
+    "ivPercntl52wBelow",
+    "ivRank13wAbove",
+    "ivRank13wBelow",
+    "ivRank26wAbove",
+    "ivRank26wBelow",
+    "ivRank52wAbove",
+    "ivRank52wBelow",
+    "lastVsEMAChangeRatio100Above",
+    "lastVsEMAChangeRatio100Below",
+    "lastVsEMAChangeRatio200Above",
+    "lastVsEMAChangeRatio200Below",
+    "lastVsEMAChangeRatio20Above",
+    "lastVsEMAChangeRatio20Below",
+    "lastVsEMAChangeRatio50Above",
+    "lastVsEMAChangeRatio50Below",
+    "leadFutOnly",
+    "lipperAdjustedRSquared1yrAbove",
+    "lipperAdjustedRSquared1yrBelow",
+    "lipperAlpha1yrAbove",
+    "lipperAlpha1yrBelow",
+    "lipperAnnualizedPerformance10yrValueAbove",
+    "lipperAnnualizedPerformance10yrValueBelow",
+    "lipperAnnualizedPerformance3yrValueAbove",
+    "lipperAnnualizedPerformance3yrValueBelow",
+    "lipperAnnualizedPerformance5yrValueAbove",
+    "lipperAnnualizedPerformance5yrValueBelow",
+    "lipperAverageCouponAbove",
+    "lipperAverageCouponBelow",
+    "lipperAverageFinalCompositeZScoreAbove",
+    "lipperAverageFinalCompositeZScoreBelow",
+    "lipperAverageLoss1yrAbove",
+    "lipperAverageLoss1yrBelow",
+    "lipperAverageReturn1yrAbove",
+    "lipperAverageReturn1yrBelow",
+    "lipperBearBeta1yrAbove",
+    "lipperBearBeta1yrBelow",
+    "lipperBeta1yrAbove",
+    "lipperBeta1yrBelow",
+    "lipperBullBeta1yrAbove",
+    "lipperBullBeta1yrBelow",
+    "lipperCalculatedAverageQualityAbove",
+    "lipperCalculatedAverageQualityBelow",
+    "lipperCorrelation1yrAbove",
+    "lipperCorrelation1yrBelow",
+    "lipperCovariance1yrAbove",
+    "lipperCovariance1yrBelow",
+    "lipperDistributionYield1yrValueAbove",
+    "lipperDistributionYield1yrValueBelow",
+    "lipperDividendPayoutRatio5yrAbove",
+    "lipperDividendPayoutRatio5yrBelow",
+    "lipperDividendPayoutRatioAbove",
+    "lipperDividendPayoutRatioBelow",
+    "lipperDividendPerShare1yrAbove",
+    "lipperDividendPerShare1yrBelow",
+    "lipperDividendPerShare3yrAbove",
+    "lipperDividendPerShare3yrBelow",
+    "lipperDividendYieldWAvgAbove",
+    "lipperDividendYieldWAvgBelow",
+    "lipperDividendYieldZScoreAbove",
+    "lipperDividendYieldZScoreBelow",
+    "lipperDownsideDeviationPopulation1yrAbove",
+    "lipperDownsideDeviationPopulation1yrBelow",
+    "lipperEBIT2InterestAbove",
+    "lipperEBIT2InterestBelow",
+    "lipperEPSGrowth1yrAbove",
+    "lipperEPSGrowth1yrBelow",
+    "lipperEPSGrowth3yrAbove",
+    "lipperEPSGrowth3yrBelow",
+    "lipperEPSGrowth5yrAbove",
+    "lipperEPSGrowth5yrBelow",
+    "lipperEffectiveMaturityAbove",
+    "lipperEffectiveMaturityBelow",
+    "lipperFundLeverageRatioAbove",
+    "lipperFundLeverageRatioBelow",
+    "lipperInformationRatio1yrAbove",
+    "lipperInformationRatio1yrBelow",
+    "lipperLTDebt2ShareholdersEquityAbove",
+    "lipperLTDebt2ShareholdersEquityBelow",
+    "lipperLatestCompositeZScoreAbove",
+    "lipperLatestCompositeZScoreBelow",
+    "lipperLatestPrice2BookRatioAbove",
+    "lipperLatestPrice2BookRatioBelow",
+    "lipperLatestPrice2BookZScoreAbove",
+    "lipperLatestPrice2BookZScoreBelow",
+    "lipperLatestPrice2EarningsRatioAbove",
+    "lipperLatestPrice2EarningsRatioBelow",
+    "lipperLatestPrice2EarningsZScoreAbove",
+    "lipperLatestPrice2EarningsZScoreBelow",
+    "lipperLatestPrice2SalesRatioAbove",
+    "lipperLatestPrice2SalesRatioBelow",
+    "lipperLatestPrice2SalesZScoreAbove",
+    "lipperLatestPrice2SalesZScoreBelow",
+    "lipperLatestReturnOnEquityWAvgAbove",
+    "lipperLatestReturnOnEquityWAvgBelow",
+    "lipperLatestSPSGrowthZScoreAbove",
+    "lipperLatestSPSGrowthZScoreBelow",
+    "lipperLatestSalesPerShareGrowth3yrAbove",
+    "lipperLatestSalesPerShareGrowth3yrBelow",
+    "lipperMaxGain1yrAbove",
+    "lipperMaxGain1yrBelow",
+    "lipperMaxLoss1yrAbove",
+    "lipperMaxLoss1yrBelow",
+    "lipperMaximumDrawdown1yrAbove",
+    "lipperMaximumDrawdown1yrBelow",
+    "lipperMktCapAvgLatestAbove",
+    "lipperMktCapAvgLatestBelow",
+    "lipperNominalMaturityAbove",
+    "lipperNominalMaturityBelow",
+    "lipperNumberOfSecuritiesAbove",
+    "lipperNumberOfSecuritiesBelow",
+    "lipperOperCashFlowGrowthRate3yrAbove",
+    "lipperOperCashFlowGrowthRate3yrBelow",
+    "lipperPctChangeAbove",
+    "lipperPctChangeBelow",
+    "lipperPercentageGrowthCumulativeValueAbove",
+    "lipperPercentageGrowthCumulativeValueBelow",
+    "lipperPositivePeriods1yrAbove",
+    "lipperPositivePeriods1yrBelow",
+    "lipperPrice2BookRatioAbove",
+    "lipperPrice2BookRatioBelow",
+    "lipperPrice2CashAbove",
+    "lipperPrice2CashBelow",
+    "lipperPrice2DividendAbove",
+    "lipperPrice2DividendBelow",
+    "lipperPrice2EarningsRatioAbove",
+    "lipperPrice2EarningsRatioBelow",
+    "lipperPrice2SalesRatioAbove",
+    "lipperPrice2SalesRatioBelow",
+    "lipperProjectedYieldValueAbove",
+    "lipperProjectedYieldValueBelow",
+    "lipperRSquared1yrAbove",
+    "lipperRSquared1yrBelow",
+    "lipperRelativeStrengthAbove",
+    "lipperRelativeStrengthBelow",
+    "lipperReturnOnAssets1yrAbove",
+    "lipperReturnOnAssets1yrBelow",
+    "lipperReturnOnAssets3yrAbove",
+    "lipperReturnOnAssets3yrBelow",
+    "lipperReturnOnCapital3yrAbove",
+    "lipperReturnOnCapital3yrBelow",
+    "lipperReturnOnCapitalAbove",
+    "lipperReturnOnCapitalBelow",
+    "lipperReturnOnEquity1yrAbove",
+    "lipperReturnOnEquity1yrBelow",
+    "lipperReturnOnEquity3yrAbove",
+    "lipperReturnOnEquity3yrBelow",
+    "lipperReturnOnEquityZScoreAbove",
+    "lipperReturnOnEquityZScoreBelow",
+    "lipperReturnOnInvestment1yrAbove",
+    "lipperReturnOnInvestment1yrBelow",
+    "lipperReturnOnInvestment3yrAbove",
+    "lipperReturnOnInvestment3yrBelow",
+    "lipperReturnRiskRatio1yrAbove",
+    "lipperReturnRiskRatio1yrBelow",
+    "lipperSRRI1yrAbove",
+    "lipperSRRI1yrBelow",
+    "lipperSales2TotalAssetsAbove",
+    "lipperSales2TotalAssetsBelow",
+    "lipperSalesGrowth1yrAbove",
+    "lipperSalesGrowth1yrBelow",
+    "lipperSalesGrowth3yrAbove",
+    "lipperSalesGrowth3yrBelow",
+    "lipperSalesGrowth5yrAbove",
+    "lipperSalesGrowth5yrBelow",
+    "lipperSalesPerShareGrowth1yrAbove",
+    "lipperSalesPerShareGrowth1yrBelow",
+    "lipperSalesPerShareGrowth3yrAbove",
+    "lipperSalesPerShareGrowth3yrBelow",
+    "lipperSemiDeviation1yrAbove",
+    "lipperSemiDeviation1yrBelow",
+    "lipperSemiVariance1yrAbove",
+    "lipperSemiVariance1yrBelow",
+    "lipperSharpeRatio1yrAbove",
+    "lipperSharpeRatio1yrBelow",
+    "lipperSortino1yrAbove",
+    "lipperSortino1yrBelow",
+    "lipperStandardDeviation1yrAbove",
+    "lipperStandardDeviation1yrBelow",
+    "lipperTotalAssets2TotalEquityAbove",
+    "lipperTotalAssets2TotalEquityBelow",
+    "lipperTotalDebt2TotalCapitalAbove",
+    "lipperTotalDebt2TotalCapitalBelow",
+    "lipperTotalDebt2TotalEquityAbove",
+    "lipperTotalDebt2TotalEquityBelow",
+    "lipperTotalExpenseRatioAbove",
+    "lipperTotalExpenseRatioBelow",
+    "lipperTotalNetAssetsAbove",
+    "lipperTotalNetAssetsBelow",
+    "lipperTrackingError1yrAbove",
+    "lipperTrackingError1yrBelow",
+    "lipperTreynorRatio1yrAbove",
+    "lipperTreynorRatio1yrBelow",
+    "lipperValueAtRiskNormal1yrAbove",
+    "lipperValueAtRiskNormal1yrBelow",
+    "lipperValueAtRiskNormalETL1yrAbove",
+    "lipperValueAtRiskNormalETL1yrBelow",
+    "lipperValueAtRiskQuantile1yrAbove",
+    "lipperValueAtRiskQuantile1yrBelow",
+    "lipperValueAtRiskQuantileETL1yrAbove",
+    "lipperValueAtRiskQuantileETL1yrBelow",
+    "lipperVariance1yrAbove",
+    "lipperVariance1yrBelow",
+    "lipperWeightedFinalCompositeZScoreAbove",
+    "lipperWeightedFinalCompositeZScoreBelow",
+    "lipperYieldToMaturityAbove",
+    "lipperYieldToMaturityBelow",
+    "lipperYieldValueAbove",
+    "lipperYieldValueBelow",
+    "marketCapAbove1e6",
+    "marketCapBelow1e6",
+    "maturityDateAbove",
+    "maturityDateBelow",
+    "maxGrowthRate",
+    "maxPeRatio",
+    "maxPrice2Bk",
+    "maxPrice2TanBk",
+    "maxQuickRatio",
+    "maxRetnOnEq",
+    "mfConsistentReturnScore10yrAbove",
+    "mfConsistentReturnScore10yrBelow",
+    "mfConsistentReturnScore3yrAbove",
+    "mfConsistentReturnScore3yrBelow",
+    "mfConsistentReturnScore5yrAbove",
+    "mfConsistentReturnScore5yrBelow",
+    "mfConsistentReturnScoreOverallAbove",
+    "mfConsistentReturnScoreOverallBelow",
+    "mfExpenseScore10yrAbove",
+    "mfExpenseScore10yrBelow",
+    "mfExpenseScore3yrAbove",
+    "mfExpenseScore3yrBelow",
+    "mfExpenseScore5yrAbove",
+    "mfExpenseScore5yrBelow",
+    "mfExpenseScoreOverallAbove",
+    "mfExpenseScoreOverallBelow",
+    "mfPreservationScore10yrAbove",
+    "mfPreservationScore10yrBelow",
+    "mfPreservationScore3yrAbove",
+    "mfPreservationScore3yrBelow",
+    "mfPreservationScore5yrAbove",
+    "mfPreservationScore5yrBelow",
+    "mfPreservationScoreOverallAbove",
+    "mfPreservationScoreOverallBelow",
+    "mfPriceChangeValueAbove",
+    "mfPriceChangeValueBelow",
+    "mfTaxEfficiencyScore10yrAbove",
+    "mfTaxEfficiencyScore10yrBelow",
+    "mfTaxEfficiencyScore3yrAbove",
+    "mfTaxEfficiencyScore3yrBelow",
+    "mfTaxEfficiencyScore5yrAbove",
+    "mfTaxEfficiencyScore5yrBelow",
+    "mfTaxEfficiencyScoreOverallAbove",
+    "mfTaxEfficiencyScoreOverallBelow",
+    "mfTotalReturnScore10yrAbove",
+    "mfTotalReturnScore10yrBelow",
+    "mfTotalReturnScore3yrAbove",
+    "mfTotalReturnScore3yrBelow",
+    "mfTotalReturnScore5yrAbove",
+    "mfTotalReturnScore5yrBelow",
+    "mfTotalReturnScoreOverallAbove",
+    "mfTotalReturnScoreOverallBelow",
+    "minGrowthRate",
+    "minPeRatio",
+    "minPrice2Bk",
+    "minPrice2TanBk",
+    "minQuickRatio",
+    "minRetnOnEq",
+    "moodyRatingAbove",
+    "moodyRatingBelow",
+    "netProfitMarginTTMAbove",
+    "netProfitMarginTTMBelow",
+    "nextYrETFFYBVPerShareAbove",
+    "nextYrETFFYBVPerShareBelow",
+    "nextYrETFFYDPSAbove",
+    "nextYrETFFYDPSBelow",
+    "nextYrETFFYDividendYieldAbove",
+    "nextYrETFFYDividendYieldBelow",
+    "nextYrETFFYEPSAbove",
+    "nextYrETFFYEPSBelow",
+    "nextYrETFFYEPSGrowthAbove",
+    "nextYrETFFYEPSGrowthBelow",
+    "nextYrETFFYNetMarginAbove",
+    "nextYrETFFYNetMarginBelow",
+    "nextYrETFFYPriceToBookValueAbove",
+    "nextYrETFFYPriceToBookValueBelow",
+    "nextYrETFFYPriceToCashFlowAbove",
+    "nextYrETFFYPriceToCashFlowBelow",
+    "nextYrETFFYPriceToEarningsAbove",
+    "nextYrETFFYPriceToEarningsBelow",
+    "nextYrETFFYPriceToGrowthAbove",
+    "nextYrETFFYPriceToGrowthBelow",
+    "nextYrETFFYPriceToSalesAbove",
+    "nextYrETFFYPriceToSalesBelow",
+    "nextYrETFFYRoEAbove",
+    "nextYrETFFYRoEBelow",
+    "nextYrETFFYSPSAbove",
+    "nextYrETFFYSPSBelow",
+    "nextYrETFFYSPSGrowthAbove",
+    "nextYrETFFYSPSGrowthBelow",
+    "numPriceTargetsAbove",
+    "numPriceTargetsBelow",
+    "numRatingsAbove",
+    "numRatingsBelow",
+    "numSharesAbove",
+    "numSharesBelow",
+    "openGapPercAbove",
+    "openGapPercBelow",
+    "operatingMarginTTMAbove",
+    "operatingMarginTTMBelow",
+    "optOpenInterestAbove",
+    "optOpenInterestBelow",
+    "optVolumeAbove",
+    "optVolumeBelow",
+    "optVolumePCRatioAbove",
+    "optVolumePCRatioBelow",
+    "payoutRatioTTMAbove",
+    "payoutRatioTTMBelow",
+    "peaEligibleStkIs",
+    "prevYrETFFYBVPerShareAbove",
+    "prevYrETFFYBVPerShareBelow",
+    "prevYrETFFYDPSAbove",
+    "prevYrETFFYDPSBelow",
+    "prevYrETFFYDividendYieldAbove",
+    "prevYrETFFYDividendYieldBelow",
+    "prevYrETFFYEPSAbove",
+    "prevYrETFFYEPSBelow",
+    "prevYrETFFYEPSGrowthAbove",
+    "prevYrETFFYEPSGrowthBelow",
+    "prevYrETFFYNetMarginAbove",
+    "prevYrETFFYNetMarginBelow",
+    "prevYrETFFYPriceToBookValueAbove",
+    "prevYrETFFYPriceToBookValueBelow",
+    "prevYrETFFYPriceToCashFlowAbove",
+    "prevYrETFFYPriceToCashFlowBelow",
+    "prevYrETFFYPriceToEarningsAbove",
+    "prevYrETFFYPriceToEarningsBelow",
+    "prevYrETFFYPriceToGrowthAbove",
+    "prevYrETFFYPriceToGrowthBelow",
+    "prevYrETFFYPriceToSalesAbove",
+    "prevYrETFFYPriceToSalesBelow",
+    "prevYrETFFYRoEAbove",
+    "prevYrETFFYRoEBelow",
+    "prevYrETFFYSPSAbove",
+    "prevYrETFFYSPSBelow",
+    "prevYrETFFYSPSGrowthAbove",
+    "prevYrETFFYSPSGrowthBelow",
+    "price2CashTTMAbove",
+    "price2CashTTMBelow",
+    "priceAbove",
+    "priceBelow",
+    "priceRangeAbove",
+    "priceRangeBelow",
+    "prodCatIs",
+    "ratingsRelation",
+    "rcgIntermediateTermClassIs",
+    "rcgIntermediateTermEventScoreAbove",
+    "rcgIntermediateTermEventScoreBelow",
+    "rcgIntermediateTermTechnicalDateAbove",
+    "rcgIntermediateTermTechnicalDateBelow",
+    "rcgIntermediateTermTradeIs",
+    "rcgLongTermClassIs",
+    "rcgLongTermEventScoreAbove",
+    "rcgLongTermEventScoreBelow",
+    "rcgLongTermTechnicalDateAbove",
+    "rcgLongTermTechnicalDateBelow",
+    "rcgLongTermTradeIs",
+    "rcgShortTermClassIs",
+    "rcgShortTermEventScoreAbove",
+    "rcgShortTermEventScoreBelow",
+    "rcgShortTermTechnicalDateAbove",
+    "rcgShortTermTechnicalDateBelow",
+    "rcgShortTermTradeIs",
+    "regulatoryImbalanceAbove",
+    "regulatoryImbalanceBelow",
+    "returnOnInvestmentTTMAbove",
+    "returnOnInvestmentTTMBelow",
+    "revChangeAbove",
+    "revChangeBelow",
+    "revGrowthRate5YAbove",
+    "revGrowthRate5YBelow",
+    "seperatorType",
+    "seperatorTypeESG",
+    "seperatorTypeSym",
+    "sharesAvailableManyAbove",
+    "sharesAvailableManyBelow",
+    "shortSaleRestrictionIs",
+    "socialSentimentScoreAbove",
+    "socialSentimentScoreBelow",
+    "socialSentimentScoreChangeAbove",
+    "socialSentimentScoreChangeBelow",
+    "spRatingAbove",
+    "spRatingBelow",
+    "stVolume10minAbove",
+    "stVolume10minBelow",
+    "stVolume3minAbove",
+    "stVolume3minBelow",
+    "stVolume5minAbove",
+    "stVolume5minBelow",
+    "stkTypes",
+    "tradeCountAbove",
+    "tradeCountBelow",
+    "tradeRateAbove",
+    "tradeRateBelow",
+    "tweetVolumeScoreAbove",
+    "tweetVolumeScoreBelow",
+    "tweetVolumeScoreChangeAbove",
+    "tweetVolumeScoreChangeBelow",
+    "underConID",
+    "unshortableIs",
+    "usdPriceAbove",
+    "usdPriceBelow",
+    "usdVolumeAbove",
+    "usdVolumeBelow",
+    "utilizationAbove",
+    "utilizationBelow",
+    "volumeAbove",
+    "volumeRateAbove",
+    "volumeRateBelow"
+  ]
+}
