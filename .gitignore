@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+
+# Env
+.env
+.env.local
+
+# Maintainer's own compose overlay — not relevant to public users.
+docker-compose.vps.yml
+
+# Local Claude Code / agent configuration
+.claude/
+CLAUDE.md
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
