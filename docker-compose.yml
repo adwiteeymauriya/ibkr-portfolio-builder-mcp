@@ -1,0 +1,70 @@
+services:
+  # ===========================================================================
+  # IB Gateway (gnzsnz/ib-gateway) — headless TWS API for ib_async.
+  # Internal-only: reachable from `ibkr-mcp` over `ibkr-internal`,
+  # not published on the host and not on any external network.
+  # ===========================================================================
+  ib-gateway:
+    image: ghcr.io/gnzsnz/ib-gateway:stable
+    container_name: ibkr-mcp-gateway
+    restart: unless-stopped
+    environment:
+      TWS_USERID: ${TWS_USERID}
+      TWS_PASSWORD: ${TWS_PASSWORD}
+      TRADING_MODE: ${TRADING_MODE:-paper}      # paper | live | both
+      READ_ONLY_API: ${READ_ONLY_API:-yes}
+      TWS_ACCEPT_INCOMING: accept
+      AUTO_RESTART_TIME: ${AUTO_RESTART_TIME:-11:59 PM}
+      TWOFA_TIMEOUT_ACTION: restart
+      BYPASS_WARNING: "yes"
+    volumes:
+      - ib_gateway_data:/home/ibgateway/Jts
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z localhost 4002 || nc -z localhost 4001 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 90s
+    networks:
+      - ibkr-internal
+
+  # ===========================================================================
+  # ibkr-mcp — FastMCP server + self-hosted OAuth + static-bearer auth.
+  # Publishes 8000 on the host by default so any reverse proxy can route to it.
+  # ===========================================================================
+  ibkr-mcp:
+    # Pull the published multi-arch image by default. To build locally
+    # instead (e.g. when iterating on the source), run:
+    #   docker compose build ibkr-mcp
+    # The `build:` block below makes that work without editing this file.
+    image: ${IBKR_MCP_IMAGE:-ghcr.io/adwiteeymauriya/ibkr-portfolio-builder-mcp:latest}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ibkr-mcp
+    restart: unless-stopped
+    environment:
+      PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-http://localhost:8000}
+      AUTH_MODE: ${AUTH_MODE:-both}
+      LOGIN_PASSWORD: ${LOGIN_PASSWORD:-}
+      SESSION_SECRET: ${SESSION_SECRET:-}
+      STATIC_BEARER_TOKEN: ${STATIC_BEARER_TOKEN:-}
+      IB_HOST: ${IB_HOST:-ib-gateway}
+      IB_PORT: ${IB_PORT:-4004}
+      IB_CLIENT_ID: ${IB_CLIENT_ID:-7}
+      HOST: 0.0.0.0
+      PORT: "8000"
+    ports:
+      - "${HOST_PORT:-8000}:8000"
+    networks:
+      - ibkr-internal      # talks to ib-gateway
+    depends_on:
+      ib-gateway:
+        condition: service_started  # ib-gateway healthcheck takes 90s; don't block startup
+
+volumes:
+  ib_gateway_data:
+
+networks:
+  ibkr-internal:
+    driver: bridge
