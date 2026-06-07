@@ -2,6 +2,11 @@
 
 FROM python:3.13-slim AS base
 
+# MCP Registry ownership verification: this label MUST match the `name`
+# field in server.json so the registry can verify the image belongs to
+# this server.
+LABEL io.modelcontextprotocol.server.name="io.github.adwiteeymauriya/ibkr-portfolio-builder-mcp"
+
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     UV_LINK_MODE=copy \

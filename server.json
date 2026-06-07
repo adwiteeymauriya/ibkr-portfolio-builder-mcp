@@ -1,0 +1,91 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.adwiteeymauriya/ibkr-portfolio-builder-mcp",
+  "title": "IBKR Portfolio Builder",
+  "description": "Top-down portfolio research for Interactive Brokers — typed catalog of 468 IBKR screeners tagged by strategy intent, plus news and account access. Read-only.",
+  "repository": {
+    "url": "https://github.com/adwiteeymauriya/ibkr-portfolio-builder-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "oci",
+      "identifier": "ghcr.io/adwiteeymauriya/ibkr-portfolio-builder-mcp:0.1.0",
+      "transport": {
+        "type": "streamable-http"
+      },
+      "environmentVariables": [
+        {
+          "name": "TWS_USERID",
+          "description": "Interactive Brokers username (paper account recommended).",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "TWS_PASSWORD",
+          "description": "Interactive Brokers password.",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "PUBLIC_BASE_URL",
+          "description": "Public HTTPS URL the server is reachable at (must match what the MCP client connects to). Used as the OAuth issuer.",
+          "isRequired": true,
+          "isSecret": false,
+          "format": "string"
+        },
+        {
+          "name": "AUTH_MODE",
+          "description": "Which auth mechanisms to accept: `both` (default), `oauth`, or `bearer`.",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string",
+          "default": "both",
+          "choices": ["both", "oauth", "bearer"]
+        },
+        {
+          "name": "LOGIN_PASSWORD",
+          "description": "Password for the OAuth `/login` consent step. Required if AUTH_MODE includes `oauth`.",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "STATIC_BEARER_TOKEN",
+          "description": "Long random token accepted as `Authorization: Bearer <token>`. Required if AUTH_MODE includes `bearer`.",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "SESSION_SECRET",
+          "description": "HMAC secret used to sign OAuth session cookies. If unset, a random one is generated at startup (sessions don't survive restarts).",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "TRADING_MODE",
+          "description": "IBKR trading mode: `paper` (default), `live`, or `both`.",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string",
+          "default": "paper",
+          "choices": ["paper", "live", "both"]
+        },
+        {
+          "name": "READ_ONLY_API",
+          "description": "Whether ib-gateway should block order placement at the API layer. Strongly recommended `yes`.",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string",
+          "default": "yes",
+          "choices": ["yes", "no"]
+        }
+      ]
+    }
+  ]
+}
