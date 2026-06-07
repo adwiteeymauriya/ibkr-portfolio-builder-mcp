@@ -1,0 +1,53 @@
+name: publish-mcp
+
+# Fires only after the `docker` workflow finishes successfully on a tag push.
+# This guarantees the OCI image already exists in GHCR when mcp-publisher
+# tries to verify the io.modelcontextprotocol.server.name label.
+
+on:
+  workflow_run:
+    workflows: [docker]
+    types: [completed]
+
+jobs:
+  publish:
+    # Only run if the upstream docker workflow succeeded AND the trigger
+    # was a tag push (skip for plain main pushes).
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      startsWith(github.event.workflow_run.head_branch, 'v')
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write  # required for OIDC authentication with the MCP Registry
+      contents: read
+
+    steps:
+      - name: Checkout code at the tag
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+
+      - name: Install mcp-publisher
+        run: |
+          curl -L "https://github.com/modelcontextprotocol/registry/releases/latest/download/mcp-publisher_$(uname -s | tr '[:upper:]' '[:lower:]')_$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/').tar.gz" | tar xz mcp-publisher
+
+      - name: Sync version in server.json with the tag
+        # Strips the leading "v" from refs/tags/vX.Y.Z and writes that
+        # value into both server.json's top-level `version` and the OCI
+        # package identifier tag, so we never have to hand-edit on release.
+        run: |
+          TAG_REF="${{ github.event.workflow_run.head_branch }}"
+          VERSION="${TAG_REF#v}"
+          echo "Publishing MCP server version $VERSION"
+          jq --arg v "$VERSION" '
+            .version = $v
+            | .packages[0].identifier =
+                (.packages[0].identifier | sub(":[^:]+$"; ":" + $v))
+          ' server.json > server.tmp && mv server.tmp server.json
+          cat server.json
+
+      - name: Authenticate to MCP Registry (GitHub OIDC)
+        run: ./mcp-publisher login github-oidc
+
+      - name: Publish to MCP Registry
+        run: ./mcp-publisher publish
