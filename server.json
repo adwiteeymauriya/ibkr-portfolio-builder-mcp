@@ -11,9 +11,9 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://{host}/mcp",
+      "url": "https://{ibkr_mcp_host}/mcp",
       "variables": {
-        "host": {
+        "ibkr_mcp_host": {
           "description": "Hostname of your self-hosted deployment, e.g. 'ibkr-mcp.example.com'. The server runs as a Docker compose stack; see the repo for setup. Claude.ai requires HTTPS.",
           "isRequired": true
         }
