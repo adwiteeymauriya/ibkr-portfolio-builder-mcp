@@ -8,82 +8,22 @@
     "source": "github"
   },
   "version": "0.1.0",
-  "packages": [
+  "remotes": [
     {
-      "registryType": "oci",
-      "identifier": "ghcr.io/adwiteeymauriya/ibkr-portfolio-builder-mcp:0.1.0",
-      "transport": {
-        "type": "streamable-http"
+      "type": "streamable-http",
+      "url": "https://{host}/mcp",
+      "variables": {
+        "host": {
+          "description": "Hostname of your self-hosted deployment, e.g. 'ibkr-mcp.example.com'. The server runs as a Docker compose stack; see the repo for setup. Claude.ai requires HTTPS.",
+          "isRequired": true
+        }
       },
-      "environmentVariables": [
+      "headers": [
         {
-          "name": "TWS_USERID",
-          "description": "Interactive Brokers username (paper account recommended).",
-          "isRequired": true,
-          "isSecret": true,
-          "format": "string"
-        },
-        {
-          "name": "TWS_PASSWORD",
-          "description": "Interactive Brokers password.",
-          "isRequired": true,
-          "isSecret": true,
-          "format": "string"
-        },
-        {
-          "name": "PUBLIC_BASE_URL",
-          "description": "Public HTTPS URL the server is reachable at (must match what the MCP client connects to). Used as the OAuth issuer.",
-          "isRequired": true,
-          "isSecret": false,
-          "format": "string"
-        },
-        {
-          "name": "AUTH_MODE",
-          "description": "Which auth mechanisms to accept: `both` (default), `oauth`, or `bearer`.",
+          "name": "Authorization",
+          "description": "Optional. Send 'Bearer <STATIC_BEARER_TOKEN>' for the bearer-auth path (skips the OAuth dance). Required if your deployment runs in AUTH_MODE=bearer. Leave blank to use OAuth (Claude.ai will trigger the login flow on connect).",
           "isRequired": false,
-          "isSecret": false,
-          "format": "string",
-          "default": "both",
-          "choices": ["both", "oauth", "bearer"]
-        },
-        {
-          "name": "LOGIN_PASSWORD",
-          "description": "Password for the OAuth `/login` consent step. Required if AUTH_MODE includes `oauth`.",
-          "isRequired": false,
-          "isSecret": true,
-          "format": "string"
-        },
-        {
-          "name": "STATIC_BEARER_TOKEN",
-          "description": "Long random token accepted as `Authorization: Bearer <token>`. Required if AUTH_MODE includes `bearer`.",
-          "isRequired": false,
-          "isSecret": true,
-          "format": "string"
-        },
-        {
-          "name": "SESSION_SECRET",
-          "description": "HMAC secret used to sign OAuth session cookies. If unset, a random one is generated at startup (sessions don't survive restarts).",
-          "isRequired": false,
-          "isSecret": true,
-          "format": "string"
-        },
-        {
-          "name": "TRADING_MODE",
-          "description": "IBKR trading mode: `paper` (default), `live`, or `both`.",
-          "isRequired": false,
-          "isSecret": false,
-          "format": "string",
-          "default": "paper",
-          "choices": ["paper", "live", "both"]
-        },
-        {
-          "name": "READ_ONLY_API",
-          "description": "Whether ib-gateway should block order placement at the API layer. Strongly recommended `yes`.",
-          "isRequired": false,
-          "isSecret": false,
-          "format": "string",
-          "default": "yes",
-          "choices": ["yes", "no"]
+          "isSecret": true
         }
       ]
     }
